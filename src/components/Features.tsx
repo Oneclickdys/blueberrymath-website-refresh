@@ -1,40 +1,53 @@
-import { CheckCircle } from "lucide-react";
+import { Brain, Target, Clock, Award } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const features = [
   {
-    title: "Personalized Learning",
-    description: "AI-powered system adapts to each student's unique learning pace and style",
+    title: "AI-Powered Learning",
+    description: "Our advanced AI adapts to your unique learning style and pace, ensuring optimal progress",
+    icon: Brain,
+  },
+  {
+    title: "Personalized Practice",
+    description: "Get custom-tailored math problems that match your skill level and learning goals",
+    icon: Target,
   },
   {
     title: "Instant Feedback",
-    description: "Get immediate explanations and corrections for every problem",
+    description: "Receive immediate explanations and step-by-step solutions for every problem",
+    icon: Clock,
   },
   {
-    title: "Step-by-Step Solutions",
-    description: "Detailed walkthrough of problem-solving methods for better understanding",
+    title: "Proven Results",
+    description: "Students using Blueberry Math show significant improvement in test scores",
+    icon: Award,
   },
 ];
 
 export const Features = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-primary">
-          Why Choose Blueberry Math?
-        </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold mb-4 text-primary-dark">
+            Why Choose Blueberry Math?
+          </h2>
+          <p className="text-xl text-neutral-dark max-w-2xl mx-auto">
+            Experience the future of math education with our innovative platform
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <Card 
               key={index}
-              className="p-6 hover:shadow-lg transition-shadow animate-fade-up"
+              className="p-6 hover:shadow-lg transition-all duration-300 border-primary/10 animate-fade-up"
               style={{ animationDelay: `${index * 200}ms` }}
             >
-              <CheckCircle className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-xl font-semibold mb-3 text-primary">
+              <feature.icon className="w-12 h-12 text-primary mb-4" />
+              <h3 className="text-xl font-semibold mb-3 text-primary-dark">
                 {feature.title}
               </h3>
-              <p className="text-gray-600">
+              <p className="text-neutral">
                 {feature.description}
               </p>
             </Card>
