@@ -1,36 +1,39 @@
 import { ArrowRight, UserPlus, ClipboardCheck, GraduationCap } from "lucide-react";
-
-const steps = [
-  {
-    number: "1",
-    title: "Sign Up",
-    description: "Create your account in seconds and start your learning journey",
-    icon: UserPlus,
-  },
-  {
-    number: "2",
-    title: "Take Assessment",
-    description: "Complete a quick diagnostic test to personalize your experience",
-    icon: ClipboardCheck,
-  },
-  {
-    number: "3",
-    title: "Start Learning",
-    description: "Get personalized practice problems and instant feedback",
-    icon: GraduationCap,
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export const HowItWorks = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+      number: "1",
+      title: t('howItWorks.steps.signup.title'),
+      description: t('howItWorks.steps.signup.description'),
+      icon: UserPlus,
+    },
+    {
+      number: "2",
+      title: t('howItWorks.steps.assessment.title'),
+      description: t('howItWorks.steps.assessment.description'),
+      icon: ClipboardCheck,
+    },
+    {
+      number: "3",
+      title: t('howItWorks.steps.learning.title'),
+      description: t('howItWorks.steps.learning.description'),
+      icon: GraduationCap,
+    },
+  ];
+
   return (
     <section className="py-20 bg-gradient-to-br from-primary-light/20 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-primary-dark">
-            How It Works
+            {t('howItWorks.title')}
           </h2>
           <p className="text-xl text-neutral-dark max-w-2xl mx-auto">
-            Get started with Blueberry Math in three simple steps
+            {t('howItWorks.subtitle')}
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 relative">

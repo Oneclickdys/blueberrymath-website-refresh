@@ -41,6 +41,18 @@
       }
     }
   },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Usuarios",
+    "subtitle": "Únete a miles de estudiantes y padres satisfechos",
+    "roles": {
+      "parent": "Padre/Madre",
+      "student": "Estudiante de Secundaria",
+      "teacher": "Profesor/a de Matemáticas"
+    },
+    "sarah": "Blueberry Math ha transformado la relación de mi hija con las matemáticas. El enfoque personalizado y la retroalimentación instantánea han aumentado enormemente su confianza.",
+    "michael": "Las explicaciones paso a paso son increíblemente útiles. He mejorado significativamente mis calificaciones en matemáticas desde que uso Blueberry Math.",
+    "lisa": "Como educadora, estoy impresionada por lo bien que Blueberry Math se adapta a las necesidades de cada estudiante. Es como tener un tutor personal para cada alumno."
+  },
   "cta": {
     "title": "¿Listo para Sobresalir en Matemáticas?",
     "subtitle": "Únete a miles de estudiantes que ya están mejorando sus habilidades matemáticas con la plataforma de aprendizaje impulsada por IA de Blueberry Math",

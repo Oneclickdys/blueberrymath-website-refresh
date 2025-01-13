@@ -41,6 +41,18 @@
       }
     }
   },
+  "testimonials": {
+    "title": "What Our Users Say",
+    "subtitle": "Join thousands of satisfied students and parents",
+    "roles": {
+      "parent": "Parent",
+      "student": "High School Student",
+      "teacher": "Math Teacher"
+    },
+    "sarah": "Blueberry Math has transformed my daughter's relationship with mathematics. The personalized approach and instant feedback have boosted her confidence tremendously.",
+    "michael": "The step-by-step explanations are incredibly helpful. I've improved my math grades significantly since using Blueberry Math.",
+    "lisa": "As an educator, I'm impressed by how well Blueberry Math adapts to each student's needs. It's like having a personal tutor for every student."
+  },
   "cta": {
     "title": "Ready to Excel in Math?",
     "subtitle": "Join thousands of students already improving their math skills with Blueberry Math's AI-powered learning platform",

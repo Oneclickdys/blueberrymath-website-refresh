@@ -1,39 +1,42 @@
 import { Brain, Target, Clock, Award } from "lucide-react";
 import { Card } from "@/components/ui/card";
-
-const features = [
-  {
-    title: "AI-Powered Learning",
-    description: "Our advanced AI adapts to your unique learning style and pace, ensuring optimal progress",
-    icon: Brain,
-  },
-  {
-    title: "Personalized Practice",
-    description: "Get custom-tailored math problems that match your skill level and learning goals",
-    icon: Target,
-  },
-  {
-    title: "Instant Feedback",
-    description: "Receive immediate explanations and step-by-step solutions for every problem",
-    icon: Clock,
-  },
-  {
-    title: "Proven Results",
-    description: "Students using Blueberry Math show significant improvement in test scores",
-    icon: Award,
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export const Features = () => {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      title: t('features.aiLearning.title'),
+      description: t('features.aiLearning.description'),
+      icon: Brain,
+    },
+    {
+      title: t('features.personalizedPractice.title'),
+      description: t('features.personalizedPractice.description'),
+      icon: Target,
+    },
+    {
+      title: t('features.instantFeedback.title'),
+      description: t('features.instantFeedback.description'),
+      icon: Clock,
+    },
+    {
+      title: t('features.provenResults.title'),
+      description: t('features.provenResults.description'),
+      icon: Award,
+    },
+  ];
+
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 text-primary-dark">
-            Why Choose Blueberry Math?
+            {t('features.title')}
           </h2>
           <p className="text-xl text-neutral-dark max-w-2xl mx-auto">
-            Experience the future of math education with our innovative platform
+            {t('features.subtitle')}
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
