@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Domina las Matemáticas con Aprendizaje Impulsado por IA",
+    "subtitle": "Experimenta práctica matemática personalizada que se adapta a tu estilo de aprendizaje, con retroalimentación instantánea y explicaciones paso a paso."
+  },
+  "features": {
+    "title": "¿Por qué elegir Blueberry Math?",
+    "subtitle": "Experimenta el futuro de la educación matemática con nuestra plataforma innovadora",
+    "aiLearning": {
+      "title": "Aprendizaje con IA",
+      "description": "Nuestra IA avanzada se adapta a tu estilo y ritmo de aprendizaje único, asegurando un progreso óptimo"
+    },
+    "personalizedPractice": {
+      "title": "Práctica Personalizada",
+      "description": "Obtén problemas matemáticos personalizados que coincidan con tu nivel de habilidad y objetivos de aprendizaje"
+    },
+    "instantFeedback": {
+      "title": "Retroalimentación Instantánea",
+      "description": "Recibe explicaciones inmediatas y soluciones paso a paso para cada problema"
+    },
+    "provenResults": {
+      "title": "Resultados Probados",
+      "description": "Los estudiantes que usan Blueberry Math muestran una mejora significativa en sus calificaciones"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Comienza con Blueberry Math en tres simples pasos",
+    "steps": {
+      "signup": {
+        "title": "Regístrate",
+        "description": "Crea tu cuenta en segundos y comienza tu viaje de aprendizaje"
+      },
+      "assessment": {
+        "title": "Realiza la Evaluación",
+        "description": "Completa una prueba diagnóstica rápida para personalizar tu experiencia"
+      },
+      "learning": {
+        "title": "Comienza a Aprender",
+        "description": "Obtén problemas de práctica personalizados y retroalimentación instantánea"
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Sobresalir en Matemáticas?",
+    "subtitle": "Únete a miles de estudiantes que ya están mejorando sus habilidades matemáticas con la plataforma de aprendizaje impulsada por IA de Blueberry Math",
+    "trial": "Comenzar Prueba Gratuita",
+    "demo": "Ver Demo"
+  }
+}
