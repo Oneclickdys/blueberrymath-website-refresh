@@ -18,6 +18,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        secondary: ['Quicksand', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -25,24 +29,24 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
-          light: "#D6BCFA",
-          dark: "#7E69AB",
+          DEFAULT: "#5A34E1", // Pantone 2098C
+          light: "#ACACF7",
+          dark: "#370344", // Pantone 2735C
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#1EAEDB",
+          DEFAULT: "#3C3CBF", // Corporate Blue
           foreground: "#FFFFFF",
         },
         accent: {
-          DEFAULT: "#8B5CF6",
-          hover: "#D946EF",
+          DEFAULT: "#5A34E1",
+          hover: "#370344",
           foreground: "#FFFFFF",
         },
         neutral: {
-          DEFAULT: "#8E9196",
-          light: "#C8C8C9",
-          dark: "#403E43",
+          DEFAULT: "#FBFCFD",
+          light: "#ACACF7",
+          dark: "#BFBCFD",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -59,6 +63,11 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        gray: {
+          '01': '#FBFCFD',
+          '05': '#AFB7C6',
+          '10': '#BFBCFD',
         },
       },
       keyframes: {
