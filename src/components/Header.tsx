@@ -27,7 +27,7 @@ export const Header = () => {
               <img
                 src="/blueberry-math-logo.png"
                 alt="Blueberry Math"
-                className="h-8 w-auto"
+                className="h-8 w-auto object-contain"
               />
             </a>
           </div>
@@ -38,7 +38,7 @@ export const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-primary hover:text-primary-dark font-secondary transition-colors duration-200"
+                className="text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
               >
                 {item.name}
               </a>
@@ -66,7 +66,7 @@ export const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-primary hover:text-primary-dark font-secondary transition-colors duration-200"
+                  className="block px-3 py-2 text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

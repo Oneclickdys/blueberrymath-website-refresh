@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Play } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 export const Hero = () => {
@@ -12,7 +12,7 @@ export const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
             {t('hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-primary-light">
+          <p className="text-xl md:text-2xl mb-8 text-gray-200">
             {t('hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -20,14 +20,14 @@ export const Hero = () => {
               size="lg"
               className="bg-secondary hover:bg-secondary/90 text-white font-semibold px-8 py-6 text-lg rounded-full transition-all hover:scale-105 flex items-center gap-2"
             >
-              {t('cta.trial')} <ArrowRight className="w-5 h-5" />
+              Free Trial <ArrowRight className="w-5 h-5" />
             </Button>
             <Button 
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/10 font-semibold px-8 py-6 text-lg rounded-full transition-all"
+              className="border-2 border-white bg-white/10 text-white hover:bg-white/20 font-semibold px-8 py-6 text-lg rounded-full transition-all flex items-center gap-2"
             >
-              {t('cta.demo')}
+              <Play className="w-5 h-5" /> Watch Video
             </Button>
           </div>
         </div>

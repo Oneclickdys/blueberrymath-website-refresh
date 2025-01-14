@@ -66,8 +66,8 @@ export default {
         },
         gray: {
           '01': '#FBFCFD',
-          '05': '#AFB7C6',
-          '10': '#BFBCFD',
+          '05': '#555555', // Darkened for better legibility
+          '10': '#333333', // Darkened for better legibility
         },
       },
       keyframes: {
