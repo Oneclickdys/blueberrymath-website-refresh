@@ -5,5 +5,63 @@
     "implementation": "School Implementation",
     "events": "Events",
     "about": "About Us"
+  },
+  "hero": {
+    "title": "Transform the way students learn math with Blueberry Math!",
+    "subtitle": "Dive into a unique educational experience with our space adventure: exciting challenges for your students and a complete transformation in how they learn math."
+  },
+  "about": {
+    "title": "What is Blueberry Math?",
+    "description1": "Blueberry Math is a gamified mathematics platform offering adaptive and personalized learning for students from grades 1 to 6.",
+    "description2": "Backed by best practices in neuroeducation, Blueberry Math combines gamification with technology to ensure every student effectively absorbs and retains concepts.",
+    "description3": "It provides students with the content they truly need to practice, always aligned with curriculum standards, while promoting strong and lasting study habits to build a robust math foundation for ongoing success.",
+    "description4": "Whether in the classroom or at home, Blueberry Math seamlessly adapts to any learning environment, offering teachers tools to monitor their students' progress and intervene at the right moment with the right insights."
+  },
+  "features": {
+    "title": "How does Blueberry Math enhance the learning experience?",
+    "unlimitedResources": {
+      "title": "Unlimited Resources",
+      "description": "With Blueberry Math, you'll have access to endless activities designed with a variety of dynamic and engaging templates to keep your students motivated."
+    },
+    "realLifeMath": {
+      "title": "Real-Life Math",
+      "description": "Blueberry Math prepares students to solve practical problems linked to familiar, recognizable contexts, fostering meaningful and relevant learning."
+    },
+    "individualizedProgress": {
+      "title": "Individualized Progress",
+      "description": "Every student progresses at their own pace and level, with access to additional activities they can work on independently, accommodating diversity in the classroom."
+    },
+    "tracking": {
+      "title": "Tracking and Assessment",
+      "description": "Access detailed analyses of individual and group progress. Download qualitative reports to share with families or streamline evaluations."
+    },
+    "pedagogicalSuggestions": {
+      "title": "Pedagogical Suggestions",
+      "description": "Receive tailored recommendations to help you identify specific needs of each student so you can guide them effectively to overcome challenges and progress."
+    },
+    "learningFromMistakes": {
+      "title": "Learning from Mistakes",
+      "description": "We believe mistakes are always opportunities to learn. Every activity provides instant, detailed feedback or step-by-step solutions to help students understand their errors and move forward."
+    }
+  },
+  "accessibility": {
+    "title": "Anywhere, Anytime Learning",
+    "description": "Choose between avatars of charming intergalactic monsters or cool childlike characters—your choice! Blueberry Math is fully accessible from tablets, computers, or phones, allowing students to learn from any device, anytime."
+  },
+  "teacherSupport": {
+    "title": "Support for Teachers",
+    "description": "We understand that classroom diversity can be challenging for teachers, as meeting every student's specific needs isn't always easy. At Blueberry Math, we aim to save you valuable time so you can focus on what you do best: teaching.",
+    "curriculum": {
+      "title": "Curriculum Planning and Organization",
+      "description": "We tailor content to your schedule and textbooks, ensuring students practice exactly what you need to reinforce."
+    },
+    "experience": {
+      "title": "Pedagogical Experience",
+      "description": "After your class, students can practice cooperatively or work independently."
+    },
+    "monitoring": {
+      "title": "Qualitative Monitoring and Evaluation",
+      "description": "Gain comprehensive insights into the progress of the entire class and each student. Download qualitative reports to share with parents or evaluate students more effectively."
+    }
   }
 }
