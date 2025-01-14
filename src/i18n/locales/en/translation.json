@@ -1,62 +1,9 @@
 {
-  "hero": {
-    "title": "Master Math with AI-Powered Learning",
-    "subtitle": "Experience personalized math practice that adapts to your learning style, with instant feedback and step-by-step explanations."
-  },
-  "features": {
-    "title": "Why Choose Blueberry Math?",
-    "subtitle": "Experience the future of math education with our innovative platform",
-    "aiLearning": {
-      "title": "AI-Powered Learning",
-      "description": "Our advanced AI adapts to your unique learning style and pace, ensuring optimal progress"
-    },
-    "personalizedPractice": {
-      "title": "Personalized Practice",
-      "description": "Get custom-tailored math problems that match your skill level and learning goals"
-    },
-    "instantFeedback": {
-      "title": "Instant Feedback",
-      "description": "Receive immediate explanations and step-by-step solutions for every problem"
-    },
-    "provenResults": {
-      "title": "Proven Results",
-      "description": "Students using Blueberry Math show significant improvement in test scores"
-    }
-  },
-  "howItWorks": {
-    "title": "How It Works",
-    "subtitle": "Get started with Blueberry Math in three simple steps",
-    "steps": {
-      "signup": {
-        "title": "Sign Up",
-        "description": "Create your account in seconds and start your learning journey"
-      },
-      "assessment": {
-        "title": "Take Assessment",
-        "description": "Complete a quick diagnostic test to personalize your experience"
-      },
-      "learning": {
-        "title": "Start Learning",
-        "description": "Get personalized practice problems and instant feedback"
-      }
-    }
-  },
-  "testimonials": {
-    "title": "What Our Users Say",
-    "subtitle": "Join thousands of satisfied students and parents",
-    "roles": {
-      "parent": "Parent",
-      "student": "High School Student",
-      "teacher": "Math Teacher"
-    },
-    "sarah": "Blueberry Math has transformed my daughter's relationship with mathematics. The personalized approach and instant feedback have boosted her confidence tremendously.",
-    "michael": "The step-by-step explanations are incredibly helpful. I've improved my math grades significantly since using Blueberry Math.",
-    "lisa": "As an educator, I'm impressed by how well Blueberry Math adapts to each student's needs. It's like having a personal tutor for every student."
-  },
-  "cta": {
-    "title": "Ready to Excel in Math?",
-    "subtitle": "Join thousands of students already improving their math skills with Blueberry Math's AI-powered learning platform",
-    "trial": "Start Free Trial",
-    "demo": "Watch Demo"
+  "header": {
+    "howItWorks": "How it Works",
+    "activities": "Our Activities",
+    "implementation": "School Implementation",
+    "events": "Events",
+    "about": "About Us"
   }
 }

@@ -3,6 +3,7 @@ import { Features } from "@/components/Features";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Testimonials } from "@/components/Testimonials";
 import { CTASection } from "@/components/CTASection";
+import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
@@ -10,7 +11,7 @@ const Index = () => {
   const { i18n } = useTranslation();
 
   return (
-    <main className="min-h-screen">
+    <>
       <Helmet>
         <html lang={i18n.language} />
         <title>Blueberry Math - AI-Powered Math Learning Platform</title>
@@ -25,12 +26,15 @@ const Index = () => {
         <meta name="twitter:description" content="Master mathematics with Blueberry Math's AI-powered learning platform. Get personalized practice, instant feedback, and step-by-step explanations." />
         <link rel="canonical" href="https://www.blueberrymath.ai" />
       </Helmet>
-      <Hero />
-      <Features />
-      <HowItWorks />
-      <Testimonials />
-      <CTASection />
-    </main>
+      <Header />
+      <main className="pt-16 min-h-screen">
+        <Hero />
+        <Features />
+        <HowItWorks />
+        <Testimonials />
+        <CTASection />
+      </main>
+    </>
   );
 };
 
