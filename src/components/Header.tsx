@@ -35,7 +35,7 @@ export const Header = () => {
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center">
               <img
-                src="/blueberry-math-logo.png"
+                src="/lovable-uploads/22f9bb3c-4e7d-463e-a152-9b4f84097f5c.png"
                 alt="Blueberry Math"
                 className="h-8 w-auto object-contain"
               />
