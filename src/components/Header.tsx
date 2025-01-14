@@ -1,10 +1,16 @@
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Button } from './ui/button';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export const Header = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -16,6 +22,10 @@ export const Header = () => {
     { name: t('header.events'), href: '#events' },
     { name: t('header.about'), href: '#about' },
   ];
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
@@ -43,6 +53,26 @@ export const Header = () => {
                 {item.name}
               </a>
             ))}
+            
+            {/* Language Selector */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" size="icon" className="ml-4">
+                  <Globe className="h-5 w-5" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                <DropdownMenuItem onClick={() => changeLanguage('en')}>
+                  {t('language.en')}
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => changeLanguage('es')}>
+                  {t('language.es')}
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => changeLanguage('pt')}>
+                  {t('language.pt')}
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           {/* Mobile menu button */}
@@ -72,6 +102,38 @@ export const Header = () => {
                   {item.name}
                 </a>
               ))}
+              {/* Mobile Language Selector */}
+              <div className="px-3 py-2">
+                <div className="flex flex-col space-y-2">
+                  <button
+                    onClick={() => {
+                      changeLanguage('en');
+                      setIsMenuOpen(false);
+                    }}
+                    className="text-left text-gray-700 hover:text-primary font-secondary"
+                  >
+                    {t('language.en')}
+                  </button>
+                  <button
+                    onClick={() => {
+                      changeLanguage('es');
+                      setIsMenuOpen(false);
+                    }}
+                    className="text-left text-gray-700 hover:text-primary font-secondary"
+                  >
+                    {t('language.es')}
+                  </button>
+                  <button
+                    onClick={() => {
+                      changeLanguage('pt');
+                      setIsMenuOpen(false);
+                    }}
+                    className="text-left text-gray-700 hover:text-primary font-secondary"
+                  >
+                    {t('language.pt')}
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         )}

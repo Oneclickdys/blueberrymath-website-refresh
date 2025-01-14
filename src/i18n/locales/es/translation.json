@@ -5,5 +5,69 @@
     "implementation": "Implementación Escolar",
     "events": "Eventos",
     "about": "Sobre Nosotros"
+  },
+  "hero": {
+    "title": "¡Transforma la forma en que los estudiantes aprenden matemáticas con Blueberry Math!",
+    "subtitle": "Sumérgete en una experiencia educativa única con nuestra aventura espacial: desafíos emocionantes para tus estudiantes y una transformación completa en la forma en que aprenden matemáticas."
+  },
+  "about": {
+    "title": "¿Qué es Blueberry Math?",
+    "description1": "Blueberry Math es una plataforma gamificada de matemáticas que ofrece aprendizaje adaptativo y personalizado para estudiantes de grados 1 a 6.",
+    "description2": "Respaldado por las mejores prácticas en neuroeducación, Blueberry Math combina la gamificación con la tecnología para asegurar que cada estudiante absorba y retenga conceptos de manera efectiva.",
+    "description3": "Proporciona a los estudiantes el contenido que realmente necesitan practicar, siempre alineado con los estándares curriculares, mientras promueve hábitos de estudio sólidos y duraderos para construir una base matemática robusta para el éxito continuo.",
+    "description4": "Ya sea en el aula o en casa, Blueberry Math se adapta perfectamente a cualquier entorno de aprendizaje, ofreciendo a los maestros herramientas para monitorear el progreso de sus estudiantes e intervenir en el momento adecuado con los conocimientos correctos."
+  },
+  "features": {
+    "title": "¿Cómo mejora Blueberry Math la experiencia de aprendizaje?",
+    "unlimitedResources": {
+      "title": "Recursos Ilimitados",
+      "description": "Con Blueberry Math, tendrás acceso a actividades infinitas diseñadas con una variedad de plantillas dinámicas y atractivas para mantener a tus estudiantes motivados."
+    },
+    "realLifeMath": {
+      "title": "Matemáticas de la Vida Real",
+      "description": "Blueberry Math prepara a los estudiantes para resolver problemas prácticos vinculados a contextos familiares y reconocibles, fomentando un aprendizaje significativo y relevante."
+    },
+    "individualizedProgress": {
+      "title": "Progreso Individualizado",
+      "description": "Cada estudiante progresa a su propio ritmo y nivel, con acceso a actividades adicionales en las que pueden trabajar de forma independiente, adaptándose a la diversidad en el aula."
+    },
+    "tracking": {
+      "title": "Seguimiento y Evaluación",
+      "description": "Accede a análisis detallados del progreso individual y grupal. Descarga informes cualitativos para compartir con las familias o agilizar las evaluaciones."
+    },
+    "pedagogicalSuggestions": {
+      "title": "Sugerencias Pedagógicas",
+      "description": "Recibe recomendaciones personalizadas para ayudarte a identificar necesidades específicas de cada estudiante para que puedas guiarlos efectivamente a superar desafíos y progresar."
+    },
+    "learningFromMistakes": {
+      "title": "Aprendiendo de los Errores",
+      "description": "Creemos que los errores son siempre oportunidades para aprender. Cada actividad proporciona retroalimentación instantánea y detallada o soluciones paso a paso para ayudar a los estudiantes a comprender sus errores y avanzar."
+    }
+  },
+  "teacherSupport": {
+    "title": "Apoyo para Profesores",
+    "description": "Entendemos que la diversidad en el aula puede ser un desafío para los profesores, ya que satisfacer las necesidades específicas de cada estudiante no siempre es fácil. En Blueberry Math, nuestro objetivo es ahorrarte tiempo valioso para que puedas concentrarte en lo que mejor sabes hacer: enseñar.",
+    "curriculum": {
+      "title": "Planificación y Organización Curricular",
+      "description": "Adaptamos el contenido a tu horario y libros de texto, asegurando que los estudiantes practiquen exactamente lo que necesitas reforzar."
+    },
+    "experience": {
+      "title": "Experiencia Pedagógica",
+      "description": "Después de tu clase, los estudiantes pueden practicar de forma cooperativa o trabajar de forma independiente."
+    },
+    "monitoring": {
+      "title": "Monitoreo y Evaluación Cualitativa",
+      "description": "Obtén información completa sobre el progreso de toda la clase y cada estudiante. Descarga informes cualitativos para compartir con los padres o evaluar a los estudiantes de manera más efectiva."
+    }
+  },
+  "cta": {
+    "trial": "Prueba Gratuita",
+    "demo": "Ver Demo"
+  },
+  "language": {
+    "select": "Seleccionar idioma",
+    "en": "Inglés",
+    "es": "Español",
+    "pt": "Portugués"
   }
 }
