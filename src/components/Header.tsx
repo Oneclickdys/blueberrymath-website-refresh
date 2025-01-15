@@ -15,12 +15,20 @@ export const Header = () => {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      setIsMenuOpen(false);
+    }
+  };
+
   const navigation = [
-    { name: t('header.howItWorks'), href: '#how-it-works' },
-    { name: t('header.activities'), href: '#activities' },
-    { name: t('header.implementation'), href: '#implementation' },
-    { name: t('header.events'), href: '#events' },
-    { name: t('header.about'), href: '#about' },
+    { name: t('header.howItWorks'), href: 'how-it-works' },
+    { name: t('header.activities'), href: 'activities' },
+    { name: t('header.implementation'), href: 'implementation' },
+    { name: t('header.events'), href: 'events' },
+    { name: t('header.about'), href: 'about' },
   ];
 
   const changeLanguage = (lng: string) => {
@@ -45,13 +53,13 @@ export const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:space-x-8">
             {navigation.map((item) => (
-              <a
+              <button
                 key={item.name}
-                href={item.href}
+                onClick={() => scrollToSection(item.href)}
                 className="text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
               >
                 {item.name}
-              </a>
+              </button>
             ))}
             
             {/* Language Selector */}
@@ -93,14 +101,13 @@ export const Header = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <a
+                <button
                   key={item.name}
-                  href={item.href}
-                  className="block px-3 py-2 text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={() => scrollToSection(item.href)}
+                  className="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
                 >
                   {item.name}
-                </a>
+                </button>
               ))}
               {/* Mobile Language Selector */}
               <div className="px-3 py-2">

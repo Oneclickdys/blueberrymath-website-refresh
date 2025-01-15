@@ -77,7 +77,7 @@ export const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary-light/20 to-white">
+    <section id="how-it-works" className="py-20 bg-gradient-to-br from-primary-light/20 to-white">
       <div className="container mx-auto px-4">
         <Tabs defaultValue="method" className="w-full">
           <TabsList className="w-full flex justify-center mb-8">
