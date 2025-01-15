@@ -10,6 +10,24 @@
     "title": "¡Transforma la forma en que los estudiantes aprenden matemáticas con Blueberry Math!",
     "subtitle": "Sumérgete en una experiencia educativa única con nuestra aventura espacial: desafíos emocionantes para tus estudiantes y una transformación completa en la forma en que aprenden matemáticas."
   },
+  "howItWorks": {
+    "title": "Cómo usar Blueberry Math",
+    "subtitle": "Un método simple y efectivo",
+    "steps": {
+      "signup": {
+        "title": "Regístrate",
+        "description": "Crea tu cuenta y comienza con Blueberry Math"
+      },
+      "assessment": {
+        "title": "Realiza la evaluación",
+        "description": "Completa una evaluación rápida para determinar tu punto de partida"
+      },
+      "learning": {
+        "title": "Comienza a aprender",
+        "description": "Inicia tu viaje de aprendizaje personalizado"
+      }
+    }
+  },
   "about": {
     "title": "¿Qué es Blueberry Math?",
     "description1": "Blueberry Math es una plataforma gamificada de matemáticas que ofrece aprendizaje adaptativo y personalizado para estudiantes de grados 1 a 6.",
