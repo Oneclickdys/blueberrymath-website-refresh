@@ -1,7 +1,6 @@
 import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
-import { About } from "@/components/About";
-import { TeacherSupport } from "@/components/TeacherSupport";
+import { CTASection } from "@/components/CTASection";
 import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
@@ -28,9 +27,8 @@ const Index = () => {
       <Header />
       <main className="pt-16 min-h-screen">
         <Hero />
-        <About />
         <Features />
-        <TeacherSupport />
+        <CTASection />
       </main>
     </>
   );
