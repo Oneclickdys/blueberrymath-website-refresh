@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
 import {
   DropdownMenu,
@@ -12,23 +13,16 @@ import {
 export const Header = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
-    }
-  };
-
   const navigation = [
-    { name: t('header.howItWorks'), href: 'how-it-works' },
-    { name: t('header.activities'), href: 'activities' },
-    { name: t('header.implementation'), href: 'implementation' },
-    { name: t('header.events'), href: 'events' },
-    { name: t('header.about'), href: 'about' },
+    { name: t('header.howItWorks'), href: '/how-it-works' },
+    { name: t('header.activities'), href: '/activities' },
+    { name: t('header.implementation'), href: '/implementation' },
+    { name: t('header.events'), href: '/events' },
+    { name: t('header.about'), href: '/about' },
   ];
 
   const changeLanguage = (lng: string) => {
@@ -41,13 +35,13 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center">
+            <button onClick={() => navigate('/')} className="flex items-center">
               <img
                 src="/lovable-uploads/22f9bb3c-4e7d-463e-a152-9b4f84097f5c.png"
                 alt="Blueberry Math"
                 className="h-8 w-auto object-contain"
               />
-            </a>
+            </button>
           </div>
 
           {/* Desktop Navigation */}
@@ -55,7 +49,7 @@ export const Header = () => {
             {navigation.map((item) => (
               <button
                 key={item.name}
-                onClick={() => scrollToSection(item.href)}
+                onClick={() => navigate(item.href)}
                 className="text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
               >
                 {item.name}
@@ -103,7 +97,10 @@ export const Header = () => {
               {navigation.map((item) => (
                 <button
                   key={item.name}
-                  onClick={() => scrollToSection(item.href)}
+                  onClick={() => {
+                    navigate(item.href);
+                    setIsMenuOpen(false);
+                  }}
                   className="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
                 >
                   {item.name}
