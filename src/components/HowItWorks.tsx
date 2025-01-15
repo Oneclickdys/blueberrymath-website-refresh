@@ -3,9 +3,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { 
   Brain, 
   Calendar, 
-  ChartLineUp, 
+  ChartLine, 
   Clock, 
-  GamepadTwo, 
+  Gamepad, 
   GraduationCap, 
   Heart, 
   LineChart, 
@@ -29,12 +29,12 @@ export const HowItWorks = () => {
     {
       title: "Motivate Through Game Narrative",
       description: "Teachers guide students through topics that will be covered in the following week. Encourage them to complete missions as part of their learning and engage with the storyline.",
-      icon: GamepadTwo,
+      icon: Gamepad,
     },
     {
       title: "Use the Teacher Dashboard as Your Ally",
       description: "Review your students' progress at least once a week, identify those needing additional support, and plan personalized interventions based on the platform's data. Use progress and dedication reports to group students for peer-learning opportunities.",
-      icon: ChartLineUp,
+      icon: ChartLine,
     },
     {
       title: "Involve Families in Learning",
@@ -72,7 +72,7 @@ export const HowItWorks = () => {
     {
       title: "Motivating Gamification",
       description: "Game narratives and unlocked achievements stimulate curiosity and consistency in students.",
-      icon: GamepadTwo,
+      icon: Gamepad,
     },
   ];
 
