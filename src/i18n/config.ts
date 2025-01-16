@@ -3,19 +3,17 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Import all translation files
-import translationEN from './locales/en/translation.json';
-import translationES from './locales/es/translation.json';
-import translationPT from './locales/pt/translation.json';
+import commonEN from './locales/en/common.json';
+import authEN from './locales/en/auth.json';
+import homeEN from './locales/en/home.json';
+import aboutEN from './locales/en/about.json';
 
 const resources = {
   en: {
-    translation: translationEN,
-  },
-  es: {
-    translation: translationES,
-  },
-  pt: {
-    translation: translationPT,
+    common: commonEN,
+    auth: authEN,
+    home: homeEN,
+    about: aboutEN,
   },
 };
 
@@ -24,6 +22,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
+    defaultNS: 'common',
     fallbackLng: 'en',
     detection: {
       order: ['navigator', 'htmlTag', 'path', 'subdomain'],

@@ -1,0 +1,33 @@
+{
+  "header": {
+    "howItWorks": "How it Works",
+    "activities": "Our Activities",
+    "implementation": "School Implementation",
+    "events": "Events",
+    "about": "About Us",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "language": {
+    "select": "Select language",
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  },
+  "buttons": {
+    "trial": {
+      "text": "Start Your Free Trial",
+      "url": "https://app.blueberrymath.com/signup"
+    },
+    "video": {
+      "text": "Watch a video",
+      "url": "https://www.youtube.com/watch?v=demo"
+    }
+  },
+  "footer": {
+    "support": "Support",
+    "legalAdvice": "Legal Advice",
+    "cookiesPolicy": "Cookies Policy",
+    "privacyPolicy": "Privacy Policy"
+  }
+}

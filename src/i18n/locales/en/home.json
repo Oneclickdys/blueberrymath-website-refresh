@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Transform the way students learn math with Blueberry Math!",
+    "subtitle": "Dive into a unique educational experience with our space adventure: exciting challenges for your students and a complete transformation in how they learn math."
+  },
+  "features": {
+    "title": "How Blueberry Math enhances the learning experience",
+    "unlimitedResources": {
+      "title": "Unlimited Resources",
+      "description": "With Blueberry Math, you'll have access to infinite activities designed with a variety of dynamic and engaging templates to keep your students motivated."
+    },
+    "realLifeMath": {
+      "title": "Real-Life Math",
+      "description": "Blueberry Math prepares students to solve practical problems linked to familiar and recognizable contexts, fostering meaningful and relevant learning."
+    },
+    "individualizedProgress": {
+      "title": "Individualized Progress",
+      "description": "Each student progresses at their own pace and level, with access to additional activities they can work on independently, accommodating classroom diversity."
+    },
+    "tracking": {
+      "title": "Tracking and Evaluation",
+      "description": "Access detailed analytics of individual and group progress. Download qualitative reports to share with families or streamline assessments."
+    },
+    "pedagogicalSuggestions": {
+      "title": "Pedagogical Suggestions",
+      "description": "Receive personalized recommendations to help you identify specific needs of each student so you can effectively guide them to overcome challenges and progress."
+    },
+    "learningFromMistakes": {
+      "title": "Learning from Mistakes",
+      "description": "We believe mistakes are always opportunities to learn. Each activity provides instant and detailed feedback or step-by-step solutions to help students understand their errors and move forward."
+    }
+  },
+  "cta": {
+    "title": "Ready to transform math learning?",
+    "subtitle": "Join thousands of teachers and students already using Blueberry Math"
+  }
+}
