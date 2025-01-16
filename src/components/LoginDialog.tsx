@@ -7,6 +7,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { getLoginUrl } from "@/utils/regionUtils";
 import { useTranslation } from 'react-i18next';
+import { GraduationCap, UserCog } from 'lucide-react';
 
 interface LoginDialogProps {
   open: boolean;
@@ -26,21 +27,23 @@ export const LoginDialog = ({ open, onOpenChange }: LoginDialogProps) => {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>{t('auth.userType.title')}</DialogTitle>
+          <DialogTitle className="text-center text-xl">{t('auth.userType.title')}</DialogTitle>
         </DialogHeader>
         <div className="flex flex-col gap-4 py-4">
           <Button
             onClick={() => handleUserTypeSelection('teacher')}
-            className="w-full"
+            className="w-full h-14 text-lg"
             variant="default"
           >
+            <UserCog className="mr-2 h-5 w-5" />
             {t('auth.userType.teacher')}
           </Button>
           <Button
             onClick={() => handleUserTypeSelection('student')}
-            className="w-full"
+            className="w-full h-14 text-lg"
             variant="outline"
           >
+            <GraduationCap className="mr-2 h-5 w-5" />
             {t('auth.userType.student')}
           </Button>
         </div>

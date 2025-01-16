@@ -8,6 +8,13 @@
     "login": "Login",
     "signup": "Sign Up"
   },
+  "auth": {
+    "userType": {
+      "title": "Select User Type",
+      "teacher": "I am a Teacher",
+      "student": "I am a Student"
+    }
+  },
   "hero": {
     "title": "Transform the way students learn math with Blueberry Math!",
     "subtitle": "Dive into a unique educational experience with our space adventure: exciting challenges for your students and a complete transformation in how they learn math."
