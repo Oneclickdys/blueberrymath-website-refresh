@@ -100,5 +100,15 @@
     "legalAdvice": "Legal Advice",
     "cookiesPolicy": "Cookies Policy",
     "privacyPolicy": "Privacy Policy"
+  },
+  "buttons": {
+    "trial": {
+      "text": "Free Trial",
+      "url": "https://docs.google.com/forms/d/1vc26QqqHGzRRhqKQIf5fLlq3bLNg7iAWp05wO3SPjSI/edit"
+    },
+    "video": {
+      "text": "Watch Video",
+      "url": "https://youtu.be/gICF5ZsgP4Y"
+    }
   }
 }

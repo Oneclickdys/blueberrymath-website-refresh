@@ -12,6 +12,16 @@
     "title": "¡Transforma la forma en que los estudiantes aprenden matemáticas con Blueberry Math!",
     "subtitle": "Sumérgete en una experiencia educativa única con nuestra aventura espacial: desafíos emocionantes para tus estudiantes y una transformación completa en la forma en que aprenden matemáticas."
   },
+  "buttons": {
+    "trial": {
+      "text": "Prueba Gratuita",
+      "url": "https://docs.google.com/forms/d/1az43Xlrqanc1deVmbyHpvpyE-LtD7BcJiDcyY_LxYRs/edit"
+    },
+    "video": {
+      "text": "Ver Video",
+      "url": "https://www.youtube.com/watch?v=GnK_M_qQl4g"
+    }
+  },
   "about": {
     "title": "¿Qué es Blueberry Math?",
     "description": [
