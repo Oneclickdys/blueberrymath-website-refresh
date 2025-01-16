@@ -39,7 +39,7 @@ export const CategoryTabs: React.FC<CategoryTabsProps> = ({ categories }) => {
             <CardHeader>
               <CardTitle>{category.title}</CardTitle>
               <CardDescription>
-                Select an activity to see it in action
+                Select a content to see an example of the activities
               </CardDescription>
             </CardHeader>
             <CardContent>
