@@ -112,10 +112,9 @@
     "privacyPolicy": "Política de Privacidad"
   },
   "implementation": {
-    "guides": {
-      "teacher": "Guía del Profesor",
-      "student": "Guía del Estudiante"
-    },
+    "title": "Cómo empezar a usar Blueberry Math en tu escuela",
+    "subtitle": "¡Comenzar con Blueberry Math es fácil! Sigue estos sencillos pasos para desbloquear todo el potencial de nuestra plataforma:",
+    "guide": "Guía para el docente",
     "faqs": {
       "title": "FAQs",
       "devices": {

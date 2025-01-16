@@ -8,31 +8,42 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const Implementation = () => {
   const { t, i18n } = useTranslation();
 
+  const getGuideLink = () => {
+    switch (i18n.language) {
+      case 'es':
+        return 'https://oneclickes.notion.site/Gu-a-para-el-docente-8c437fd7e6fb4d23a9a48d0128111f6d';
+      case 'pt':
+        return 'https://oneclickes.notion.site/Guia-do-professor-0505883892cf417aa42c35037a3b0d3e?pvs=74';
+      default:
+        return 'https://oneclickes.notion.site/Teacher-s-Guide-17860d32cd4f4506a525c8886413d123?pvs=74';
+    }
+  };
+
   const steps = [
     {
       icon: <UserPlus className="w-8 h-8 text-primary" />,
-      title: "Sign Up",
-      description: "Create your account in just minutes and get started right away."
+      title: t('implementation.steps.signup'),
+      description: t('implementation.steps.signupDesc')
     },
     {
       icon: <Users className="w-8 h-8 text-primary" />,
-      title: "Create Your Class and Grant Access",
-      description: "Organize your students into classes and provide them access to the platform."
+      title: t('implementation.steps.createClass'),
+      description: t('implementation.steps.createClassDesc')
     },
     {
       icon: <PlayCircle className="w-8 h-8 text-primary" />,
-      title: "Start Using It!",
-      description: "Once your class is set up, your students can begin practicing immediately with activities tailored to their pace and level."
+      title: t('implementation.steps.start'),
+      description: t('implementation.steps.startDesc')
     }
   ];
 
   return (
     <>
       <Helmet>
-        <title>School Implementation - Blueberry Math</title>
+        <title>{t('implementation.title')} - Blueberry Math</title>
         <meta 
           name="description" 
-          content="Learn how to implement Blueberry Math in your school effectively." 
+          content={t('implementation.subtitle')}
         />
       </Helmet>
       <Header />
@@ -41,10 +52,10 @@ const Implementation = () => {
           {/* Introduction Section */}
           <section className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold text-primary-dark mb-6">
-              How to Start Using Blueberry Math at Your School
+              {t('implementation.title')}
             </h1>
             <p className="text-lg text-gray-600 mb-12">
-              Getting started with Blueberry Math is easy! Follow these simple steps to unlock the full potential of our platform:
+              {t('implementation.subtitle')}
             </p>
           </section>
 
@@ -69,31 +80,23 @@ const Implementation = () => {
           {/* Guides and FAQ Section */}
           <section className="max-w-4xl mx-auto mt-16">
             <h2 className="text-3xl font-bold text-primary-dark mb-8 text-center">
-              Guides and FAQ
+              {t('implementation.guidesAndFaq')}
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Guides */}
+              {/* Guide */}
               <Card>
                 <CardHeader>
-                  <CardTitle>Guides</CardTitle>
+                  <CardTitle>{t('implementation.guide')}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
                     <a 
-                      href="#" 
+                      href={getGuideLink()}
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="block text-primary hover:underline"
                     >
-                      {t('implementation.guides.teacher')}
-                    </a>
-                    <a 
-                      href="#" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="block text-primary hover:underline"
-                    >
-                      {t('implementation.guides.student')}
+                      {t('implementation.guide')}
                     </a>
                   </div>
                 </CardContent>
