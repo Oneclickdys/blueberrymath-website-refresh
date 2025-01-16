@@ -116,6 +116,14 @@
     "subtitle": "Começar com o Blueberry Math é fácil! Siga estes passos simples para desbloquear todo o potencial da nossa plataforma:",
     "guide": "Guia do professor",
     "guidesAndFaq": "Guias e FAQs",
+    "steps": {
+      "signup": "Cadastre-se",
+      "signupDesc": "Crie sua conta de professor para começar com o Blueberry Math",
+      "createClass": "Crie Sua Turma",
+      "createClassDesc": "Configure sua sala de aula virtual e adicione seus alunos",
+      "start": "Comece a Aprender",
+      "startDesc": "Comece a usar o Blueberry Math com seus alunos"
+    },
     "faqs": {
       "title": "FAQs",
       "devices": {

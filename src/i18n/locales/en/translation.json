@@ -101,21 +101,19 @@
     "cookiesPolicy": "Cookies Policy",
     "privacyPolicy": "Privacy Policy"
   },
-  "buttons": {
-    "trial": {
-      "text": "Free Trial",
-      "url": "https://docs.google.com/forms/d/1vc26QqqHGzRRhqKQIf5fLlq3bLNg7iAWp05wO3SPjSI/edit"
-    },
-    "video": {
-      "text": "Watch Video",
-      "url": "https://youtu.be/gICF5ZsgP4Y"
-    }
-  },
   "implementation": {
     "title": "How to Start Using Blueberry Math at Your School",
     "subtitle": "Getting started with Blueberry Math is easy! Follow these simple steps to unlock the full potential of our platform:",
     "guide": "Teacher's Guide",
     "guidesAndFaq": "Guides and FAQs",
+    "steps": {
+      "signup": "Sign Up",
+      "signupDesc": "Create your teacher account to get started with Blueberry Math",
+      "createClass": "Create Your Class",
+      "createClassDesc": "Set up your virtual classroom and add your students",
+      "start": "Start Learning",
+      "startDesc": "Begin using Blueberry Math with your students"
+    },
     "faqs": {
       "title": "FAQs",
       "devices": {

@@ -19,6 +19,24 @@ const Implementation = () => {
     }
   };
 
+  const steps = [
+    {
+      icon: <UserPlus className="w-8 h-8 text-primary" />,
+      title: t('implementation.steps.signup'),
+      description: t('implementation.steps.signupDesc')
+    },
+    {
+      icon: <Users className="w-8 h-8 text-primary" />,
+      title: t('implementation.steps.createClass'),
+      description: t('implementation.steps.createClassDesc')
+    },
+    {
+      icon: <PlayCircle className="w-8 h-8 text-primary" />,
+      title: t('implementation.steps.start'),
+      description: t('implementation.steps.startDesc')
+    }
+  ];
+
   return (
     <>
       <Helmet>
@@ -39,6 +57,24 @@ const Implementation = () => {
             <p className="text-lg text-gray-600 mb-12">
               {t('implementation.subtitle')}
             </p>
+          </section>
+
+          {/* Steps Section */}
+          <section className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {steps.map((step, index) => (
+              <Card key={index} className="border-2 border-gray-100 hover:border-primary/20 transition-colors relative">
+                <div className="absolute -top-4 -left-4 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg">
+                  {index + 1}
+                </div>
+                <CardHeader>
+                  <div className="mb-4">{step.icon}</div>
+                  <CardTitle className="text-xl">{step.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-600">{step.description}</p>
+                </CardContent>
+              </Card>
+            ))}
           </section>
 
           {/* Guides and FAQ Section */}

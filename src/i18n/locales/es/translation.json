@@ -65,7 +65,7 @@
     }
   },
   "cta": {
-    "title": "¿Listo para transformar el aprendizaje de las matemáticas?",
+    "title": "¿Listo para transformar el aprendizaje de matemáticas?",
     "subtitle": "Únete a miles de profesores y estudiantes que ya usan Blueberry Math",
     "trial": "Comenzar Prueba Gratuita",
     "demo": "Ver Demo"
@@ -116,6 +116,14 @@
     "subtitle": "¡Comenzar con Blueberry Math es fácil! Sigue estos sencillos pasos para desbloquear todo el potencial de nuestra plataforma:",
     "guide": "Guía para el docente",
     "guidesAndFaq": "Guías y FAQs",
+    "steps": {
+      "signup": "Regístrate",
+      "signupDesc": "Crea tu cuenta de profesor para comenzar con Blueberry Math",
+      "createClass": "Crea Tu Clase",
+      "createClassDesc": "Configura tu aula virtual y agrega a tus estudiantes",
+      "start": "Comienza a Aprender",
+      "startDesc": "Empieza a usar Blueberry Math con tus estudiantes"
+    },
     "faqs": {
       "title": "FAQs",
       "devices": {
