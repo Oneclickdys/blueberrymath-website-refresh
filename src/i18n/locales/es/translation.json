@@ -85,9 +85,9 @@
   },
   "auth": {
     "userType": {
-      "title": "Seleccionar Tipo de Usuario",
-      "teacher": "Profesor",
-      "student": "Estudiante"
+      "title": "Elige tu rol",
+      "teacher": "Soy Profesor",
+      "student": "Soy Estudiante"
     }
   }
 }
