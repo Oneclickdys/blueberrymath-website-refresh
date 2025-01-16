@@ -3,6 +3,7 @@ import { Container } from '@/components/ui/container';
 
 export const About = () => {
   const { t } = useTranslation();
+  const description = t('about.description', { returnObjects: true }) as string[];
 
   return (
     <section className="py-20 bg-white">
@@ -12,7 +13,7 @@ export const About = () => {
             {t('about.title')}
           </h2>
           <div className="space-y-6 text-lg text-neutral-dark">
-            {t('about.description', { returnObjects: true }).map((paragraph: string, index: number) => (
+            {description.map((paragraph: string, index: number) => (
               <p key={index}>{paragraph}</p>
             ))}
           </div>
