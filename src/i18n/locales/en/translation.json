@@ -175,6 +175,44 @@
       }
     }
   },
+  "implementation": {
+    "title": "School Implementation",
+    "subtitle": "Start your journey with Blueberry Math and transform mathematics education in your school",
+    "steps": {
+      "signup": {
+        "title": "Sign Up",
+        "description": "Create your account and start with a free trial"
+      },
+      "createClass": {
+        "title": "Create Your Class",
+        "description": "Set up your virtual classroom and invite your students"
+      },
+      "start": {
+        "title": "Start Teaching",
+        "description": "Begin using Blueberry Math in your classroom"
+      }
+    },
+    "guide": "Teacher's Guide",
+    "guidesAndFaq": "Guides and FAQs",
+    "faqs": {
+      "devices": {
+        "question": "What devices are supported?",
+        "answer": "Blueberry Math works on any device with a modern web browser - computers, tablets, and smartphones."
+      },
+      "browsers": {
+        "question": "Which browsers are recommended?",
+        "answer": "We recommend using the latest versions of Chrome, Firefox, Safari, or Edge."
+      },
+      "data": {
+        "question": "How is student data protected?",
+        "answer": "We follow strict data protection guidelines and ensure all student data is encrypted and secure."
+      },
+      "algorithm": {
+        "question": "How does the learning algorithm work?",
+        "answer": "Our algorithm adapts to each student's pace and learning style, providing personalized content and challenges."
+      }
+    }
+  },
   "footer": {
     "support": "Support",
     "legalAdvice": "Legal Advice",

@@ -100,6 +100,13 @@
   },
   "activities": {
     "title": "Nossas Atividades",
+    "pageTitle": "Atividades",
+    "pageDescription": "Explore nossas atividades interativas de matemáticas projetadas para um aprendizado envolvente.",
+    "takeALook": "Dê uma olhada!",
+    "categoriesDescription": "Exploramos conceitos matemáticos através de diversas atividades organizadas nas seguintes categorias:",
+    "selectGrade": "Selecionar Grau",
+    "grade": "Grau",
+    "selectContent": "Selecione um conteúdo para ver um exemplo das atividades",
     "simplifyingComplexity": {
       "title": "Simplificando a Complexidade",
       "description": "Dividimos os objetivos de aprendizagem em componentes pequenos e bem definidos conectados entre si. Nosso algoritmo usa essa estrutura para guiar os alunos através do aprendizado personalizado, garantindo que progridam na ordem correta com uma abordagem gradual."
@@ -119,7 +126,7 @@
   },
   "implementation": {
     "title": "Implementação Escolar",
-    "subtitle": "Comece com o Blueberry Math em sua escola",
+    "subtitle": "Comece sua jornada com o Blueberry Math e transforme o ensino de matemática em sua escola",
     "steps": {
       "signup": {
         "title": "Cadastre-se",
