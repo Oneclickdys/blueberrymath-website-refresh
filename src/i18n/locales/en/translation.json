@@ -4,18 +4,17 @@
     "activities": "Our Activities",
     "implementation": "School Implementation",
     "events": "Events",
-    "about": "About Us"
+    "about": "About Us",
+    "login": "Login",
+    "signup": "Sign Up"
   },
   "hero": {
     "title": "Transform the way students learn math with Blueberry Math!",
     "subtitle": "Dive into a unique educational experience with our space adventure: exciting challenges for your students and a complete transformation in how they learn math."
   },
   "about": {
-    "title": "Who is behind Blueberry Math?",
-    "description1": "Blueberry Math is a gamified mathematics platform that offers adaptive and personalized learning for students in grades 1-6.",
-    "description2": "Backed by best practices in neuroeducation, Blueberry Math combines gamification with technology to ensure each student absorbs and retains concepts effectively.",
-    "description3": "It provides students with the content they truly need to practice, always aligned with curriculum standards, while promoting solid and lasting study habits to build a robust mathematical foundation for continued success.",
-    "description4": "Whether in the classroom or at home, Blueberry Math seamlessly adapts to any learning environment, providing teachers with tools to monitor their students' progress and intervene at the right time with the right insights."
+    "title": "What is Blueberry Math?",
+    "description": "Blueberry Math is an innovative educational platform that transforms how students learn mathematics through an engaging space adventure theme."
   },
   "features": {
     "title": "How Blueberry Math enhances the learning experience",
@@ -65,5 +64,30 @@
     "subtitle": "Join thousands of teachers and students already using Blueberry Math",
     "trial": "Start Free Trial",
     "demo": "Watch Demo"
+  },
+  "testimonials": {
+    "title": "What Our Users Say",
+    "subtitle": "Hear from teachers, students, and parents who use Blueberry Math",
+    "roles": {
+      "teacher": "Teacher",
+      "student": "Student",
+      "parent": "Parent"
+    },
+    "sarah": "Blueberry Math has transformed how my child learns mathematics. The engaging activities and instant feedback make learning fun and effective.",
+    "michael": "I used to struggle with math, but now I look forward to solving problems. The space theme makes it exciting!",
+    "lisa": "As a teacher, I appreciate how Blueberry Math helps me track student progress and identify areas where they need more support."
+  },
+  "language": {
+    "select": "Select language",
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  },
+  "auth": {
+    "userType": {
+      "title": "Select User Type",
+      "teacher": "Teacher",
+      "student": "Student"
+    }
   }
 }

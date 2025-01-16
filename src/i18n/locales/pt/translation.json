@@ -4,36 +4,17 @@
     "activities": "Nossas Atividades",
     "implementation": "Implementação Escolar",
     "events": "Eventos",
-    "about": "Sobre Nós"
+    "about": "Sobre Nós",
+    "login": "Entrar",
+    "signup": "Cadastrar"
   },
   "hero": {
     "title": "Transforme a maneira como os alunos aprendem matemática com Blueberry Math!",
     "subtitle": "Mergulhe em uma experiência educacional única com nossa aventura espacial: desafios emocionantes para seus alunos e uma transformação completa na forma como eles aprendem matemática."
   },
-  "howItWorks": {
-    "title": "Como usar o Blueberry Math",
-    "subtitle": "Um método simples e eficaz",
-    "steps": {
-      "signup": {
-        "title": "Cadastre-se",
-        "description": "Crie sua conta e comece com o Blueberry Math"
-      },
-      "assessment": {
-        "title": "Faça a avaliação",
-        "description": "Complete uma avaliação rápida para determinar seu ponto de partida"
-      },
-      "learning": {
-        "title": "Comece a aprender",
-        "description": "Inicie sua jornada de aprendizado personalizada"
-      }
-    }
-  },
   "about": {
-    "title": "Quem está por trás do Blueberry Math?",
-    "description1": "Blueberry Math é uma plataforma gamificada de matemática que oferece aprendizado adaptativo e personalizado para alunos do 1º ao 6º ano.",
-    "description2": "Apoiado pelas melhores práticas em neuroeducação, o Blueberry Math combina gamificação com tecnologia para garantir que cada aluno absorva e retenha conceitos de forma eficaz.",
-    "description3": "Fornece aos alunos o conteúdo que eles realmente precisam praticar, sempre alinhado com os padrões curriculares, enquanto promove hábitos de estudo sólidos e duradouros para construir uma base matemática robusta para o sucesso contínuo.",
-    "description4": "Seja na sala de aula ou em casa, o Blueberry Math se adapta perfeitamente a qualquer ambiente de aprendizagem, oferecendo aos professores ferramentas para monitorar o progresso de seus alunos e intervir no momento certo com os insights corretos."
+    "title": "O que é Blueberry Math?",
+    "description": "Blueberry Math é uma plataforma educacional inovadora que transforma a maneira como os alunos aprendem matemática através de uma envolvente aventura espacial."
   },
   "features": {
     "title": "Como o Blueberry Math melhora a experiência de aprendizagem?",
@@ -79,13 +60,34 @@
     }
   },
   "cta": {
-    "trial": "Teste Gratuito",
+    "title": "Pronto para transformar o aprendizado de matemática?",
+    "subtitle": "Junte-se a milhares de professores e alunos que já usam o Blueberry Math",
+    "trial": "Iniciar Teste Gratuito",
     "demo": "Assistir Demo"
+  },
+  "testimonials": {
+    "title": "O que Nossos Usuários Dizem",
+    "subtitle": "Ouça professores, alunos e pais que usam o Blueberry Math",
+    "roles": {
+      "teacher": "Professor",
+      "student": "Aluno",
+      "parent": "Pai/Mãe"
+    },
+    "sarah": "O Blueberry Math transformou a maneira como meu filho aprende matemática. As atividades envolventes e o feedback instantâneo tornam o aprendizado divertido e eficaz.",
+    "michael": "Eu costumava ter dificuldades com matemática, mas agora estou ansioso para resolver problemas. O tema espacial torna tudo emocionante!",
+    "lisa": "Como professora, aprecio como o Blueberry Math me ajuda a acompanhar o progresso dos alunos e identificar áreas onde eles precisam de mais apoio."
   },
   "language": {
     "select": "Selecionar idioma",
     "en": "Inglês",
     "es": "Espanhol",
     "pt": "Português"
+  },
+  "auth": {
+    "userType": {
+      "title": "Selecionar Tipo de Usuário",
+      "teacher": "Professor",
+      "student": "Aluno"
+    }
   }
 }
