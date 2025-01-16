@@ -1,0 +1,16 @@
+{
+  "title": "Nuestras Actividades",
+  "description": "Explora nuestra gama de actividades matemáticas interactivas diseñadas para hacer el aprendizaje divertido y atractivo.",
+  "categories": {
+    "all": "Todas las Actividades",
+    "algebra": "Álgebra",
+    "geometry": "Geometría",
+    "arithmetic": "Aritmética",
+    "statistics": "Estadística"
+  },
+  "difficulty": {
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Implementación Escolar",
+  "description": "Aprende cómo implementar Blueberry Math en tu escuela",
+  "steps": {
+    "title": "Pasos de Implementación",
+    "assessment": "Evaluación Inicial",
+    "planning": "Planificación de Implementación",
+    "training": "Capacitación de Profesores",
+    "launch": "Lanzamiento del Programa",
+    "support": "Soporte Continuo"
+  }
+}
