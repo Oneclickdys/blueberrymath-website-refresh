@@ -1,3 +1,4 @@
+import React from 'react';
 import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -6,7 +7,9 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/component
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
-const Activities = () => {
+interface ActivitiesProps {}
+
+const Activities: React.FC<ActivitiesProps> = () => {
   const [grade, setGrade] = useState("1");
 
   const categories = {
@@ -81,13 +84,21 @@ const Activities = () => {
                   <CardTitle>Simplifying Complexity</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">
-                    We've broken down learning objectives into small, well-defined components connected to each other. 
-                    Our algorithm uses this structure to guide students through personalized learning, ensuring they 
-                    progress in the correct order with a gradual approach.
-                  </p>
-                  <div className="my-4 bg-neutral p-4 rounded-lg text-center text-gray-500">
-                    [Graph representation placeholder]
+                  <div className="flex flex-col md:flex-row gap-8 items-center">
+                    <div className="flex-1">
+                      <p className="text-gray-600">
+                        We've broken down learning objectives into small, well-defined components connected to each other. 
+                        Our algorithm uses this structure to guide students through personalized learning, ensuring they 
+                        progress in the correct order with a gradual approach.
+                      </p>
+                    </div>
+                    <div className="flex-1">
+                      <img 
+                        src="/lovable-uploads/e1213eec-1174-40f6-b626-b040ccb3efdc.png"
+                        alt="Learning objectives network diagram"
+                        className="w-full rounded-lg shadow-lg"
+                      />
+                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -97,10 +108,21 @@ const Activities = () => {
                   <CardTitle>Your Personalized Map</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">
-                    We structure the knowledge components based on your curriculum so students will find the same 
-                    unit and lesson names on Blueberry Math as in their school materials.
-                  </p>
+                  <div className="flex flex-col md:flex-row gap-8 items-center">
+                    <div className="flex-1">
+                      <p className="text-gray-600">
+                        We structure the knowledge components based on your curriculum so students will find the same 
+                        unit and lesson names on Blueberry Math as in their school materials.
+                      </p>
+                    </div>
+                    <div className="flex-1">
+                      <img 
+                        src="/lovable-uploads/13a6557a-3d9c-4b34-816b-70475ff6472a.png"
+                        alt="Evaluation engine concept"
+                        className="w-full rounded-lg shadow-lg"
+                      />
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
 
