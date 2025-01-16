@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-import { Star } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 import {
   Carousel,
@@ -73,13 +72,8 @@ export const Testimonials = () => {
             <CarouselContent>
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="md:basis-1/3">
-                  <Card className="p-8 h-full hover:shadow-lg transition-all duration-300 border-primary/10">
-                    <div className="flex mb-4">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 fill-secondary text-secondary" />
-                      ))}
-                    </div>
-                    <p className="text-neutral-dark mb-6 italic">"{testimonial.content}"</p>
+                  <Card className="p-8 h-full flex flex-col hover:shadow-lg transition-all duration-300 border-primary/10">
+                    <p className="text-neutral-dark mb-6 flex-grow italic">"{testimonial.content}"</p>
                     <div className="mt-auto">
                       <p className="font-semibold text-primary-dark">{testimonial.name}</p>
                       <p className="text-sm text-neutral">{testimonial.role}</p>
