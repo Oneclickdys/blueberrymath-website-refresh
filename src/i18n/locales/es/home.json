@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Aprendizaje de Matemáticas Divertido e Interactivo",
+    "subtitle": "Transformando la educación matemática a través de la aventura espacial",
+    "cta": "Comienza Ahora"
+  },
+  "features": {
+    "title": "¿Por qué Blueberry Math?",
+    "interactive": {
+      "title": "Aprendizaje Interactivo",
+      "description": "Actividades atractivas que hacen que las matemáticas cobren vida"
+    },
+    "personalized": {
+      "title": "Ruta Personalizada",
+      "description": "Contenido adaptado al nivel y estilo de aprendizaje de cada estudiante"
+    },
+    "progress": {
+      "title": "Seguimiento del Progreso",
+      "description": "Informes detallados para monitorear el avance del estudiante"
+    }
+  }
+}
