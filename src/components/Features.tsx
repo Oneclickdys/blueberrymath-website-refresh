@@ -72,7 +72,7 @@ export const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="perspective-1000 h-[300px] cursor-pointer"
+              className="h-[300px] perspective-1000 cursor-pointer"
               onClick={() => toggleCard(index)}
             >
               <div
@@ -82,13 +82,13 @@ export const Features = () => {
               >
                 {/* Front of card */}
                 <Card 
-                  className="absolute w-full h-full backface-hidden p-6 flex flex-col items-center justify-center"
+                  className="absolute w-full h-full backface-hidden p-6 flex flex-col items-center justify-center bg-white"
                 >
                   <feature.icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-xl font-semibold mb-3 text-primary-dark">
+                  <h3 className="text-xl font-semibold mb-3 text-primary-dark text-center">
                     {feature.title}
                   </h3>
-                  <p className="text-neutral-dark">
+                  <p className="text-gray-600 text-center">
                     {feature.description}
                   </p>
                 </Card>
@@ -97,12 +97,14 @@ export const Features = () => {
                 <Card 
                   className="absolute w-full h-full backface-hidden p-6 rotate-y-180 bg-primary text-white flex flex-col items-center justify-center"
                 >
-                  <img 
-                    src={`https://images.unsplash.com/photo-${feature.backImage}`}
-                    alt={feature.title}
-                    className="w-full h-32 object-cover rounded-lg mb-4"
-                  />
-                  <p className="text-sm">
+                  <div className="w-full h-32 mb-4 overflow-hidden rounded-lg">
+                    <img 
+                      src={`https://images.unsplash.com/photo-${feature.backImage}`}
+                      alt={feature.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-sm text-center">
                     {feature.backText}
                   </p>
                 </Card>
