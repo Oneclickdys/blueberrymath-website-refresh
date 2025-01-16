@@ -77,6 +77,18 @@ export const Footer = () => {
               </a>
             </nav>
           </div>
+          <a 
+            href="https://oneclick.es/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            <img 
+              src="/lovable-uploads/02f51b91-37f4-4a7b-8676-7804ab5f3ce1.png"
+              alt="OneClick"
+              className="h-8"
+            />
+          </a>
         </div>
       </div>
     </footer>
