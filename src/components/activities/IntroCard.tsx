@@ -19,6 +19,30 @@ export const IntroCard: React.FC<IntroCardProps> = ({
   const contentOrder = imagePosition === 'left' ? 'md:order-2' : 'md:order-1';
   const imageOrder = imagePosition === 'left' ? 'md:order-1' : 'md:order-2';
 
+  // Function to render description with bullet points if it contains specific phases
+  const renderDescription = () => {
+    if (description.includes("Identify -")) {
+      const parts = description.split(". ");
+      const intro = parts[0];
+      const phases = parts[1].split(". ").filter(phase => phase.includes(" - "));
+      
+      return (
+        <div className="space-y-4">
+          <p className="text-gray-600 text-lg leading-relaxed">{intro}.</p>
+          <ul className="list-disc pl-6 space-y-2">
+            {phases.map((phase, index) => (
+              <li key={index} className="text-gray-600 text-lg leading-relaxed">
+                {phase.trim()}
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    }
+    
+    return <p className="text-gray-600 text-lg leading-relaxed">{description}</p>;
+  };
+
   return (
     <Card className="mb-8">
       <CardContent className="p-0">
@@ -32,7 +56,7 @@ export const IntroCard: React.FC<IntroCardProps> = ({
           </div>
           <div className={`flex-1 p-8 space-y-4 ${contentOrder}`}>
             <CardTitle className="text-3xl text-primary-dark">{title}</CardTitle>
-            <p className="text-gray-600 text-lg leading-relaxed">{description}</p>
+            {renderDescription()}
           </div>
         </div>
       </CardContent>
