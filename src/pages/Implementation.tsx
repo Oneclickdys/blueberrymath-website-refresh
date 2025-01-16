@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { UserPlus, Users, PlayCircle } from "lucide-react";
+import { UserPlus, Users, PlayCircle, ExternalLink } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
@@ -18,24 +18,6 @@ const Implementation = () => {
         return 'https://oneclickes.notion.site/Teacher-s-Guide-17860d32cd4f4506a525c8886413d123?pvs=74';
     }
   };
-
-  const steps = [
-    {
-      icon: <UserPlus className="w-8 h-8 text-primary" />,
-      title: t('implementation.steps.signup.title'),
-      description: t('implementation.steps.signup.description')
-    },
-    {
-      icon: <Users className="w-8 h-8 text-primary" />,
-      title: t('implementation.steps.createClass.title'),
-      description: t('implementation.steps.createClass.description')
-    },
-    {
-      icon: <PlayCircle className="w-8 h-8 text-primary" />,
-      title: t('implementation.steps.start.title'),
-      description: t('implementation.steps.start.description')
-    }
-  ];
 
   return (
     <>
@@ -59,91 +41,62 @@ const Implementation = () => {
             </p>
           </section>
 
-          {/* Steps Section */}
-          <section className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {steps.map((step, index) => (
-              <Card key={index} className="border-2 border-gray-100 hover:border-primary/20 transition-colors relative">
-                <div className="absolute -top-4 -left-4 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg">
-                  {index + 1}
-                </div>
-                <CardHeader>
-                  <div className="mb-4">{step.icon}</div>
-                  <CardTitle className="text-xl text-primary-dark">{step.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-neutral-dark">{step.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </section>
-
           {/* Guides and FAQ Section */}
-          <section className="max-w-4xl mx-auto mt-16">
+          <section className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-primary-dark mb-8 text-center">
               {t('implementation.guidesAndFaq')}
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* Guide */}
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-primary-dark">{t('implementation.guide')}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <a 
-                      href={getGuideLink()}
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="block text-primary hover:underline"
-                    >
-                      {t('implementation.guide')}
-                    </a>
-                  </div>
-                </CardContent>
-              </Card>
+            
+            <div className="space-y-8">
+              <Accordion type="single" collapsible className="w-full bg-white rounded-lg shadow-lg p-6">
+                <AccordionItem value="devices">
+                  <AccordionTrigger className="text-primary-dark hover:text-primary">
+                    {t('implementation.faqs.devices.question')}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-neutral-dark">
+                    {t('implementation.faqs.devices.answer')}
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="browsers">
+                  <AccordionTrigger className="text-primary-dark hover:text-primary">
+                    {t('implementation.faqs.browsers.question')}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-neutral-dark">
+                    {t('implementation.faqs.browsers.answer')}
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="data">
+                  <AccordionTrigger className="text-primary-dark hover:text-primary">
+                    {t('implementation.faqs.data.question')}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-neutral-dark">
+                    {t('implementation.faqs.data.answer')}
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="algorithm">
+                  <AccordionTrigger className="text-primary-dark hover:text-primary">
+                    {t('implementation.faqs.algorithm.question')}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-neutral-dark">
+                    {t('implementation.faqs.algorithm.answer')}
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
 
-              {/* FAQs */}
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-primary-dark">FAQs</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="devices">
-                      <AccordionTrigger className="text-primary-dark">
-                        {t('implementation.faqs.devices.question')}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-neutral-dark">
-                        {t('implementation.faqs.devices.answer')}
-                      </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="browsers">
-                      <AccordionTrigger className="text-primary-dark">
-                        {t('implementation.faqs.browsers.question')}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-neutral-dark">
-                        {t('implementation.faqs.browsers.answer')}
-                      </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="data">
-                      <AccordionTrigger className="text-primary-dark">
-                        {t('implementation.faqs.data.question')}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-neutral-dark">
-                        {t('implementation.faqs.data.answer')}
-                      </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="algorithm">
-                      <AccordionTrigger className="text-primary-dark">
-                        {t('implementation.faqs.algorithm.question')}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-neutral-dark">
-                        {t('implementation.faqs.algorithm.answer')}
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                </CardContent>
-              </Card>
+              <div className="text-center p-6 bg-white rounded-lg shadow-lg">
+                <p className="text-lg text-neutral-dark mb-4">
+                  Your question is not answered here? Check the Guide for more info!
+                </p>
+                <a 
+                  href={getGuideLink()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary-dark transition-colors"
+                >
+                  {t('implementation.guide')}
+                  <ExternalLink className="h-4 w-4" />
+                </a>
+              </div>
             </div>
           </section>
         </div>
