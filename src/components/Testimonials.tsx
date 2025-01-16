@@ -83,10 +83,10 @@ export const Testimonials = () => {
                     <div className="mt-auto space-y-1">
                       <p className="font-semibold text-primary-dark">{testimonial.name}</p>
                       {testimonial.role && (
-                        <p className="text-sm text-neutral">{testimonial.role}</p>
+                        <p className="text-sm text-[#7E69AB]">{testimonial.role}</p>
                       )}
                       {testimonial.city && (
-                        <p className="text-sm text-neutral">{testimonial.city}</p>
+                        <p className="text-sm text-[#7E69AB]">{testimonial.city}</p>
                       )}
                     </div>
                   </Card>
