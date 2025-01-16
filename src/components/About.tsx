@@ -11,10 +11,6 @@ export const About = () => {
             {t('about.title')}
           </h2>
           <div className="space-y-6 text-lg text-neutral-dark">
-            <p>{t('about.description1')}</p>
-            <p>{t('about.description2')}</p>
-            <p>{t('about.description3')}</p>
-            <p>{t('about.description4')}</p>
             <div className="mt-12 space-y-6">
               <p>
                 Blueberry Math is a product powered by{' '}
