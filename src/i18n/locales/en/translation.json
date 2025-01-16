@@ -101,6 +101,16 @@
     "cookiesPolicy": "Cookies Policy",
     "privacyPolicy": "Privacy Policy"
   },
+  "buttons": {
+    "trial": {
+      "text": "Free Trial",
+      "url": "https://www.blueberrymath.ai/en/school-free-trial"
+    },
+    "video": {
+      "text": "Watch Video",
+      "url": "https://youtu.be/gICF5ZsgP4Y"
+    }
+  },
   "implementation": {
     "title": "How to Start Using Blueberry Math at Your School",
     "subtitle": "Getting started with Blueberry Math is easy! Follow these simple steps to unlock the full potential of our platform:",

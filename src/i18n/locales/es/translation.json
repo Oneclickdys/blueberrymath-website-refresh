@@ -104,11 +104,11 @@
   "buttons": {
     "trial": {
       "text": "Prueba Gratuita",
-      "url": "https://docs.google.com/forms/d/1az43Xlrqanc1deVmbyHpvpyE-LtD7BcJiDcyY_LxYRs/edit"
+      "url": "https://www.blueberrymath.ai/es/school-free-trial"
     },
     "video": {
       "text": "Ver Video",
-      "url": "https://www.youtube.com/watch?v=GnK_M_qQl4g"
+      "url": "https://youtu.be/gICF5ZsgP4Y"
     }
   },
   "implementation": {
