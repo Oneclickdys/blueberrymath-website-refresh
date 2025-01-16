@@ -54,7 +54,7 @@ const Implementation = () => {
             <h1 className="text-4xl font-bold text-primary-dark mb-6">
               {t('implementation.title')}
             </h1>
-            <p className="text-lg text-gray-600 mb-12">
+            <p className="text-lg text-neutral-dark mb-12">
               {t('implementation.subtitle')}
             </p>
           </section>
@@ -68,10 +68,10 @@ const Implementation = () => {
                 </div>
                 <CardHeader>
                   <div className="mb-4">{step.icon}</div>
-                  <CardTitle className="text-xl">{step.title}</CardTitle>
+                  <CardTitle className="text-xl text-primary-dark">{step.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">{step.description}</p>
+                  <p className="text-neutral-dark">{step.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -86,7 +86,7 @@ const Implementation = () => {
               {/* Guide */}
               <Card>
                 <CardHeader>
-                  <CardTitle>{t('implementation.guide')}</CardTitle>
+                  <CardTitle className="text-primary-dark">{t('implementation.guide')}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
@@ -105,31 +105,39 @@ const Implementation = () => {
               {/* FAQs */}
               <Card>
                 <CardHeader>
-                  <CardTitle>FAQs</CardTitle>
+                  <CardTitle className="text-primary-dark">FAQs</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <Accordion type="single" collapsible className="w-full">
                     <AccordionItem value="devices">
-                      <AccordionTrigger>{t('implementation.faqs.devices.question')}</AccordionTrigger>
-                      <AccordionContent>
+                      <AccordionTrigger className="text-primary-dark">
+                        {t('implementation.faqs.devices.question')}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-neutral-dark">
                         {t('implementation.faqs.devices.answer')}
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="browsers">
-                      <AccordionTrigger>{t('implementation.faqs.browsers.question')}</AccordionTrigger>
-                      <AccordionContent>
+                      <AccordionTrigger className="text-primary-dark">
+                        {t('implementation.faqs.browsers.question')}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-neutral-dark">
                         {t('implementation.faqs.browsers.answer')}
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="data">
-                      <AccordionTrigger>{t('implementation.faqs.data.question')}</AccordionTrigger>
-                      <AccordionContent>
+                      <AccordionTrigger className="text-primary-dark">
+                        {t('implementation.faqs.data.question')}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-neutral-dark">
                         {t('implementation.faqs.data.answer')}
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="algorithm">
-                      <AccordionTrigger>{t('implementation.faqs.algorithm.question')}</AccordionTrigger>
-                      <AccordionContent>
+                      <AccordionTrigger className="text-primary-dark">
+                        {t('implementation.faqs.algorithm.question')}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-neutral-dark">
                         {t('implementation.faqs.algorithm.answer')}
                       </AccordionContent>
                     </AccordionItem>
