@@ -13,7 +13,7 @@ interface FeatureCardProps {
   onClick: () => void;
 }
 
-export const FeatureCard = ({
+export const FeatureCard: React.FC<FeatureCardProps> = ({
   title,
   description,
   icon,
@@ -21,7 +21,7 @@ export const FeatureCard = ({
   backText,
   isFlipped,
   onClick,
-}: FeatureCardProps) => {
+}) => {
   return (
     <div className="h-[300px] w-full">
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
