@@ -154,5 +154,11 @@
         "answer": "Nosso algoritmo se adapta ao ritmo e estilo de aprendizagem de cada aluno, fornecendo conteúdo e desafios personalizados."
       }
     }
+  },
+  "footer": {
+    "support": "Suporte",
+    "legalAdvice": "Aviso Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidade"
   }
 }

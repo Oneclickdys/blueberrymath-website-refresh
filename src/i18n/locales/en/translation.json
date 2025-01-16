@@ -174,5 +174,11 @@
         "title": "Algebra and Functions"
       }
     }
+  },
+  "footer": {
+    "support": "Support",
+    "legalAdvice": "Legal Advice",
+    "cookiesPolicy": "Cookies Policy",
+    "privacyPolicy": "Privacy Policy"
   }
 }

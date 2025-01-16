@@ -100,6 +100,13 @@
   },
   "activities": {
     "title": "Nuestras Actividades",
+    "pageTitle": "Actividades",
+    "pageDescription": "Explora nuestras actividades interactivas de matemáticas diseñadas para un aprendizaje atractivo.",
+    "takeALook": "¡Echa un vistazo!",
+    "categoriesDescription": "Exploramos conceptos matemáticos a través de diversas actividades organizadas en las siguientes categorías:",
+    "selectGrade": "Seleccionar Grado",
+    "grade": "Grado",
+    "selectContent": "Selecciona un contenido para ver un ejemplo de las actividades",
     "simplifyingComplexity": {
       "title": "Simplificando la Complejidad",
       "description": "Hemos dividido los objetivos de aprendizaje en componentes pequeños y bien definidos conectados entre sí. Nuestro algoritmo utiliza esta estructura para guiar a los estudiantes a través del aprendizaje personalizado, asegurando que progresen en el orden correcto con un enfoque gradual."
@@ -115,44 +122,63 @@
     "holisticLearning": {
       "title": "Aprendizaje Holístico",
       "description": "Nuestra metodología asegura un aprendizaje integral a través de un enfoque estructurado. Identificar - Los estudiantes aprenden a reconocer y comprender conceptos matemáticos clave en diversos contextos. Recordar - Los estudiantes practican la recuperación y aplicación de conceptos previamente aprendidos para reforzar la comprensión. Aplicar - Los estudiantes demuestran dominio utilizando el conocimiento matemático para resolver problemas del mundo real de manera efectiva."
+    },
+    "categories": {
+      "numbersAndOperations": {
+        "title": "Números y Operaciones",
+        "activities": {
+          "counting": "Aprendiendo a Contar Seleccionando Objetos",
+          "adding": "Sumando Cantidades",
+          "subtraction": "Entendiendo la Sustracción Tachando Elementos",
+          "numberLine": "Indicando Números en la Recta Numérica",
+          "fractions": "Relacionando Fracciones con sus Representaciones Visuales",
+          "coloringFractions": "Coloreando Fracciones Gráficamente"
+        }
+      },
+      "geometry": {
+        "title": "Geometría",
+        "activities": {
+          "spatialLocalization": "Colocando Objetos para Aprender Localización Espacial",
+          "spatialConcepts": "Miles de Combinaciones para Explorar Conceptos como Izquierda, Derecha, Arriba y Abajo",
+          "lineTypes": "Identificando Tipos de Líneas, Ángulos y Polígonos",
+          "labelingElements": "Etiquetando Elementos en una Imagen",
+          "coordinateAxes": "Entendiendo los Ejes de Coordenadas",
+          "calculations": "Calculando Perímetros, Áreas y Volúmenes"
+        }
+      },
+      "magnitudes": {
+        "title": "Magnitudes y Medidas",
+        "activities": {
+          "analogClocks": "Aprendiendo la Hora con Relojes Analógicos",
+          "digitalClocks": "Y con Relojes Digitales",
+          "calendar": "Entendiendo los Días de la Semana y los Meses del Año",
+          "measurement": "Comprendiendo las Unidades de Medida",
+          "money": "Entendiendo el Valor de Monedas y Billetes"
+        }
+      },
+      "probability": {
+        "title": "Probabilidad y Estadísticas",
+        "activities": {
+          "dataTables": "Completando Tablas de Registro de Datos",
+          "pictograms": "Interpretando Información en Pictogramas",
+          "barcodes": "Entendiendo Códigos de Barras",
+          "frequencyCurves": "Analizando Curvas de Frecuencia",
+          "pieCharts": "Interpretando Gráficas de Pastel",
+          "createPictograms": "Creando Pictogramas",
+          "createBarGraphs": "Creando Gráficas de Barras",
+          "drawFrequencyCurves": "Dibujando Curvas de Frecuencia",
+          "probabilityConcepts": "Entendiendo Conceptos de Probabilidad"
+        }
+      },
+      "algebra": {
+        "title": "Álgebra y Funciones"
+      }
     }
   },
-  "implementation": {
-    "title": "Implementación Escolar",
-    "subtitle": "Comienza con Blueberry Math en tu escuela",
-    "steps": {
-      "signup": {
-        "title": "Regístrate",
-        "description": "Crea tu cuenta y comienza con una prueba gratuita"
-      },
-      "createClass": {
-        "title": "Crea Tu Clase",
-        "description": "Configura tu aula virtual e invita a tus estudiantes"
-      },
-      "start": {
-        "title": "Comienza a Enseñar",
-        "description": "Empieza a usar Blueberry Math en tu aula"
-      }
-    },
-    "guide": "Guía del Profesor",
-    "guidesAndFaq": "Guías y Preguntas Frecuentes",
-    "faqs": {
-      "devices": {
-        "question": "¿Qué dispositivos son compatibles?",
-        "answer": "Blueberry Math funciona en cualquier dispositivo con un navegador web moderno - computadoras, tabletas y teléfonos inteligentes."
-      },
-      "browsers": {
-        "question": "¿Qué navegadores se recomiendan?",
-        "answer": "Recomendamos usar las últimas versiones de Chrome, Firefox, Safari o Edge."
-      },
-      "data": {
-        "question": "¿Cómo se protegen los datos de los estudiantes?",
-        "answer": "Seguimos estrictas pautas de protección de datos y aseguramos que todos los datos de los estudiantes estén encriptados y seguros."
-      },
-      "algorithm": {
-        "question": "¿Cómo funciona el algoritmo de aprendizaje?",
-        "answer": "Nuestro algoritmo se adapta al ritmo y estilo de aprendizaje de cada estudiante, proporcionando contenido y desafíos personalizados."
-      }
-    }
+  "footer": {
+    "support": "Soporte",
+    "legalAdvice": "Aviso Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidad"
   }
 }
