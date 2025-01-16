@@ -88,6 +88,16 @@
     "es": "Spanish",
     "pt": "Portuguese"
   },
+  "buttons": {
+    "trial": {
+      "text": "Start Free Trial",
+      "url": "https://app.blueberrymath.com/signup"
+    },
+    "video": {
+      "text": "Watch Demo",
+      "url": "https://www.youtube.com/watch?v=demo"
+    }
+  },
   "activities": {
     "title": "Our Activities",
     "simplifyingComplexity": {
