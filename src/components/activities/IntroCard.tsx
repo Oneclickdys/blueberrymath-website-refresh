@@ -22,7 +22,7 @@ export const IntroCard: React.FC<IntroCardProps> = ({
   // Function to render description with bullet points if it contains specific phases
   const renderDescription = () => {
     if (description.includes("Identify -")) {
-      const [intro, phasesText] = description.split("Identify -");
+      const [intro, ...rest] = description.split("Identify -");
       const phases = ["Identify", "Recall", "Apply"].map(phase => {
         const phaseRegex = new RegExp(`${phase} - ([^.]+)`);
         const match = description.match(phaseRegex);
@@ -31,7 +31,7 @@ export const IntroCard: React.FC<IntroCardProps> = ({
       
       return (
         <div className="space-y-4">
-          <p className="text-gray-600 text-lg leading-relaxed">{intro}</p>
+          <p className="text-gray-600 text-lg leading-relaxed">{intro.trim()}</p>
           <ul className="list-disc pl-6 space-y-2">
             {phases.map((phase, index) => (
               <li key={index} className="text-gray-600 text-lg leading-relaxed">
