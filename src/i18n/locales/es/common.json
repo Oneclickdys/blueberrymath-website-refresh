@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "activities": "Actividades",
+    "events": "Eventos",
+    "implementation": "Implementación"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse"
+  },
+  "footer": {
+    "support": "Soporte",
+    "legalAdvice": "Aviso Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidad"
+  }
+}

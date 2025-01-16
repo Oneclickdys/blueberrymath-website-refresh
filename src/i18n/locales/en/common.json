@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "events": "Events",
+    "implementation": "Implementation"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "footer": {
+    "support": "Support",
+    "legalAdvice": "Legal Notice",
+    "cookiesPolicy": "Cookies Policy",
+    "privacyPolicy": "Privacy Policy"
+  }
+}

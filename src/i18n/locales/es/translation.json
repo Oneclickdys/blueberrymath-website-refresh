@@ -8,70 +8,14 @@
     "login": "Iniciar Sesión",
     "signup": "Registrarse"
   },
-  "howItWorks": {
-    "title": "Cómo usar Blueberry Math",
-    "subtitle": "Un método simple y efectivo",
-    "scienceTitle": "La Ciencia Detrás",
-    "scienceSubtitle": "Entendiendo cómo Blueberry Math mejora el aprendizaje",
-    "evidenceTitle": "Evidencia Científica",
-    "evidenceSubtitle": "Investigación que respalda nuestra metodología",
-    "method": {
-      "steps": {
-        "integrate": {
-          "title": "Integra Blueberry en las Rutinas Diarias",
-          "description": "Blueberry Math es una herramienta versátil que se puede usar en casa o en la escuela. En el aula, dedica unos minutos al inicio o final de la clase para reforzar lo que has enseñado, o úsalo como actividad de recompensa después de completar otras tareas."
-        },
-        "consistency": {
-          "title": "La Consistencia es Clave",
-          "description": "Establece una rutina diaria, ya sea en casa, en el aula o en ambos, para que los estudiantes practiquen matemáticas durante 15 minutos al día, consolidando sus habilidades clave."
-        },
-        "motivation": {
-          "title": "Motiva a través de la Narrativa del Juego",
-          "description": "Los profesores guían a los estudiantes a través de los temas que se cubrirán en la siguiente semana. Anímales a completar misiones como parte de su aprendizaje y a participar en la historia."
-        },
-        "dashboard": {
-          "title": "Usa el Panel del Profesor como tu Aliado",
-          "description": "Revisa el progreso de tus estudiantes al menos una vez por semana, identifica a aquellos que necesitan apoyo adicional y planifica intervenciones personalizadas basadas en los datos de la plataforma. Utiliza informes de progreso y dedicación para agrupar a los estudiantes para oportunidades de aprendizaje entre pares."
-        },
-        "families": {
-          "title": "Involucra a las Familias en el Aprendizaje",
-          "description": "Comparte informes de progreso con los padres al final de cada período para mantenerlos informados e involucrados en el desarrollo matemático de sus hijos."
-        },
-        "evaluation": {
-          "title": "Evaluación Divertida del Conocimiento",
-          "description": "Utiliza sesiones semanales de práctica en clase para revisar temas y realizar evaluaciones diagnósticas de manera dinámica y colaborativa, adaptadas a los niveles de tu clase."
-        }
-      }
-    },
-    "science": {
-      "points": {
-        "adaptive": {
-          "title": "Progresión Adaptativa",
-          "description": "Las actividades se ajustan al nivel del estudiante, manteniéndolos desafiados pero no frustrados, asegurando que trabajen en el plan de estudios a su propio ritmo."
-        },
-        "forgetting": {
-          "title": "Curva del Olvido",
-          "description": "Los estudiantes revisan conceptos previamente aprendidos para evitar olvidarlos y construir un conocimiento sólido."
-        },
-        "contexts": {
-          "title": "Contextos de la Vida Real",
-          "description": "Hace que el aprendizaje sea más agradable y aplicable utilizando escenarios con los que los estudiantes pueden relacionarse."
-        },
-        "spaced": {
-          "title": "Práctica Espaciada",
-          "description": "Los algoritmos aseguran que los estudiantes revisen los conceptos dominados, promoviendo la retención a largo plazo."
-        },
-        "gamification": {
-          "title": "Gamificación Motivadora",
-          "description": "Las narrativas del juego y los logros desbloqueados estimulan la curiosidad y la consistencia en los estudiantes."
-        }
-      }
-    }
+  "hero": {
+    "title": "¡Transforma la forma en que los estudiantes aprenden matemáticas con Blueberry Math!",
+    "subtitle": "Sumérgete en una experiencia educativa única con nuestra aventura espacial: desafíos emocionantes para tus estudiantes y una transformación completa en la forma en que aprenden matemáticas."
   },
   "about": {
     "title": "¿Qué es Blueberry Math?",
     "description": [
-      "Blueberry Math es una plataforma educativa innovadora que transforma la manera en que los estudiantes aprenden matemáticas a través de una atractiva temática de aventura espacial.",
+      "Blueberry Math es una plataforma educativa innovadora que transforma la forma en que los estudiantes aprenden matemáticas a través de una atractiva temática de aventura espacial.",
       "Nuestra plataforma combina tecnología de vanguardia con métodos educativos probados para crear una experiencia de aprendizaje única que hace que las matemáticas sean divertidas y efectivas para los estudiantes.",
       "A través de desafíos interactivos, rutas de aprendizaje personalizadas y retroalimentación en tiempo real, los estudiantes desarrollan bases matemáticas sólidas mientras disfrutan de su viaje educativo.",
       "Creemos que cada estudiante tiene el potencial de sobresalir en matemáticas, y nuestra plataforma proporciona las herramientas y el apoyo necesarios para desbloquear ese potencial."
@@ -84,9 +28,216 @@
         "La innovación ha sido la base de nuestra filosofía desde nuestros inicios. Investigamos y experimentamos continuamente con nuevas formas de transformar excelente contenido en experiencias de aprendizaje exitosas, integrando evidencia neurocientífica con tecnologías computacionales avanzadas.",
         "Con experiencia reconocida en el sector editorial K-12, diseñamos y construimos soluciones versátiles para satisfacer las necesidades de estudiantes, profesores y escuelas. Durante los últimos 15+ años, hemos apoyado a editoriales educativas en sus transformaciones digitales, pero creemos que la educación aún tiene mucho espacio para la innovación, y estamos comprometidos a hacer más.",
         "Nos apasiona la tecnología y la educación, y sabemos que la tecnología puede revolucionar el proceso de aprendizaje.",
-        "Hemos aprendido mucho de las editoriales y continuamos aprendiendo diariamente al interactuar con profesores, estudiantes y escuelas para entender sus necesidades, frustraciones y aspiraciones por mejores experiencias de aprendizaje.",
+        "Hemos aprendido mucho de las editoriales, y continuamos aprendiendo diariamente al interactuar con profesores, estudiantes y escuelas para entender sus necesidades, frustraciones y aspiraciones por mejores experiencias de aprendizaje.",
         "Así nació Blueberry Math: una combinación de nuestras pasiones por la educación y la tecnología, dirigida a potenciar la experiencia de enseñanza y aprendizaje en una de las materias más críticas. Y esperamos ayudarte a ti, los profesores, a guiar a los estudiantes a convertirse en los individuos que aspiran ser."
       ]
     }
+  },
+  "features": {
+    "title": "¿Cómo mejora Blueberry Math la experiencia de aprendizaje?",
+    "unlimitedResources": {
+      "title": "Recursos Ilimitados",
+      "description": "Con Blueberry Math, tendrás acceso a actividades infinitas diseñadas con una variedad de plantillas dinámicas y atractivas para mantener a tus estudiantes motivados."
+    },
+    "realLifeMath": {
+      "title": "Matemáticas de la Vida Real",
+      "description": "Blueberry Math prepara a los estudiantes para resolver problemas prácticos vinculados a contextos familiares y reconocibles, fomentando un aprendizaje significativo y relevante."
+    },
+    "individualizedProgress": {
+      "title": "Progreso Individualizado",
+      "description": "Cada estudiante progresa a su propio ritmo y nivel, con acceso a actividades adicionales en las que pueden trabajar de forma independiente, adaptándose a la diversidad en el aula."
+    },
+    "tracking": {
+      "title": "Seguimiento y Evaluación",
+      "description": "Accede a análisis detallados del progreso individual y grupal. Descarga informes cualitativos para compartir con las familias o agilizar las evaluaciones."
+    },
+    "pedagogicalSuggestions": {
+      "title": "Sugerencias Pedagógicas",
+      "description": "Recibe recomendaciones personalizadas para ayudarte a identificar necesidades específicas de cada estudiante para que puedas guiarlos efectivamente a superar desafíos y progresar."
+    },
+    "learningFromMistakes": {
+      "title": "Aprendiendo de los Errores",
+      "description": "Creemos que los errores son siempre oportunidades para aprender. Cada actividad proporciona retroalimentación instantánea y detallada o soluciones paso a paso para ayudar a los estudiantes a entender sus errores y avanzar."
+    }
+  },
+  "teacherSupport": {
+    "title": "Apoyo para Profesores",
+    "description": "Entendemos que la diversidad en el aula puede ser un desafío para los profesores, ya que satisfacer las necesidades específicas de cada estudiante no siempre es fácil. En Blueberry Math, nuestro objetivo es ahorrarte tiempo valioso para que puedas concentrarte en lo que mejor sabes hacer: enseñar.",
+    "curriculum": {
+      "title": "Planificación y Organización Curricular",
+      "description": "Adaptamos el contenido a tu horario y libros de texto, asegurando que los estudiantes practiquen exactamente lo que necesitas reforzar."
+    },
+    "experience": {
+      "title": "Experiencia Pedagógica",
+      "description": "Después de tu clase, los estudiantes pueden practicar de forma cooperativa o trabajar de forma independiente."
+    },
+    "monitoring": {
+      "title": "Monitoreo y Evaluación Cualitativa",
+      "description": "Obtén información completa sobre el progreso de toda la clase y cada estudiante. Descarga informes cualitativos para compartir con los padres o evaluar a los estudiantes de manera más efectiva."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para transformar el aprendizaje de matemáticas?",
+    "subtitle": "Únete a miles de profesores y estudiantes que ya usan Blueberry Math",
+    "trial": "Comienza tu Prueba Gratuita",
+    "demo": "Ver Demo"
+  },
+  "testimonials": {
+    "title": "Lo que Dicen Nuestros Usuarios",
+    "subtitle": "Escucha a profesores, estudiantes y padres que usan Blueberry Math",
+    "roles": {
+      "teacher": "Profesor",
+      "student": "Estudiante",
+      "parent": "Padre/Madre"
+    },
+    "sarah": "Blueberry Math ha transformado la forma en que mi hijo aprende matemáticas. Las actividades atractivas y la retroalimentación instantánea hacen que el aprendizaje sea divertido y efectivo.",
+    "michael": "Solía tener dificultades con las matemáticas, ¡pero ahora espero con ansias resolver problemas. ¡El tema espacial lo hace emocionante!",
+    "lisa": "Como profesora, aprecio cómo Blueberry Math me ayuda a seguir el progreso de los estudiantes e identificar áreas donde necesitan más apoyo."
+  },
+  "language": {
+    "select": "Seleccionar idioma",
+    "en": "Inglés",
+    "es": "Español",
+    "pt": "Português"
+  },
+  "buttons": {
+    "trial": {
+      "text": "Comienza tu Prueba Gratuita",
+      "url": "https://app.blueberrymath.com/signup"
+    },
+    "video": {
+      "text": "Ver un video",
+      "url": "https://www.youtube.com/watch?v=demo"
+    }
+  },
+  "activities": {
+    "title": "Nuestras Actividades",
+    "pageTitle": "Actividades",
+    "pageDescription": "Explora nuestras actividades interactivas de matemáticas diseñadas para un aprendizaje atractivo.",
+    "takeALook": "¡Echa un vistazo!",
+    "categoriesDescription": "Exploramos conceptos matemáticos a través de diversas actividades organizadas en las siguientes categorías:",
+    "selectGrade": "Seleccionar Grado",
+    "grade": "Grado",
+    "selectContent": "Selecciona un contenido para ver un ejemplo de las actividades",
+    "simplifyingComplexity": {
+      "title": "Simplificando la Complejidad",
+      "description": "Hemos dividido los objetivos de aprendizaje en componentes pequeños y bien definidos conectados entre sí. Nuestro algoritmo utiliza esta estructura para guiar a los estudiantes a través del aprendizaje personalizado, asegurando que progresen en el orden correcto con un enfoque gradual."
+    },
+    "personalizedMap": {
+      "title": "Tu Mapa Personalizado",
+      "description": "Estructuramos los componentes de conocimiento basados en tu plan de estudios para que los estudiantes encuentren los mismos nombres de unidades y lecciones en Blueberry Math que en sus materiales escolares."
+    },
+    "infinitePossibilities": {
+      "title": "Posibilidades Infinitas",
+      "description": "Cada objetivo de aprendizaje tiene su propio motor de evaluación capaz de generar una variedad ilimitada de actividades. Estas actividades son diseñadas por un equipo interdisciplinario de educadores, pedagogos, matemáticos, expertos en gramática y diseñadores. Los valores de las actividades se actualizan automáticamente, brindando a cada estudiante una experiencia personalizada cada vez. Con una base de 8,000 actividades, las posibilidades son infinitas: cada estudiante enfrenta diferentes desafíos cada vez que inicia sesión."
+    },
+    "holisticLearning": {
+      "title": "Aprendizaje Holístico",
+      "description": "Nuestra metodología asegura un aprendizaje integral a través de un enfoque estructurado. Identificar - Los estudiantes aprenden a reconocer y comprender conceptos matemáticos clave en diversos contextos. Recordar - Los estudiantes practican la recuperación y aplicación de conceptos previamente aprendidos para reforzar la comprensión. Aplicar - Los estudiantes demuestran dominio utilizando el conocimiento matemático para resolver problemas del mundo real de manera efectiva."
+    },
+    "categories": {
+      "numbersAndOperations": {
+        "title": "Números y Operaciones",
+        "activities": {
+          "counting": "Aprendiendo a Contar Seleccionando Objetos",
+          "adding": "Sumando Cantidades",
+          "subtraction": "Entendiendo la Sustracción Tachando Elementos",
+          "numberLine": "Indicando Números en la Recta Numérica",
+          "fractions": "Relacionando Fracciones con sus Representaciones Visuales",
+          "coloringFractions": "Coloreando Fracciones Gráficamente"
+        }
+      },
+      "geometry": {
+        "title": "Geometría",
+        "activities": {
+          "spatialLocalization": "Colocando Objetos para Aprender Localización Espacial",
+          "spatialConcepts": "Miles de Combinaciones para Explorar Conceptos como Izquierda, Derecha, Arriba y Abajo",
+          "lineTypes": "Identificando Tipos de Líneas, Ángulos y Polígonos",
+          "labelingElements": "Etiquetando Elementos en una Imagen",
+          "coordinateAxes": "Entendiendo los Ejes de Coordenadas",
+          "calculations": "Calculando Perímetros, Áreas y Volúmenes"
+        }
+      },
+      "magnitudes": {
+        "title": "Magnitudes y Medidas",
+        "activities": {
+          "analogClocks": "Aprendiendo la Hora con Relojes Analógicos",
+          "digitalClocks": "Y con Relojes Digitales",
+          "calendar": "Entendiendo los Días de la Semana y los Meses del Año",
+          "measurement": "Comprendiendo las Unidades de Medida",
+          "money": "Entendiendo el Valor de Monedas y Billetes"
+        }
+      },
+      "probability": {
+        "title": "Probabilidad y Estadísticas",
+        "activities": {
+          "dataTables": "Completando Tablas de Registro de Datos",
+          "pictograms": "Interpretando Información en Pictogramas",
+          "barcodes": "Entendiendo Códigos de Barras",
+          "frequencyCurves": "Analizando Curvas de Frecuencia",
+          "pieCharts": "Interpretando Gráficas de Pastel",
+          "createPictograms": "Creando Pictogramas",
+          "createBarGraphs": "Creando Gráficas de Barras",
+          "drawFrequencyCurves": "Dibujando Curvas de Frecuencia",
+          "probabilityConcepts": "Entendiendo Conceptos de Probabilidad"
+        }
+      },
+      "algebra": {
+        "title": "Álgebra y Funciones"
+      }
+    }
+  },
+  "implementation": {
+    "title": "Implementación Escolar",
+    "subtitle": "Comienza tu viaje con Blueberry Math y transforma la educación matemática en tu escuela",
+    "steps": {
+      "signup": {
+        "title": "Regístrate",
+        "description": "Crea tu cuenta y comienza con una prueba gratuita"
+      },
+      "createClass": {
+        "title": "Crea Tu Clase",
+        "description": "Configura tu aula virtual e invita a tus estudiantes"
+      },
+      "start": {
+        "title": "Comienza a Enseñar",
+        "description": "Empieza a usar Blueberry Math en tu aula"
+      }
+    },
+    "guide": "Guía del Profesor",
+    "guidesAndFaq": "Guías y Preguntas Frecuentes",
+    "faqs": {
+      "devices": {
+        "question": "¿Qué dispositivos son compatibles?",
+        "answer": "Blueberry Math funciona en cualquier dispositivo con un navegador web moderno - computadoras, tabletas y teléfonos inteligentes."
+      },
+      "browsers": {
+        "question": "¿Qué navegadores se recomiendan?",
+        "answer": "Recomendamos usar las últimas versiones de Chrome, Firefox, Safari o Edge."
+      },
+      "data": {
+        "question": "¿Cómo se protegen los datos de los estudiantes?",
+        "answer": "Seguimos estrictas pautas de protección de datos y aseguramos que todos los datos de los estudiantes estén encriptados y seguros."
+      },
+      "algorithm": {
+        "question": "¿Cómo funciona el algoritmo de aprendizaje?",
+        "answer": "Nuestro algoritmo se adapta al ritmo y estilo de aprendizaje de cada estudiante, proporcionando contenido y desafíos personalizados."
+      }
+    }
+  },
+  "events": {
+    "currentEvents": "Eventos Actuales",
+    "pastEvents": "Eventos Pasados",
+    "noEvents": "No hay eventos programados en este momento",
+    "finished": "Finalizado",
+    "viewResults": "Ver Resultados",
+    "viewDetails": "Ver Detalles",
+    "viewHighlights": "Ver Destacados"
+  },
+  "footer": {
+    "support": "Soporte",
+    "legalAdvice": "Aviso Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidad"
   }
 }

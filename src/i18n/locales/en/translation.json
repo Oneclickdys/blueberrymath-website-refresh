@@ -8,85 +8,42 @@
     "login": "Login",
     "signup": "Sign Up"
   },
-  "howItWorks": {
-    "title": "How to use Blueberry Math",
-    "subtitle": "A simple and effective Method",
-    "scienceTitle": "The Science Behind",
-    "scienceSubtitle": "Understanding how Blueberry Math enhances learning",
-    "evidenceTitle": "Scientific Evidence",
-    "evidenceSubtitle": "Research that supports our methodology",
-    "method": {
-      "steps": {
-        "integrate": {
-          "title": "Integrate Blueberry into Daily Routines",
-          "description": "Blueberry Math is a versatile tool that can be used at home or in school. In the classroom, dedicate a few minutes at the beginning or end of the class to reinforce what you've taught, or use it as a reward activity after completing other tasks."
-        },
-        "consistency": {
-          "title": "Consistency is Key",
-          "description": "Establish a daily routine, whether at home, in the classroom, or both, for students to practice math for 15 minutes a day, consolidating their key skills."
-        },
-        "motivation": {
-          "title": "Motivate Through Game Narrative",
-          "description": "Teachers guide students through topics that will be covered in the following week. Encourage them to complete missions as part of their learning and engage with the storyline."
-        },
-        "dashboard": {
-          "title": "Use the Teacher Dashboard as Your Ally",
-          "description": "Review your students' progress at least once a week, identify those needing additional support, and plan personalized interventions based on the platform's data. Use progress and dedication reports to group students for peer-learning opportunities."
-        },
-        "families": {
-          "title": "Involve Families in Learning",
-          "description": "Share progress reports with parents at the end of each term to keep them informed and involved in their child's mathematical development."
-        },
-        "evaluation": {
-          "title": "Fun Knowledge Evaluation",
-          "description": "Use in-class weekly practice sessions to review topics and conduct diagnostic assessments in a dynamic and collaborative way, tailored to your class's levels."
-        }
-      }
+  "language": {
+    "select": "Select language",
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  },
+  "activities": {
+    "title": "Our Activities",
+    "pageTitle": "Activities",
+    "pageDescription": "Explore our interactive math activities designed for engaging learning.",
+    "takeALook": "Take a look!",
+    "categoriesDescription": "We explore mathematical concepts through various activities organized into the following categories:",
+    "selectGrade": "Select Grade",
+    "grade": "Grade",
+    "selectContent": "Select a content to see an example of the activities",
+    "simplifyingComplexity": {
+      "title": "Simplifying Complexity",
+      "description": "We've broken down learning objectives into small, well-defined components connected to each other. Our algorithm uses this structure to guide students through personalized learning, ensuring they progress in the correct order with a gradual approach."
     },
-    "science": {
-      "points": {
-        "adaptive": {
-          "title": "Adaptive Progression",
-          "description": "Activities adjust to the student's level, keeping them challenged but not frustrated, ensuring they work through the curriculum at their own pace."
-        },
-        "forgetting": {
-          "title": "Forgetting Curve",
-          "description": "Students review previously learned concepts to avoid forgetting and build strong knowledge."
-        },
-        "contexts": {
-          "title": "Real-Life Contexts",
-          "description": "Make learning more enjoyable and applicable by using scenarios students can relate to."
-        },
-        "spaced": {
-          "title": "Spaced Practice",
-          "description": "Algorithms ensure students revisit mastered concepts, promoting long-term retention."
-        },
-        "gamification": {
-          "title": "Motivating Gamification",
-          "description": "Game narratives and unlocked achievements stimulate curiosity and consistency in students."
-        }
-      }
+    "personalizedMap": {
+      "title": "Your Personalized Map",
+      "description": "We structure the knowledge components based on your curriculum so students will find the same unit and lesson names on Blueberry Math as in their school materials."
+    },
+    "infinitePossibilities": {
+      "title": "Infinite Possibilities",
+      "description": "Every learning goal has its own evaluation engine capable of generating a limitless variety of activities. These activities are designed by an interdisciplinary team of educators, pedagogues, mathematicians, grammar experts, and designers. Activity values update automatically, giving each student a personalized experience every time. With a base of 8,000 activities, the possibilities are endless: each student faces different challenges every time they log in."
+    },
+    "holisticLearning": {
+      "title": "Holistic Learning",
+      "description": "Our methodology ensures comprehensive learning through a structured approach. Identify - Students learn to recognize and understand key mathematical concepts in various contexts. Recall - Students practice retrieving and applying previously learned concepts to reinforce understanding. Apply - Students demonstrate mastery by using mathematical knowledge to solve real-world problems effectively."
     }
   },
-  "about": {
-    "title": "What is Blueberry Math?",
-    "description": [
-      "Blueberry Math is an innovative educational platform that transforms how students learn mathematics through an engaging space adventure theme.",
-      "Our platform combines cutting-edge technology with proven educational methods to create a unique learning experience that makes mathematics both fun and effective for students.",
-      "Through interactive challenges, personalized learning paths, and real-time feedback, students develop strong mathematical foundations while enjoying their educational journey.",
-      "We believe that every student has the potential to excel in mathematics, and our platform provides the tools and support needed to unlock that potential."
-    ],
-    "whoIsBehind": {
-      "title": "Who is behind Blueberry Math?",
-      "poweredBy": "Blueberry Math is a product powered by",
-      "description": [
-        "Oneclick is a team of digital technologists, product experts, and education enthusiasts united by a common goal: to make the world a better place through education by helping millions of students become fulfilled adults.",
-        "Innovation has been the foundation of our ethos since our inception. We continuously research and experiment with new ways to transform great content into successful learning experiences, integrating neuroscientific evidence with advanced computational technologies.",
-        "With recognized expertise in the K–12 publishing sector, we design and build versatile solutions to meet the needs of students, teachers, and schools. Over the past 15+ years, we've supported educational publishers in their digital transformations, but we believe education still has much room for innovation, and we're committed to doing more.",
-        "We're passionate about technology and education, and we know technology can revolutionize the learning process.",
-        "We've learned so much from publishers, and we continue learning daily by engaging with teachers, students, and schools to understand their needs, frustrations, and aspirations for better learning experiences.",
-        "That's how Blueberry Math was born—a combination of our passions for education and technology, aimed at empowering the teaching and learning experience in one of the most critical subjects. And hopefully, helping you, the teachers, to guide students in becoming the individuals they aspire to be."
-      ]
-    }
+  "footer": {
+    "support": "Support",
+    "legalAdvice": "Legal Advice",
+    "cookiesPolicy": "Cookies Policy",
+    "privacyPolicy": "Privacy Policy"
   }
 }
