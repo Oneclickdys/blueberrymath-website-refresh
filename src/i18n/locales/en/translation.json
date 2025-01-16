@@ -100,6 +100,13 @@
   },
   "activities": {
     "title": "Our Activities",
+    "pageTitle": "Activities",
+    "pageDescription": "Explore our interactive math activities designed for engaging learning.",
+    "takeALook": "Take a look!",
+    "categoriesDescription": "We explore mathematical concepts through various activities organized into the following categories:",
+    "selectGrade": "Select Grade",
+    "grade": "Grade",
+    "selectContent": "Select a content to see an example of the activities",
     "simplifyingComplexity": {
       "title": "Simplifying Complexity",
       "description": "We've broken down learning objectives into small, well-defined components connected to each other. Our algorithm uses this structure to guide students through personalized learning, ensuring they progress in the correct order with a gradual approach."
@@ -115,43 +122,56 @@
     "holisticLearning": {
       "title": "Holistic Learning",
       "description": "Our methodology ensures comprehensive learning through a structured approach. Identify - Students learn to recognize and understand key mathematical concepts in various contexts. Recall - Students practice retrieving and applying previously learned concepts to reinforce understanding. Apply - Students demonstrate mastery by using mathematical knowledge to solve real-world problems effectively."
-    }
-  },
-  "implementation": {
-    "title": "School Implementation",
-    "subtitle": "Get started with Blueberry Math in your school",
-    "steps": {
-      "signup": {
-        "title": "Sign Up",
-        "description": "Create your account and get started with a free trial"
-      },
-      "createClass": {
-        "title": "Create Your Class",
-        "description": "Set up your virtual classroom and invite your students"
-      },
-      "start": {
-        "title": "Start Teaching",
-        "description": "Begin using Blueberry Math in your classroom"
-      }
     },
-    "guide": "Teacher's Guide",
-    "guidesAndFaq": "Guides & FAQs",
-    "faqs": {
-      "devices": {
-        "question": "What devices are supported?",
-        "answer": "Blueberry Math works on any device with a modern web browser - computers, tablets, and smartphones."
+    "categories": {
+      "numbersAndOperations": {
+        "title": "Numbers and Operations",
+        "activities": {
+          "counting": "Learning to Count by Selecting Objects",
+          "adding": "Adding by Summing Quantities",
+          "subtraction": "Understanding Subtraction by Crossing Out Elements",
+          "numberLine": "Indicating Numbers on the Number Line",
+          "fractions": "Matching Fractions to Their Visual Representations",
+          "coloringFractions": "Coloring Fractions Graphically"
+        }
       },
-      "browsers": {
-        "question": "Which browsers are recommended?",
-        "answer": "We recommend using the latest versions of Chrome, Firefox, Safari, or Edge."
+      "geometry": {
+        "title": "Geometry",
+        "activities": {
+          "spatialLocalization": "Placing Objects to Learn Spatial Localization",
+          "spatialConcepts": "Thousands of Combinations to Explore Concepts Like Left, Right, Up, and Down",
+          "lineTypes": "Identifying Line Types, Angles, and Polygons",
+          "labelingElements": "Labeling Elements in an Image",
+          "coordinateAxes": "Understanding Coordinate Axes",
+          "calculations": "Calculating Perimeters, Areas, and Volumes"
+        }
       },
-      "data": {
-        "question": "How is student data protected?",
-        "answer": "We follow strict data protection guidelines and ensure all student data is encrypted and secure."
+      "magnitudes": {
+        "title": "Magnitudes and Measurements",
+        "activities": {
+          "analogClocks": "Learning Time with Analog Clocks",
+          "digitalClocks": "And with Digital Clocks",
+          "calendar": "Understanding Days of the Week and Months of the Year",
+          "measurement": "Grasping Units of Measurement",
+          "money": "Understanding the Value of Coins and Bills"
+        }
       },
-      "algorithm": {
-        "question": "How does the learning algorithm work?",
-        "answer": "Our algorithm adapts to each student's learning pace and style, providing personalized content and challenges."
+      "probability": {
+        "title": "Probability and Statistics",
+        "activities": {
+          "dataTables": "Completing Data Recording Tables",
+          "pictograms": "Interpreting Information in Pictograms",
+          "barcodes": "Understanding Barcodes",
+          "frequencyCurves": "Analyzing Frequency Curves",
+          "pieCharts": "Interpreting Pie Charts",
+          "createPictograms": "Creating Pictograms",
+          "createBarGraphs": "Creating Bar Graphs",
+          "drawFrequencyCurves": "Drawing Frequency Curves",
+          "probabilityConcepts": "Understanding Probability Concepts"
+        }
+      },
+      "algebra": {
+        "title": "Algebra and Functions"
       }
     }
   }

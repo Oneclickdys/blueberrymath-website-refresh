@@ -3,61 +3,63 @@ import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
 import { Introduction } from '@/components/activities/Introduction';
 import { CategoryTabs } from '@/components/activities/CategoryTabs';
+import { useTranslation } from 'react-i18next';
 
 interface ActivitiesProps {}
 
 const Activities: React.FC<ActivitiesProps> = () => {
   const [grade, setGrade] = useState("1");
+  const { t } = useTranslation();
 
   const categories = {
     numbersAndOperations: {
-      title: "Numbers and Operations",
+      title: t('activities.categories.numbersAndOperations.title'),
       activities: [
-        { name: "Learning to Count by Selecting Objects", grades: "1-2" },
-        { name: "Adding by Summing Quantities", grades: "1-2" },
-        { name: "Understanding Subtraction by Crossing Out Elements", grades: "1-2" },
-        { name: "Indicating Numbers on the Number Line", grades: "1-6" },
-        { name: "Matching Fractions to Their Visual Representations", grades: "3-6" },
-        { name: "Coloring Fractions Graphically", grades: "3-6" },
+        { name: t('activities.categories.numbersAndOperations.activities.counting'), grades: "1-2" },
+        { name: t('activities.categories.numbersAndOperations.activities.adding'), grades: "1-2" },
+        { name: t('activities.categories.numbersAndOperations.activities.subtraction'), grades: "1-2" },
+        { name: t('activities.categories.numbersAndOperations.activities.numberLine'), grades: "1-6" },
+        { name: t('activities.categories.numbersAndOperations.activities.fractions'), grades: "3-6" },
+        { name: t('activities.categories.numbersAndOperations.activities.coloringFractions'), grades: "3-6" },
       ]
     },
     geometry: {
-      title: "Geometry",
+      title: t('activities.categories.geometry.title'),
       activities: [
-        { name: "Placing Objects to Learn Spatial Localization", grades: "1-2" },
-        { name: "Thousands of Combinations to Explore Concepts Like Left, Right, Up, and Down", grades: "1-6" },
-        { name: "Identifying Line Types, Angles, and Polygons", grades: "3-6" },
-        { name: "Labeling Elements in an Image", grades: "3-6" },
-        { name: "Understanding Coordinate Axes", grades: "3-6" },
-        { name: "Calculating Perimeters, Areas, and Volumes", grades: "3-6" },
+        { name: t('activities.categories.geometry.activities.spatialLocalization'), grades: "1-2" },
+        { name: t('activities.categories.geometry.activities.spatialConcepts'), grades: "1-6" },
+        { name: t('activities.categories.geometry.activities.lineTypes'), grades: "3-6" },
+        { name: t('activities.categories.geometry.activities.labelingElements'), grades: "3-6" },
+        { name: t('activities.categories.geometry.activities.coordinateAxes'), grades: "3-6" },
+        { name: t('activities.categories.geometry.activities.calculations'), grades: "3-6" },
       ]
     },
     magnitudes: {
-      title: "Magnitudes and Measurements",
+      title: t('activities.categories.magnitudes.title'),
       activities: [
-        { name: "Learning Time with Analog Clocks", grades: "1-6" },
-        { name: "And with Digital Clocks", grades: "1-6" },
-        { name: "Understanding Days of the Week and Months of the Year", grades: "1-3" },
-        { name: "Grasping Units of Measurement", grades: "1-6" },
-        { name: "Understanding the Value of Coins and Bills", grades: "1-6" },
+        { name: t('activities.categories.magnitudes.activities.analogClocks'), grades: "1-6" },
+        { name: t('activities.categories.magnitudes.activities.digitalClocks'), grades: "1-6" },
+        { name: t('activities.categories.magnitudes.activities.calendar'), grades: "1-3" },
+        { name: t('activities.categories.magnitudes.activities.measurement'), grades: "1-6" },
+        { name: t('activities.categories.magnitudes.activities.money'), grades: "1-6" },
       ]
     },
     probability: {
-      title: "Probability and Statistics",
+      title: t('activities.categories.probability.title'),
       activities: [
-        { name: "Completing Data Recording Tables", grades: "1-6" },
-        { name: "Interpreting Information in Pictograms", grades: "1-6" },
-        { name: "Understanding Barcodes", grades: "1-5" },
-        { name: "Analyzing Frequency Curves", grades: "5-6" },
-        { name: "Interpreting Pie Charts", grades: "4-6" },
-        { name: "Creating Pictograms", grades: "1-5" },
-        { name: "Creating Bar Graphs", grades: "1-5" },
-        { name: "Drawing Frequency Curves", grades: "5-6" },
-        { name: "Understanding Probability Concepts", grades: "1-6" },
+        { name: t('activities.categories.probability.activities.dataTables'), grades: "1-6" },
+        { name: t('activities.categories.probability.activities.pictograms'), grades: "1-6" },
+        { name: t('activities.categories.probability.activities.barcodes'), grades: "1-5" },
+        { name: t('activities.categories.probability.activities.frequencyCurves'), grades: "5-6" },
+        { name: t('activities.categories.probability.activities.pieCharts'), grades: "4-6" },
+        { name: t('activities.categories.probability.activities.createPictograms'), grades: "1-5" },
+        { name: t('activities.categories.probability.activities.createBarGraphs'), grades: "1-5" },
+        { name: t('activities.categories.probability.activities.drawFrequencyCurves'), grades: "5-6" },
+        { name: t('activities.categories.probability.activities.probabilityConcepts'), grades: "1-6" },
       ]
     },
     algebra: {
-      title: "Algebra and Functions",
+      title: t('activities.categories.algebra.title'),
       activities: []
     }
   };
@@ -82,8 +84,8 @@ const Activities: React.FC<ActivitiesProps> = () => {
   return (
     <>
       <Helmet>
-        <title>Activities - Blueberry Math</title>
-        <meta name="description" content="Explore our interactive math activities designed for engaging learning." />
+        <title>{t('activities.pageTitle')} - Blueberry Math</title>
+        <meta name="description" content={t('activities.pageDescription')} />
       </Helmet>
       <Header />
       <main className="pt-16">
@@ -91,21 +93,21 @@ const Activities: React.FC<ActivitiesProps> = () => {
           <Introduction />
           
           <section className="space-y-6">
-            <h2 className="text-3xl font-bold text-primary-dark">Take a look!</h2>
+            <h2 className="text-3xl font-bold text-primary-dark">{t('activities.takeALook')}</h2>
             <p className="text-gray-600">
-              We explore mathematical concepts through various activities organized into the following categories:
+              {t('activities.categoriesDescription')}
             </p>
 
             <div className="space-y-4">
               <div className="flex gap-4 items-center">
-                <label className="font-medium">Select Grade:</label>
+                <label className="font-medium">{t('activities.selectGrade')}:</label>
                 <select 
                   value={grade}
                   onChange={(e) => setGrade(e.target.value)}
                   className="border rounded-md p-2"
                 >
                   {[1,2,3,4,5,6].map((g) => (
-                    <option key={g} value={g}>Grade {g}</option>
+                    <option key={g} value={g}>{t('activities.grade')} {g}</option>
                   ))}
                 </select>
               </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ActivityList } from './ActivityList';
+import { useTranslation } from 'react-i18next';
 
 interface Category {
   title: string;
@@ -16,6 +17,7 @@ interface CategoryTabsProps {
 }
 
 export const CategoryTabs: React.FC<CategoryTabsProps> = ({ categories }) => {
+  const { t } = useTranslation();
   // Get the first category key for default value
   const defaultCategory = Object.keys(categories)[0] || "numbersAndOperations";
 
@@ -39,7 +41,7 @@ export const CategoryTabs: React.FC<CategoryTabsProps> = ({ categories }) => {
             <CardHeader>
               <CardTitle>{category.title}</CardTitle>
               <CardDescription>
-                Select a content to see an example of the activities
+                {t('activities.selectContent')}
               </CardDescription>
             </CardHeader>
             <CardContent>
