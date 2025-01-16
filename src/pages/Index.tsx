@@ -4,6 +4,7 @@ import { CTASection } from "@/components/CTASection";
 import { Header } from "@/components/Header";
 import { About } from "@/components/About";
 import { TeacherSupport } from "@/components/TeacherSupport";
+import { Testimonials } from "@/components/Testimonials";
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
@@ -33,6 +34,7 @@ const Index = () => {
         <Features />
         <TeacherSupport />
         <CTASection />
+        <Testimonials />
       </main>
     </>
   );
