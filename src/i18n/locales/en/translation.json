@@ -26,7 +26,19 @@
       "Our platform combines cutting-edge technology with proven educational methods to create a unique learning experience that makes mathematics both fun and effective for students.",
       "Through interactive challenges, personalized learning paths, and real-time feedback, students develop strong mathematical foundations while enjoying their educational journey.",
       "We believe that every student has the potential to excel in mathematics, and our platform provides the tools and support needed to unlock that potential."
-    ]
+    ],
+    "whoIsBehind": {
+      "title": "Who is behind Blueberry Math?",
+      "poweredBy": "Blueberry Math is a product powered by",
+      "description": [
+        "Oneclick is a team of digital technologists, product experts, and education enthusiasts united by a common goal: to make the world a better place through education by helping millions of students become fulfilled adults.",
+        "Innovation has been the foundation of our ethos since our inception. We continuously research and experiment with new ways to transform great content into successful learning experiences, integrating neuroscientific evidence with advanced computational technologies.",
+        "With recognized expertise in the K–12 publishing sector, we design and build versatile solutions to meet the needs of students, teachers, and schools. Over the past 15+ years, we've supported educational publishers in their digital transformations, but we believe education still has much room for innovation, and we're committed to doing more.",
+        "We're passionate about technology and education, and we know technology can revolutionize the learning process.",
+        "We've learned so much from publishers, and we continue learning daily by engaging with teachers, students, and schools to understand their needs, frustrations, and aspirations for better learning experiences.",
+        "That's how Blueberry Math was born—a combination of our passions for education and technology, aimed at empowering the teaching and learning experience in one of the most critical subjects. And hopefully, helping you, the teachers, to guide students in becoming the individuals they aspire to be."
+      ]
+    }
   },
   "features": {
     "title": "How Blueberry Math enhances the learning experience",
