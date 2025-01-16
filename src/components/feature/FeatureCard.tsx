@@ -22,7 +22,7 @@ export const FeatureCard = ({
 }: FeatureCardProps) => {
   return (
     <div 
-      className="h-[300px] perspective-1000 w-full cursor-pointer"
+      className="relative h-[300px] w-full perspective-1000 cursor-pointer"
       onClick={onClick}
     >
       <div
