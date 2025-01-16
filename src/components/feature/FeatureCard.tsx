@@ -22,7 +22,7 @@ export const FeatureCard = ({
 }: FeatureCardProps) => {
   return (
     <div 
-      className="h-[300px] perspective-1000 cursor-pointer"
+      className="h-[300px] perspective-1000 w-full cursor-pointer"
       onClick={onClick}
     >
       <div
@@ -31,7 +31,7 @@ export const FeatureCard = ({
         }`}
       >
         {/* Front of card */}
-        <Card className="absolute w-full h-full p-6 flex flex-col items-center justify-center bg-white hover:shadow-lg transition-shadow backface-hidden">
+        <Card className="absolute inset-0 w-full h-full p-6 flex flex-col items-center justify-center bg-white hover:shadow-lg transition-shadow backface-hidden">
           <Icon className="w-12 h-12 text-primary mb-4" />
           <h3 className="text-xl font-semibold mb-3 text-primary-dark text-center">
             {title}
@@ -42,7 +42,7 @@ export const FeatureCard = ({
         </Card>
 
         {/* Back of card */}
-        <Card className="absolute w-full h-full p-6 bg-primary text-white flex flex-col items-center justify-center backface-hidden rotate-y-180">
+        <Card className="absolute inset-0 w-full h-full p-6 bg-primary text-white flex flex-col items-center justify-center backface-hidden rotate-y-180">
           <div className="w-full h-32 mb-4 overflow-hidden rounded-lg">
             <img 
               src={`https://images.unsplash.com/photo-${backImage}`}
