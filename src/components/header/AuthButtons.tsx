@@ -1,6 +1,7 @@
 import { LogIn, UserPlus } from 'lucide-react';
 import { Button } from '../ui/button';
 import { getDashboardUrl } from '@/utils/regionUtils';
+import { useTranslation } from 'react-i18next';
 
 interface AuthButtonsProps {
   onLoginClick: () => void;
@@ -8,6 +9,8 @@ interface AuthButtonsProps {
 }
 
 export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
+  const { t } = useTranslation();
+
   const handleSignUp = () => {
     const dashboardUrl = getDashboardUrl();
     window.open(dashboardUrl, '_blank');
@@ -22,7 +25,7 @@ export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
         className="flex items-center gap-2"
       >
         <LogIn className="h-4 w-4" />
-        Login
+        {t('header.login')}
       </Button>
       <Button
         variant="default"
@@ -31,7 +34,7 @@ export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
         className="flex items-center gap-2"
       >
         <UserPlus className="h-4 w-4" />
-        Sign Up
+        {t('header.signup')}
       </Button>
     </div>
   );
