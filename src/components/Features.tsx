@@ -72,7 +72,7 @@ export const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="h-[300px] perspective-1000"
+              className="h-[300px] perspective-1000 cursor-pointer"
               onClick={() => toggleCard(index)}
             >
               <div
@@ -81,33 +81,33 @@ export const Features = () => {
                 }`}
               >
                 {/* Front of card */}
-                <Card 
-                  className="absolute w-full h-full backface-hidden p-6 flex flex-col items-center justify-center bg-white cursor-pointer"
-                >
-                  <feature.icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-xl font-semibold mb-3 text-primary-dark text-center">
-                    {feature.title}
-                  </h3>
-                  <p className="text-gray-600 text-center">
-                    {feature.description}
-                  </p>
-                </Card>
+                <div className="absolute w-full h-full backface-hidden">
+                  <Card className="w-full h-full p-6 flex flex-col items-center justify-center bg-white">
+                    <feature.icon className="w-12 h-12 text-primary mb-4" />
+                    <h3 className="text-xl font-semibold mb-3 text-primary-dark text-center">
+                      {feature.title}
+                    </h3>
+                    <p className="text-gray-600 text-center">
+                      {feature.description}
+                    </p>
+                  </Card>
+                </div>
 
                 {/* Back of card */}
-                <Card 
-                  className="absolute w-full h-full backface-hidden p-6 rotate-y-180 bg-primary text-white flex flex-col items-center justify-center cursor-pointer"
-                >
-                  <div className="w-full h-32 mb-4 overflow-hidden rounded-lg">
-                    <img 
-                      src={`https://images.unsplash.com/photo-${feature.backImage}`}
-                      alt={feature.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <p className="text-sm text-center">
-                    {feature.backText}
-                  </p>
-                </Card>
+                <div className="absolute w-full h-full backface-hidden rotate-y-180">
+                  <Card className="w-full h-full p-6 bg-primary text-white flex flex-col items-center justify-center">
+                    <div className="w-full h-32 mb-4 overflow-hidden rounded-lg">
+                      <img 
+                        src={`https://images.unsplash.com/photo-${feature.backImage}`}
+                        alt={feature.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <p className="text-sm text-center">
+                      {feature.backText}
+                    </p>
+                  </Card>
+                </div>
               </div>
             </div>
           ))}
