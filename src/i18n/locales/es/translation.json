@@ -67,7 +67,7 @@
   "cta": {
     "title": "¿Listo para transformar el aprendizaje de matemáticas?",
     "subtitle": "Únete a miles de profesores y estudiantes que ya usan Blueberry Math",
-    "trial": "Comenzar Prueba Gratuita",
+    "trial": "Comienza tu Prueba Gratuita",
     "demo": "Ver Demo"
   },
   "testimonials": {
@@ -88,6 +88,16 @@
     "es": "Español",
     "pt": "Português"
   },
+  "buttons": {
+    "trial": {
+      "text": "Comienza tu Prueba Gratuita",
+      "url": "https://app.blueberrymath.com/signup"
+    },
+    "video": {
+      "text": "Mira una Demo",
+      "url": "https://www.youtube.com/watch?v=demo"
+    }
+  },
   "activities": {
     "title": "Nuestras Actividades",
     "simplifyingComplexity": {
@@ -105,39 +115,6 @@
     "holisticLearning": {
       "title": "Aprendizaje Holístico",
       "description": "Nuestra metodología asegura un aprendizaje integral a través de un enfoque estructurado. Identificar - Los estudiantes aprenden a reconocer y comprender conceptos matemáticos clave en diversos contextos. Recordar - Los estudiantes practican la recuperación y aplicación de conceptos previamente aprendidos para reforzar la comprensión. Aplicar - Los estudiantes demuestran dominio utilizando el conocimiento matemático para resolver problemas del mundo real de manera efectiva."
-    }
-  },
-  "implementation": {
-    "title": "Cómo empezar a usar Blueberry Math en tu escuela",
-    "subtitle": "¡Comenzar con Blueberry Math es fácil! Sigue estos sencillos pasos para desbloquear todo el potencial de nuestra plataforma:",
-    "guide": "Guía para el docente",
-    "guidesAndFaq": "Guías y FAQs",
-    "steps": {
-      "signup": "Regístrate",
-      "signupDesc": "Crea tu cuenta de profesor para comenzar con Blueberry Math",
-      "createClass": "Crea Tu Clase",
-      "createClassDesc": "Configura tu aula virtual y agrega a tus estudiantes",
-      "start": "Comienza a Aprender",
-      "startDesc": "Empieza a usar Blueberry Math con tus estudiantes"
-    },
-    "faqs": {
-      "title": "FAQs",
-      "devices": {
-        "question": "¿Desde qué dispositivos puedo acceder a Blueberry Math?",
-        "answer": "Computadora Windows o MacOS, Tablets y Chromebooks usando Chrome o Safari en sus versiones actualizadas. El juego también puede ser accedido desde cualquier dispositivo móvil. El Panel del Profesor no es compatible con dispositivos móviles. Para dispositivos pequeños, recomendamos que los estudiantes usen Blueberry Math web colocando el dispositivo horizontalmente."
-      },
-      "browsers": {
-        "question": "¿Qué navegadores puedo usar?",
-        "answer": "Blueberry funciona en Chrome, Firefox, Edge o Safari en versiones actualizadas. El navegador debe tener dimensiones mínimas de 550 x 550. Si tus estudiantes obtienen un error relacionado con el tamaño de la pantalla, verifica que el navegador esté en pantalla completa (es decir, la pantalla no está dividida) y que no haya zoom (ver si está al 100%)."
-      },
-      "data": {
-        "question": "¿Con qué frecuencia se actualizan los datos?",
-        "answer": "Los datos se muestran en tiempo real."
-      },
-      "algorithm": {
-        "question": "¿Cómo funciona el algoritmo de aprendizaje personalizado?",
-        "answer": "Gracias a la tecnología, Blueberry ofrece un camino personalizado para cada estudiante, identificando qué conceptos necesita practicar cada usuario y presentando actividades para dominarlos sin agregar más trabajo para el profesor. El objetivo es que los niños adquieran conocimientos sólidos y puedan manejar diferentes situaciones con pensamiento crítico."
-      }
     }
   }
 }

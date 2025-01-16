@@ -88,6 +88,16 @@
     "es": "Espanhol",
     "pt": "Português"
   },
+  "buttons": {
+    "trial": {
+      "text": "Comece seu Teste Gratuito",
+      "url": "https://app.blueberrymath.com/signup"
+    },
+    "video": {
+      "text": "Assista uma Demo",
+      "url": "https://www.youtube.com/watch?v=demo"
+    }
+  },
   "activities": {
     "title": "Nossas Atividades",
     "simplifyingComplexity": {
@@ -105,16 +115,6 @@
     "holisticLearning": {
       "title": "Aprendizado Holístico",
       "description": "Nossa metodologia garante um aprendizado abrangente através de uma abordagem estruturada. Identificar - Os alunos aprendem a reconhecer e compreender conceitos matemáticos fundamentais em diversos contextos. Recordar - Os alunos praticam a recuperação e aplicação de conceitos previamente aprendidos para reforçar a compreensão. Aplicar - Os alunos demonstram domínio usando o conhecimento matemático para resolver problemas do mundo real de forma eficaz."
-    }
-  },
-  "buttons": {
-    "trial": {
-      "text": "Iniciar Teste Gratuito",
-      "url": "https://app.blueberrymath.com/signup"
-    },
-    "video": {
-      "text": "Assistir Demo",
-      "url": "https://www.youtube.com/watch?v=demo"
     }
   }
 }

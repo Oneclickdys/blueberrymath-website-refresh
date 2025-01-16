@@ -67,8 +67,8 @@
   "cta": {
     "title": "Ready to transform math learning?",
     "subtitle": "Join thousands of teachers and students already using Blueberry Math",
-    "trial": "Start Free Trial",
-    "demo": "Watch Demo"
+    "trial": "Start Your Free Trial",
+    "demo": "Watch a Demo"
   },
   "testimonials": {
     "title": "What Our Users Say",
@@ -90,11 +90,11 @@
   },
   "buttons": {
     "trial": {
-      "text": "Start Free Trial",
+      "text": "Start Your Free Trial",
       "url": "https://app.blueberrymath.com/signup"
     },
     "video": {
-      "text": "Watch Demo",
+      "text": "Watch a Demo",
       "url": "https://www.youtube.com/watch?v=demo"
     }
   },
