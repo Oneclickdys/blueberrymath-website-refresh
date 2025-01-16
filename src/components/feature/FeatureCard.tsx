@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactCardFlip from "react-card-flip";
 import { LucideIcon } from "lucide-react";
 import { CardFront } from "./CardFront";

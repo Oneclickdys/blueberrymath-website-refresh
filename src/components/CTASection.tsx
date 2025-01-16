@@ -1,8 +1,11 @@
+import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
-export const CTASection = () => {
+interface CTASectionProps {}
+
+export const CTASection: React.FC<CTASectionProps> = () => {
   const { t } = useTranslation();
 
   return (

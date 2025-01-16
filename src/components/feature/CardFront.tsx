@@ -1,3 +1,4 @@
+import React from 'react';
 import { Card } from "@/components/ui/card";
 import { LucideIcon } from "lucide-react";
 
@@ -8,7 +9,7 @@ interface CardFrontProps {
   onClick: () => void;
 }
 
-export const CardFront = ({ title, description, icon: Icon, onClick }: CardFrontProps) => {
+export const CardFront: React.FC<CardFrontProps> = ({ title, description, icon: Icon, onClick }) => {
   return (
     <Card className="w-full h-[300px] p-6 flex flex-col items-center justify-center bg-white hover:shadow-lg transition-shadow cursor-pointer" onClick={onClick}>
       <Icon className="w-12 h-12 text-primary mb-4" />

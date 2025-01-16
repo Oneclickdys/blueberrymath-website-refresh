@@ -1,7 +1,10 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container } from '@/components/ui/container';
 
-export const About = () => {
+interface AboutProps {}
+
+export const About: React.FC<AboutProps> = () => {
   const { t } = useTranslation();
   const description = t('about.description', { returnObjects: true }) as string[];
 

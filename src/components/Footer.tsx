@@ -1,6 +1,9 @@
+import React from 'react';
 import { useTranslation } from "react-i18next";
 
-export const Footer = () => {
+interface FooterProps {}
+
+export const Footer: React.FC<FooterProps> = () => {
   const { t, i18n } = useTranslation();
 
   const getLegalAdviceLink = () => {

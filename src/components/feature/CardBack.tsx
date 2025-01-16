@@ -1,3 +1,4 @@
+import React from 'react';
 import { Card } from "@/components/ui/card";
 
 interface CardBackProps {
@@ -7,7 +8,7 @@ interface CardBackProps {
   onClick: () => void;
 }
 
-export const CardBack = ({ title, backText, backImage, onClick }: CardBackProps) => {
+export const CardBack: React.FC<CardBackProps> = ({ title, backText, backImage, onClick }) => {
   return (
     <Card className="w-full h-[300px] p-6 bg-primary text-white flex flex-col items-center justify-center cursor-pointer" onClick={onClick}>
       <div className="w-full h-32 mb-4 overflow-hidden rounded-lg">
