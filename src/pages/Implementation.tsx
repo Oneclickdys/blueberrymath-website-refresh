@@ -39,6 +39,39 @@ const Implementation = () => {
             <p className="text-lg text-neutral-dark mb-12">
               {t('implementation.subtitle')}
             </p>
+
+            {/* Implementation Steps */}
+            <div className="grid gap-8 mt-8 text-left">
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center text-xl font-bold">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-primary-dark mb-2">Sign Up</h3>
+                  <p className="text-neutral-dark">Create your account in just minutes and get started right away.</p>
+                </div>
+              </div>
+
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center text-xl font-bold">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-primary-dark mb-2">Create Your Class and Grant Access</h3>
+                  <p className="text-neutral-dark">Organize your students into classes and provide them access to the platform.</p>
+                </div>
+              </div>
+
+              <div className="flex gap-6 items-start">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center text-xl font-bold">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-primary-dark mb-2">Start Using It!</h3>
+                  <p className="text-neutral-dark">Once your class is set up, your students can begin practicing immediately with activities tailored to their pace and level.</p>
+                </div>
+              </div>
+            </div>
           </section>
 
           {/* Guides and FAQ Section */}
