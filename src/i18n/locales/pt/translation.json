@@ -143,5 +143,24 @@
         "answer": "Graças à tecnologia, o Blueberry oferece um caminho personalizado para cada aluno, identificando quais conceitos cada usuário precisa praticar e apresentando atividades para dominá-los sem adicionar mais trabalho para o professor. O objetivo é que as crianças adquiram conhecimento robusto e possam lidar com diferentes situações com pensamento crítico."
       }
     }
+  },
+  "activities": {
+    "title": "Nossas Atividades",
+    "simplifyingComplexity": {
+      "title": "Simplificando a Complexidade",
+      "description": "Dividimos os objetivos de aprendizagem em componentes pequenos e bem definidos conectados entre si. Nosso algoritmo usa essa estrutura para guiar os alunos através do aprendizado personalizado, garantindo que progridam na ordem correta com uma abordagem gradual."
+    },
+    "personalizedMap": {
+      "title": "Seu Mapa Personalizado",
+      "description": "Estruturamos os componentes do conhecimento com base no seu currículo para que os alunos encontrem os mesmos nomes de unidades e lições no Blueberry Math que em seus materiais escolares."
+    },
+    "infinitePossibilities": {
+      "title": "Possibilidades Infinitas",
+      "description": "Cada objetivo de aprendizagem tem seu próprio motor de avaliação capaz de gerar uma variedade ilimitada de atividades. Essas atividades são projetadas por uma equipe interdisciplinar de educadores, pedagogos, matemáticos, especialistas em gramática e designers. Os valores das atividades são atualizados automaticamente, proporcionando a cada aluno uma experiência personalizada a cada vez. Com uma base de 8.000 atividades, as possibilidades são infinitas: cada aluno enfrenta desafios diferentes toda vez que faz login."
+    },
+    "holisticLearning": {
+      "title": "Aprendizado Holístico",
+      "description": "Nossa metodologia garante que cada aluno só avance depois de dominar a etapa anterior. Criamos atividades direcionadas a cada fase do processo cognitivo: Identificar - Reconhecer e compreender conceitos matemáticos fundamentais. Recordar - Recuperar e aplicar conceitos aprendidos em contextos específicos. Aplicar - Usar o conhecimento matemático para resolver problemas do mundo real de forma eficaz."
+    }
   }
 }

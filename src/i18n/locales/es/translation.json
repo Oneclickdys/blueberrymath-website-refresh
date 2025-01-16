@@ -143,5 +143,24 @@
         "answer": "Gracias a la tecnología, Blueberry ofrece un camino personalizado para cada estudiante, identificando qué conceptos necesita practicar cada usuario y presentando actividades para dominarlos sin agregar más trabajo para el profesor. El objetivo es que los niños adquieran conocimientos sólidos y puedan manejar diferentes situaciones con pensamiento crítico."
       }
     }
+  },
+  "activities": {
+    "title": "Nuestras Actividades",
+    "simplifyingComplexity": {
+      "title": "Simplificando la Complejidad",
+      "description": "Hemos dividido los objetivos de aprendizaje en componentes pequeños y bien definidos conectados entre sí. Nuestro algoritmo utiliza esta estructura para guiar a los estudiantes a través del aprendizaje personalizado, asegurando que progresen en el orden correcto con un enfoque gradual."
+    },
+    "personalizedMap": {
+      "title": "Tu Mapa Personalizado",
+      "description": "Estructuramos los componentes de conocimiento basados en tu plan de estudios para que los estudiantes encuentren los mismos nombres de unidades y lecciones en Blueberry Math que en sus materiales escolares."
+    },
+    "infinitePossibilities": {
+      "title": "Posibilidades Infinitas",
+      "description": "Cada objetivo de aprendizaje tiene su propio motor de evaluación capaz de generar una variedad ilimitada de actividades. Estas actividades son diseñadas por un equipo interdisciplinario de educadores, pedagogos, matemáticos, expertos en gramática y diseñadores. Los valores de las actividades se actualizan automáticamente, brindando a cada estudiante una experiencia personalizada cada vez. Con una base de 8,000 actividades, las posibilidades son infinitas: cada estudiante enfrenta diferentes desafíos cada vez que inicia sesión."
+    },
+    "holisticLearning": {
+      "title": "Aprendizaje Holístico",
+      "description": "Nuestra metodología asegura que cada estudiante solo avance después de dominar el paso anterior. Hemos creado actividades dirigidas a cada fase del proceso cognitivo: Identificar - Reconocer y comprender conceptos matemáticos clave. Recordar - Recuperar y aplicar conceptos aprendidos en contextos específicos. Aplicar - Usar el conocimiento matemático para resolver problemas del mundo real de manera efectiva."
+    }
   }
 }

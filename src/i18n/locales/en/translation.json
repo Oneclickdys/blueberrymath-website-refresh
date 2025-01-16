@@ -88,27 +88,23 @@
     "es": "Spanish",
     "pt": "Portuguese"
   },
-  "auth": {
-    "userType": {
-      "title": "Choose your role",
-      "teacher": "I am a Teacher",
-      "student": "I am a Student"
-    }
-  },
-  "footer": {
-    "support": "Support",
-    "legalAdvice": "Legal Advice",
-    "cookiesPolicy": "Cookies Policy",
-    "privacyPolicy": "Privacy Policy"
-  },
-  "buttons": {
-    "trial": {
-      "text": "Free Trial",
-      "url": "https://www.blueberrymath.ai/en/school-free-trial"
+  "activities": {
+    "title": "Our Activities",
+    "simplifyingComplexity": {
+      "title": "Simplifying Complexity",
+      "description": "We've broken down learning objectives into small, well-defined components connected to each other. Our algorithm uses this structure to guide students through personalized learning, ensuring they progress in the correct order with a gradual approach."
     },
-    "video": {
-      "text": "Watch Video",
-      "url": "https://youtu.be/gICF5ZsgP4Y"
+    "personalizedMap": {
+      "title": "Your Personalized Map",
+      "description": "We structure the knowledge components based on your curriculum so students will find the same unit and lesson names on Blueberry Math as in their school materials."
+    },
+    "infinitePossibilities": {
+      "title": "Infinite Possibilities",
+      "description": "Every learning goal has its own evaluation engine capable of generating a limitless variety of activities. These activities are designed by an interdisciplinary team of educators, pedagogues, mathematicians, grammar experts, and designers. Activity values update automatically, giving each student a personalized experience every time. With a base of 8,000 activities, the possibilities are endless: each student faces different challenges every time they log in."
+    },
+    "holisticLearning": {
+      "title": "Holistic Learning",
+      "description": "Our methodology ensures that each student only progresses after mastering the previous step. We've created activities targeting every phase of the cognitive process: Identify - Recognizing and understanding key mathematical concepts. Recall - Retrieving and applying learned concepts in specific contexts. Apply - Using mathematical knowledge to solve real-world problems effectively."
     }
   },
   "implementation": {
