@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { UserPlus, Users, PlayCircle, BookOpen, HelpCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const Implementation = () => {
   const { t } = useTranslation();
@@ -50,7 +51,10 @@ const Implementation = () => {
           {/* Steps Section */}
           <section className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {steps.map((step, index) => (
-              <Card key={index} className="border-2 border-gray-100 hover:border-primary/20 transition-colors">
+              <Card key={index} className="border-2 border-gray-100 hover:border-primary/20 transition-colors relative">
+                <div className="absolute -top-4 -left-4 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg">
+                  {index + 1}
+                </div>
                 <CardHeader>
                   <div className="mb-4">{step.icon}</div>
                   <CardTitle className="text-xl">{step.title}</CardTitle>
@@ -76,13 +80,21 @@ const Implementation = () => {
                     <CardTitle>Guides</CardTitle>
                   </div>
                 </CardHeader>
-                <CardContent className="space-y-4">
-                  <button className="w-full text-left hover:text-primary transition-colors">
-                    Teacher Guide
-                  </button>
-                  <button className="w-full text-left hover:text-primary transition-colors">
-                    Student Guides
-                  </button>
+                <CardContent>
+                  <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value="teacher-guide">
+                      <AccordionTrigger>Teacher Guide</AccordionTrigger>
+                      <AccordionContent>
+                        Comprehensive guide for teachers on using Blueberry Math effectively in the classroom.
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="student-guides">
+                      <AccordionTrigger>Student Guides</AccordionTrigger>
+                      <AccordionContent>
+                        Step-by-step guides to help students navigate and make the most of Blueberry Math.
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
                 </CardContent>
               </Card>
 
@@ -95,9 +107,14 @@ const Implementation = () => {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <button className="w-full text-left hover:text-primary transition-colors">
-                    View Frequently Asked Questions
-                  </button>
+                  <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value="general-faqs">
+                      <AccordionTrigger>Frequently Asked Questions</AccordionTrigger>
+                      <AccordionContent>
+                        Find answers to common questions about implementing and using Blueberry Math.
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
                 </CardContent>
               </Card>
             </div>
