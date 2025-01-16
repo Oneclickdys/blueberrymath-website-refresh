@@ -14,21 +14,39 @@ export const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: t('testimonials.roles.parent'),
-      content: t('testimonials.sarah'),
+      name: "Fernando Martí",
+      role: "Real Colegio Escuelas Pías, Gandía",
+      content: "Since my students have been working with Blueberry they are much more motivated and excited about Math. It is a very interesting gamified experience to complement our classes.",
       rating: 5,
     },
     {
-      name: "Michael Chen",
-      role: t('testimonials.roles.student'),
-      content: t('testimonials.michael'),
+      name: "Lourdes",
+      role: "CEIP Luís Vives de Puçol, Valencia",
+      content: "My class loves learning math with the Blueberry mascots and it helps me learn more about my students' achievements. It's a great tool for personalization of learning.",
       rating: 5,
     },
     {
-      name: "Lisa Rodriguez",
-      role: t('testimonials.roles.teacher'),
-      content: t('testimonials.lisa'),
+      name: "Marta",
+      role: "CEIP Padre Poveda, Madrid",
+      content: "From the first moment I presented the Blueberry Math proposal to them, the motivation of my students in relation to the area of mathematics increased. Through gamification they reinforced the content they were working on in the classroom, obtaining very good results.",
+      rating: 5,
+    },
+    {
+      name: "Esther",
+      role: "Madrid",
+      content: "Thanks to Blueberry Math, I've been able to motivate the students who were lagging behind in maths.",
+      rating: 5,
+    },
+    {
+      name: "Encarna",
+      role: "Granada",
+      content: "My students love it, they ask me in class when we are going to play with Blueberry.",
+      rating: 5,
+    },
+    {
+      name: "Manuel",
+      role: "Madrid",
+      content: "We have been using the platform a lot a my students love it!",
       rating: 5,
     },
   ];
