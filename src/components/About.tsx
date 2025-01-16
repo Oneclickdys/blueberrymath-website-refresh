@@ -17,6 +17,26 @@ export const About = () => {
             <p>{t('about.description4')}</p>
             <div className="mt-12 space-y-6">
               <p>
+                Blueberry Math is a product powered by{' '}
+                <a 
+                  href="https://oneclick.es/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 font-medium"
+                >
+                  Oneclick
+                </a>
+              </p>
+              <p>
+                Oneclick is a team of digital technologists, product experts, and education enthusiasts united by a common goal: to make the world a better place through education by helping millions of students become fulfilled adults.
+              </p>
+              <p>
+                Innovation has been the foundation of our ethos since our inception. We continuously research and experiment with new ways to transform great content into successful learning experiences, integrating neuroscientific evidence with advanced computational technologies.
+              </p>
+              <p>
+                With recognized expertise in the K–12 publishing sector, we design and build versatile solutions to meet the needs of students, teachers, and schools. Over the past 15+ years, we've supported educational publishers in their digital transformations, but we believe education still has much room for innovation, and we're committed to doing more.
+              </p>
+              <p>
                 We're passionate about technology and education, and we know technology can revolutionize the learning process.
               </p>
               <p>
