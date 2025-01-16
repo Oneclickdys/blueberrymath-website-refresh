@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { Link } from '@/components/ui/link';
 
 export const About = () => {
   const { t } = useTranslation();
