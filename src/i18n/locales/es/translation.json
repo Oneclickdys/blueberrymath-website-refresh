@@ -94,7 +94,7 @@
       "url": "https://app.blueberrymath.com/signup"
     },
     "video": {
-      "text": "Mira una Demo",
+      "text": "Ver un video",
       "url": "https://www.youtube.com/watch?v=demo"
     }
   },
@@ -147,7 +147,7 @@
         }
       },
       "magnitudes": {
-        "title": "Magnitudes y Medidas",
+        "title": "Geometría",
         "activities": {
           "analogClocks": "Aprendiendo la Hora con Relojes Analógicos",
           "digitalClocks": "Y con Relojes Digitales",
