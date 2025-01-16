@@ -12,22 +12,6 @@ const Events = () => {
       description: "Sign up before February 10th and enjoy 2 weeks free. Confirm your course purchase 25-26 and use it this year at no cost.",
       image: "/lovable-uploads/4e96004e-f976-47f2-a36a-bf16063bcc18.png",
       cta: "Start now!"
-    },
-    {
-      id: 2,
-      title: "Math Challenge Week",
-      dates: "March 1-7, 2024",
-      description: "Join our exciting week-long math challenge with daily prizes and special rewards for top performers.",
-      image: "/placeholder.svg",
-      cta: "Register Now"
-    },
-    {
-      id: 3,
-      title: "Teacher Training Workshop",
-      dates: "April 15-16, 2024",
-      description: "Learn how to maximize Blueberry Math in your classroom with our expert-led training sessions.",
-      image: "/placeholder.svg",
-      cta: "Reserve Your Spot"
     }
   ];
 
