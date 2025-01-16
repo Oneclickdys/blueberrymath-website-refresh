@@ -9,8 +9,40 @@ import {
   GraduationCap, 
   Heart, 
   LineChart, 
-  Users 
+  Users,
+  ChevronRight
 } from "lucide-react";
+
+const scientificEvidenceData = {
+  "Adaptive Progression": [
+    "A Trainable Spaced Repetition Model for Language Learning",
+    "Deep Knowledge Tracing (DKT)",
+    "How Duolingo's AI Learns What You Need to Learn",
+    "Using a Glicko-based Algorithm to Measure In-Course Learning",
+    "Sistema ELO"
+  ],
+  "Forgetting Curve": [
+    "The practice of recall and Bloom's taxonomy",
+    "The spacing effect",
+    "Active Recall / Evocar / Practica Evocada"
+  ],
+  "Real-life Contexts": [
+    "8 strategies that work in mathematics",
+    "Cognitive Architecture and Instructional Design",
+    "Implications of cognitive load theory for instructional design"
+  ],
+  "Spaced Practice": [
+    "The spacing effect",
+    "Interleaved Practice",
+    "A Trainable Spaced Repetition Model for Language Learning"
+  ],
+  "Gamification": [
+    "Octalysis Framework",
+    "Gamify Online Courses With Tools Built Into Your Learning Management System",
+    "From game design elements to gamefulness: defining 'gamification'",
+    "Reinforcement, Reward, and Intrinsic Motivation: A Meta-Analysis"
+  ]
+};
 
 export const HowItWorks = () => {
   const { t } = useTranslation();
@@ -110,15 +142,6 @@ export const HowItWorks = () => {
                 </div>
               ))}
             </div>
-
-            <div className="mt-16">
-              <img 
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
-                alt="A Month with Blueberry"
-                className="w-full max-w-4xl mx-auto rounded-lg shadow-xl"
-              />
-              <p className="text-center mt-4 text-gray-05 italic">A Month with Blueberry: Visual Guide</p>
-            </div>
           </TabsContent>
 
           <TabsContent value="science">
@@ -147,7 +170,49 @@ export const HowItWorks = () => {
           <TabsContent value="evidence">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-primary-dark">Scientific Evidence</h2>
-              <p className="text-xl text-gray-05 max-w-2xl mx-auto">Coming soon...</p>
+              <p className="text-xl text-gray-05 max-w-2xl mx-auto">Research that supports our methodology</p>
+            </div>
+
+            <div className="flex gap-8">
+              <Tabs orientation="vertical" defaultValue="Adaptive Progression" className="w-full">
+                <div className="flex gap-8">
+                  <TabsList className="flex flex-col h-auto w-80 bg-white rounded-lg p-2">
+                    {Object.keys(scientificEvidenceData).map((category) => (
+                      <TabsTrigger
+                        key={category}
+                        value={category}
+                        className="justify-start gap-2 p-4 text-left data-[state=active]:bg-primary data-[state=active]:text-white"
+                      >
+                        {category}
+                        <ChevronRight className="ml-auto h-4 w-4" />
+                      </TabsTrigger>
+                    ))}
+                  </TabsList>
+
+                  <div className="flex-1">
+                    {Object.entries(scientificEvidenceData).map(([category, links]) => (
+                      <TabsContent key={category} value={category} className="mt-0">
+                        <div className="bg-white rounded-lg p-6 shadow-lg">
+                          <h3 className="text-2xl font-bold mb-6 text-primary-dark">{category}</h3>
+                          <ul className="space-y-4">
+                            {links.map((link, index) => (
+                              <li key={index} className="group">
+                                <a
+                                  href="#"
+                                  className="flex items-center text-neutral-dark hover:text-primary transition-colors"
+                                >
+                                  <ChevronRight className="h-4 w-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                  {link}
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </TabsContent>
+                    ))}
+                  </div>
+                </div>
+              </Tabs>
             </div>
           </TabsContent>
         </Tabs>
