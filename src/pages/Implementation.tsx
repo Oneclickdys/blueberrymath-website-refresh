@@ -1,12 +1,12 @@
 import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { UserPlus, Users, PlayCircle, BookOpen, HelpCircle } from "lucide-react";
+import { UserPlus, Users, PlayCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const Implementation = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const steps = [
     {
@@ -75,43 +75,59 @@ const Implementation = () => {
               {/* Guides */}
               <Card>
                 <CardHeader>
-                  <div className="flex items-center gap-3">
-                    <BookOpen className="w-6 h-6 text-primary" />
-                    <CardTitle>Guides</CardTitle>
-                  </div>
+                  <CardTitle>Guides</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="teacher-guide">
-                      <AccordionTrigger>Teacher Guide</AccordionTrigger>
-                      <AccordionContent>
-                        Comprehensive guide for teachers on using Blueberry Math effectively in the classroom.
-                      </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="student-guides">
-                      <AccordionTrigger>Student Guides</AccordionTrigger>
-                      <AccordionContent>
-                        Step-by-step guides to help students navigate and make the most of Blueberry Math.
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
+                  <div className="space-y-4">
+                    <a 
+                      href="#" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block text-primary hover:underline"
+                    >
+                      {t('implementation.guides.teacher')}
+                    </a>
+                    <a 
+                      href="#" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block text-primary hover:underline"
+                    >
+                      {t('implementation.guides.student')}
+                    </a>
+                  </div>
                 </CardContent>
               </Card>
 
               {/* FAQs */}
               <Card>
                 <CardHeader>
-                  <div className="flex items-center gap-3">
-                    <HelpCircle className="w-6 h-6 text-primary" />
-                    <CardTitle>FAQs</CardTitle>
-                  </div>
+                  <CardTitle>FAQs</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="general-faqs">
-                      <AccordionTrigger>Frequently Asked Questions</AccordionTrigger>
+                    <AccordionItem value="devices">
+                      <AccordionTrigger>{t('implementation.faqs.devices.question')}</AccordionTrigger>
                       <AccordionContent>
-                        Find answers to common questions about implementing and using Blueberry Math.
+                        {t('implementation.faqs.devices.answer')}
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="browsers">
+                      <AccordionTrigger>{t('implementation.faqs.browsers.question')}</AccordionTrigger>
+                      <AccordionContent>
+                        {t('implementation.faqs.browsers.answer')}
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="data">
+                      <AccordionTrigger>{t('implementation.faqs.data.question')}</AccordionTrigger>
+                      <AccordionContent>
+                        {t('implementation.faqs.data.answer')}
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="algorithm">
+                      <AccordionTrigger>{t('implementation.faqs.algorithm.question')}</AccordionTrigger>
+                      <AccordionContent>
+                        {t('implementation.faqs.algorithm.answer')}
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>

@@ -110,5 +110,30 @@
       "text": "Assistir Vídeo",
       "url": "https://www.youtube.com/watch?v=f1xM0AUjQzc"
     }
+  },
+  "implementation": {
+    "guides": {
+      "teacher": "Guia do Professor",
+      "student": "Guia do Estudante"
+    },
+    "faqs": {
+      "title": "FAQs",
+      "devices": {
+        "question": "De quais dispositivos posso acessar o Blueberry Math?",
+        "answer": "Computador Windows ou MacOS, Tablets e Chromebooks usando Chrome ou Safari em suas versões atualizadas. O jogo também pode ser acessado de qualquer dispositivo móvel. O Painel do Professor não é suportado em dispositivos móveis. Para dispositivos pequenos, recomendamos que os alunos usem o Blueberry Math web colocando o dispositivo horizontalmente."
+      },
+      "browsers": {
+        "question": "Quais navegadores posso usar?",
+        "answer": "Blueberry funciona em Chrome, Firefox, Edge ou Safari em versões atualizadas. O navegador deve ter dimensões mínimas de 550 x 550. Se seus alunos receberem um erro relacionado ao tamanho da tela, verifique se o navegador está em tela cheia (ou seja, a tela não está dividida) e se não há zoom (veja se está em 100%)."
+      },
+      "data": {
+        "question": "Com que frequência os dados são atualizados?",
+        "answer": "Os dados são exibidos em tempo real."
+      },
+      "algorithm": {
+        "question": "Como funciona o algoritmo de aprendizado personalizado?",
+        "answer": "Graças à tecnologia, o Blueberry oferece um caminho personalizado para cada aluno, identificando quais conceitos cada usuário precisa praticar e apresentando atividades para dominá-los sem adicionar mais trabalho para o professor. O objetivo é que as crianças adquiram conhecimento robusto e possam lidar com diferentes situações com pensamento crítico."
+      }
+    }
   }
 }
