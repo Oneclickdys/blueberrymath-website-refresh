@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
 import { LoginDialog } from './LoginDialog';
+import { getDashboardUrl } from '@/utils/regionUtils';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,6 +27,11 @@ export const Header = () => {
     { name: t('header.events'), href: '/events' },
     { name: t('header.about'), href: '/about' },
   ];
+
+  const handleSignUp = () => {
+    const dashboardUrl = getDashboardUrl();
+    window.open(dashboardUrl, '_blank');
+  };
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
@@ -71,7 +77,7 @@ export const Header = () => {
               <Button
                 variant="default"
                 size="sm"
-                onClick={() => setLoginDialogOpen(true)}
+                onClick={handleSignUp}
                 className="flex items-center gap-2"
               >
                 <UserPlus className="h-4 w-4" />
@@ -148,7 +154,7 @@ export const Header = () => {
                   variant="default"
                   size="sm"
                   onClick={() => {
-                    setLoginDialogOpen(true);
+                    handleSignUp();
                     setIsMenuOpen(false);
                   }}
                   className="w-full flex items-center gap-2 justify-center"
