@@ -20,12 +20,7 @@ export const ActivityList: React.FC<ActivityListProps> = ({ activities }) => {
           <Collapsible>
             <CollapsibleTrigger className="flex items-center justify-between w-full text-left">
               <span>{activity.name}</span>
-              <span className="flex items-center gap-2">
-                <span className="text-sm text-gray-500">
-                  Grades {activity.grades}
-                </span>
-                <ChevronDown className="h-4 w-4" />
-              </span>
+              <ChevronDown className="h-4 w-4" />
             </CollapsibleTrigger>
             <CollapsibleContent className="pt-2">
               <div className="bg-neutral p-4 rounded-lg text-center text-gray-500">
