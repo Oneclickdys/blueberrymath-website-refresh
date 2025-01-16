@@ -52,12 +52,15 @@ export const Features = () => {
     },
   ];
 
-  const toggleCard = (index: number) => {
-    setFlippedCards(prev => 
-      prev.includes(index) 
-        ? prev.filter(i => i !== index)
-        : [...prev, index]
-    );
+  const toggleCard = (index: number, event: React.MouseEvent<HTMLDivElement>) => {
+    // Only flip if clicking the container div directly
+    if (event.target === event.currentTarget) {
+      setFlippedCards(prev => 
+        prev.includes(index) 
+          ? prev.filter(i => i !== index)
+          : [...prev, index]
+      );
+    }
   };
 
   return (
@@ -73,7 +76,7 @@ export const Features = () => {
             <div 
               key={index}
               className="h-[300px] perspective-1000 cursor-pointer"
-              onClick={() => toggleCard(index)}
+              onClick={(e) => toggleCard(index, e)}
             >
               <div
                 className={`relative w-full h-full transition-transform duration-500 transform-style-preserve-3d ${
@@ -82,7 +85,7 @@ export const Features = () => {
               >
                 {/* Front of card */}
                 <Card 
-                  className="absolute w-full h-full backface-hidden p-6 flex flex-col items-center justify-center bg-white"
+                  className="absolute w-full h-full backface-hidden p-6 flex flex-col items-center justify-center bg-white pointer-events-none"
                 >
                   <feature.icon className="w-12 h-12 text-primary mb-4" />
                   <h3 className="text-xl font-semibold mb-3 text-primary-dark text-center">
@@ -95,7 +98,7 @@ export const Features = () => {
 
                 {/* Back of card */}
                 <Card 
-                  className="absolute w-full h-full backface-hidden p-6 rotate-y-180 bg-primary text-white flex flex-col items-center justify-center"
+                  className="absolute w-full h-full backface-hidden p-6 rotate-y-180 bg-primary text-white flex flex-col items-center justify-center pointer-events-none"
                 >
                   <div className="w-full h-32 mb-4 overflow-hidden rounded-lg">
                     <img 
