@@ -12,10 +12,10 @@ export const About = () => {
             {t('about.title')}
           </h2>
           <div className="space-y-6 text-lg text-neutral-dark">
-            <p>{t('about.description1')}</p>
-            <p>{t('about.description2')}</p>
-            <p>{t('about.description3')}</p>
-            <p>{t('about.description4')}</p>
+            <p>Blueberry Math is a gamified mathematics platform that offers adaptive and personalized learning for students in grades 1-6.</p>
+            <p>Backed by best practices in neuroeducation, Blueberry Math combines gamification with technology to ensure each student absorbs and retains concepts effectively.</p>
+            <p>It provides students with the content they truly need to practice, always aligned with curriculum standards, while promoting solid and lasting study habits to build a robust mathematical foundation for continued success.</p>
+            <p>Whether in the classroom or at home, Blueberry Math seamlessly adapts to any learning environment, providing teachers with tools to monitor their students' progress and intervene at the right time with the right insights.</p>
           </div>
         </div>
       </Container>
