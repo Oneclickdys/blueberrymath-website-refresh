@@ -72,18 +72,17 @@ export const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="relative h-[300px] perspective-1000"
+              className="perspective-1000 h-[300px] cursor-pointer"
               onClick={() => toggleCard(index)}
             >
               <div
-                className={`w-full h-full transition-transform duration-500 transform-style-3d cursor-pointer ${
+                className={`relative w-full h-full transition-transform duration-500 transform-style-preserve-3d ${
                   flippedCards.includes(index) ? 'rotate-y-180' : ''
                 }`}
               >
                 {/* Front of card */}
                 <Card 
-                  className="absolute w-full h-full backface-hidden p-6 hover:shadow-lg transition-all duration-300 border-primary/10 animate-fade-up flex flex-col items-center justify-center"
-                  style={{ animationDelay: `${index * 200}ms` }}
+                  className="absolute w-full h-full backface-hidden p-6 flex flex-col items-center justify-center"
                 >
                   <feature.icon className="w-12 h-12 text-primary mb-4" />
                   <h3 className="text-xl font-semibold mb-3 text-primary-dark">
