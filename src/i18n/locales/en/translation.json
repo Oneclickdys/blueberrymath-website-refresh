@@ -10,35 +10,12 @@
     "title": "Transform the way students learn math with Blueberry Math!",
     "subtitle": "Dive into a unique educational experience with our space adventure: exciting challenges for your students and a complete transformation in how they learn math."
   },
-  "howItWorks": {
-    "title": "How to use Blueberry Math",
-    "subtitle": "A simple and effective Method",
-    "steps": {
-      "integrate": {
-        "title": "Integrate Blueberry into Daily Routines",
-        "description": "Blueberry Math is a versatile tool that can be used at home or in school. In the classroom, dedicate a few minutes at the beginning or end of the class to reinforce what you've taught, or use it as a reward activity after completing other tasks."
-      },
-      "consistency": {
-        "title": "Consistency is Key",
-        "description": "Establish a daily routine, whether at home, in the classroom, or both, for students to practice math for 15 minutes a day, consolidating their key skills."
-      },
-      "motivate": {
-        "title": "Motivate Through Game Narrative",
-        "description": "Teachers guide students through topics that will be covered in the following week. Encourage them to complete missions as part of their learning and engage with the storyline."
-      },
-      "dashboard": {
-        "title": "Use the Teacher Dashboard as Your Ally",
-        "description": "Review your students' progress at least once a week, identify those needing additional support, and plan personalized interventions based on the platform's data. Use progress and dedication reports to group students for peer-learning opportunities."
-      },
-      "involve": {
-        "title": "Involve Families in Learning",
-        "description": "Share progress reports with parents at the end of each term to keep them informed and involved in their child's mathematical development."
-      },
-      "evaluation": {
-        "title": "Fun Knowledge Evaluation",
-        "description": "Use in-class weekly practice sessions to review topics and conduct diagnostic assessments in a dynamic and collaborative way, tailored to your class's levels."
-      }
-    }
+  "about": {
+    "title": "What is Blueberry Math?",
+    "description1": "Blueberry Math is a gamified mathematics platform that offers adaptive and personalized learning for students in grades 1-6.",
+    "description2": "Backed by best practices in neuroeducation, Blueberry Math combines gamification with technology to ensure each student absorbs and retains concepts effectively.",
+    "description3": "It provides students with the content they truly need to practice, always aligned with curriculum standards, while promoting solid and lasting study habits to build a robust mathematical foundation for continued success.",
+    "description4": "Whether in the classroom or at home, Blueberry Math seamlessly adapts to any learning environment, providing teachers with tools to monitor their students' progress and intervene at the right time with the right insights."
   },
   "features": {
     "title": "How Blueberry Math enhances the learning experience",
@@ -65,6 +42,22 @@
     "learningFromMistakes": {
       "title": "Learning from Mistakes",
       "description": "We believe mistakes are always opportunities to learn. Each activity provides instant and detailed feedback or step-by-step solutions to help students understand their errors and move forward."
+    }
+  },
+  "teacherSupport": {
+    "title": "Support for Teachers",
+    "description": "We understand that classroom diversity can be challenging for teachers, as meeting each student's specific needs isn't always easy. At Blueberry Math, our goal is to save you valuable time so you can focus on what you do best: teaching.",
+    "curriculum": {
+      "title": "Curriculum Planning and Organization",
+      "description": "We adapt content to your schedule and textbooks, ensuring students practice exactly what you need to reinforce."
+    },
+    "experience": {
+      "title": "Pedagogical Experience",
+      "description": "After your class, students can practice cooperatively or work independently."
+    },
+    "monitoring": {
+      "title": "Monitoring and Qualitative Assessment",
+      "description": "Get comprehensive insights into the progress of the entire class and each student. Download qualitative reports to share with parents or assess students more effectively."
     }
   },
   "cta": {
