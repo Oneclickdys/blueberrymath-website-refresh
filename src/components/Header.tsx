@@ -24,7 +24,7 @@ export const Header = () => {
               <img
                 src="/lovable-uploads/22f9bb3c-4e7d-463e-a152-9b4f84097f5c.png"
                 alt="Blueberry Math"
-                className="h-8 w-auto object-contain"
+                className="h-12 w-auto object-contain"
               />
             </button>
           </div>
