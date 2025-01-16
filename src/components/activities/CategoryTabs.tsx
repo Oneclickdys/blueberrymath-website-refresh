@@ -16,8 +16,11 @@ interface CategoryTabsProps {
 }
 
 export const CategoryTabs: React.FC<CategoryTabsProps> = ({ categories }) => {
+  // Get the first category key for default value
+  const defaultCategory = Object.keys(categories)[0] || "numbersAndOperations";
+
   return (
-    <Tabs defaultValue="numbersAndOperations" className="w-full">
+    <Tabs defaultValue={defaultCategory} className="w-full">
       <TabsList className="w-full flex flex-wrap gap-2">
         {Object.keys(categories).map((category) => (
           <TabsTrigger 

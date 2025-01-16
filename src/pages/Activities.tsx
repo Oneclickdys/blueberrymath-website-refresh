@@ -62,6 +62,23 @@ const Activities: React.FC<ActivitiesProps> = () => {
     }
   };
 
+  // Filter categories based on selected grade
+  const filteredCategories = Object.entries(categories).reduce((acc, [key, category]) => {
+    const filteredActivities = category.activities.filter(activity => {
+      const [min, max] = activity.grades.split('-').map(Number);
+      const selectedGrade = Number(grade);
+      return selectedGrade >= min && selectedGrade <= (max || min);
+    });
+
+    if (filteredActivities.length > 0) {
+      acc[key] = {
+        ...category,
+        activities: filteredActivities
+      };
+    }
+    return acc;
+  }, {} as typeof categories);
+
   return (
     <>
       <Helmet>
@@ -93,7 +110,7 @@ const Activities: React.FC<ActivitiesProps> = () => {
                 </select>
               </div>
 
-              <CategoryTabs categories={categories} />
+              <CategoryTabs categories={filteredCategories} />
             </div>
           </section>
         </div>
