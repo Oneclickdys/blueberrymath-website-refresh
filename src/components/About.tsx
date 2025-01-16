@@ -15,7 +15,7 @@ export const About: React.FC<AboutProps> = () => {
           <h2 className="text-4xl font-bold text-center mb-12 text-primary">
             {t('about.title')}
           </h2>
-          <div className="space-y-6 text-lg text-neutral-dark">
+          <div className="space-y-6 text-lg text-gray-05">
             {description.map((paragraph: string, index: number) => (
               <p key={index}>{paragraph}</p>
             ))}

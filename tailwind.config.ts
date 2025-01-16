@@ -46,7 +46,7 @@ export default {
         neutral: {
           DEFAULT: "#FBFCFD",
           light: "#ACACF7",
-          dark: "#BFBCFD",
+          dark: "#7E69AB", // Updated from #BFBCFD to #7E69AB for better contrast
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

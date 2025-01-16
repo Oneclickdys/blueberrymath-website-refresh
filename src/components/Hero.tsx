@@ -15,7 +15,7 @@ export const Hero: React.FC<HeroProps> = () => {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
             {t('hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200">
+          <p className="text-xl md:text-2xl mb-8 text-neutral-light">
             {t('hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
