@@ -35,7 +35,7 @@ export const CTASection = () => {
             <Button 
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/10 font-semibold px-8 py-6 text-lg rounded-full transition-all flex items-center gap-2"
+              className="border-2 border-white bg-white/10 text-white hover:bg-white/20 font-semibold px-8 py-6 text-lg rounded-full transition-all flex items-center gap-2"
             >
               <Play className="w-5 h-5" /> {t('buttons.video.text')}
             </Button>
