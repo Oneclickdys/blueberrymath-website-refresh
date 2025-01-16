@@ -227,5 +227,67 @@
     "legalAdvice": "Aviso Legal",
     "cookiesPolicy": "Política de Cookies",
     "privacyPolicy": "Política de Privacidade"
+  },
+  "howItWorks": {
+    "title": "Como usar o Blueberry Math",
+    "subtitle": "Um método simples e eficaz",
+    "scienceTitle": "A Ciência por Trás",
+    "scienceSubtitle": "Entendendo como o Blueberry Math melhora o aprendizado",
+    "evidenceTitle": "Evidência Científica",
+    "evidenceSubtitle": "Pesquisa que apoia nossa metodologia",
+    "method": {
+      "title": "Como usar o Blueberry Math",
+      "subtitle": "Um método simples e eficaz",
+      "steps": {
+        "dailyRoutine": {
+          "title": "Integre o Blueberry nas Rotinas Diárias",
+          "description": "O Blueberry Math é uma ferramenta versátil que pode ser usada em casa ou na escola. Na sala de aula, dedique alguns minutos no início ou no final da aula para reforçar o que você ensinou, ou use como atividade de recompensa após completar outras tarefas."
+        },
+        "consistency": {
+          "title": "A Consistência é Fundamental",
+          "description": "Estabeleça uma rotina diária, seja em casa, na sala de aula ou ambos, para que os alunos pratiquem matemática por 15 minutos por dia, consolidando suas habilidades principais."
+        },
+        "motivation": {
+          "title": "Motive através da Narrativa do Jogo",
+          "description": "Os professores guiam os alunos através dos tópicos que serão abordados na semana seguinte. Incentive-os a completar missões como parte de seu aprendizado e a se envolver com a história."
+        },
+        "dashboard": {
+          "title": "Use o Painel do Professor como seu Aliado",
+          "description": "Revise o progresso de seus alunos pelo menos uma vez por semana, identifique aqueles que precisam de suporte adicional e planeje intervenções personalizadas com base nos dados da plataforma. Use relatórios de progresso e dedicação para agrupar alunos para oportunidades de aprendizado entre pares."
+        },
+        "families": {
+          "title": "Envolva as Famílias no Aprendizado",
+          "description": "Compartilhe relatórios de progresso com os pais no final de cada período para mantê-los informados e envolvidos no desenvolvimento matemático de seus filhos."
+        },
+        "evaluation": {
+          "title": "Avaliação Divertida do Conhecimento",
+          "description": "Use sessões semanais de prática em sala para revisar tópicos e realizar avaliações diagnósticas de forma dinâmica e colaborativa, adaptadas aos níveis de sua turma."
+        }
+      }
+    },
+    "science": {
+      "points": {
+        "adaptive": {
+          "title": "Progressão Adaptativa",
+          "description": "As atividades se ajustam ao nível do aluno, mantendo-os desafiados mas não frustrados, garantindo que avancem no currículo em seu próprio ritmo."
+        },
+        "forgetting": {
+          "title": "Curva do Esquecimento",
+          "description": "Os alunos revisam conceitos previamente aprendidos para evitar o esquecimento e construir um conhecimento sólido."
+        },
+        "contexts": {
+          "title": "Contextos da Vida Real",
+          "description": "Torna o aprendizado mais agradável e aplicável usando cenários com os quais os alunos podem se relacionar."
+        },
+        "practice": {
+          "title": "Prática Espaçada",
+          "description": "Os algoritmos garantem que os alunos revisitem conceitos dominados, promovendo a retenção a longo prazo."
+        },
+        "gamification": {
+          "title": "Gamificação Motivadora",
+          "description": "As narrativas do jogo e as conquistas desbloqueadas estimulam a curiosidade e a consistência nos alunos."
+        }
+      }
+    }
   }
 }

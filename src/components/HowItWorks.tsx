@@ -49,61 +49,61 @@ export const HowItWorks = () => {
 
   const methodSteps = [
     {
-      title: "Integrate Blueberry into Daily Routines",
-      description: "Blueberry Math is a versatile tool that can be used at home or in school. In the classroom, dedicate a few minutes at the beginning or end of the class to reinforce what you've taught, or use it as a reward activity after completing other tasks.",
+      title: t('howItWorks.method.steps.dailyRoutine.title'),
+      description: t('howItWorks.method.steps.dailyRoutine.description'),
       icon: Calendar,
     },
     {
-      title: "Consistency is Key",
-      description: "Establish a daily routine, whether at home, in the classroom, or both, for students to practice math for 15 minutes a day, consolidating their key skills.",
+      title: t('howItWorks.method.steps.consistency.title'),
+      description: t('howItWorks.method.steps.consistency.description'),
       icon: Clock,
     },
     {
-      title: "Motivate Through Game Narrative",
-      description: "Teachers guide students through topics that will be covered in the following week. Encourage them to complete missions as part of their learning and engage with the storyline.",
+      title: t('howItWorks.method.steps.motivation.title'),
+      description: t('howItWorks.method.steps.motivation.description'),
       icon: Gamepad,
     },
     {
-      title: "Use the Teacher Dashboard as Your Ally",
-      description: "Review your students' progress at least once a week, identify those needing additional support, and plan personalized interventions based on the platform's data. Use progress and dedication reports to group students for peer-learning opportunities.",
+      title: t('howItWorks.method.steps.dashboard.title'),
+      description: t('howItWorks.method.steps.dashboard.description'),
       icon: ChartLine,
     },
     {
-      title: "Involve Families in Learning",
-      description: "Share progress reports with parents at the end of each term to keep them informed and involved in their child's mathematical development.",
+      title: t('howItWorks.method.steps.families.title'),
+      description: t('howItWorks.method.steps.families.description'),
       icon: Users,
     },
     {
-      title: "Fun Knowledge Evaluation",
-      description: "Use in-class weekly practice sessions to review topics and conduct diagnostic assessments in a dynamic and collaborative way, tailored to your class's levels.",
+      title: t('howItWorks.method.steps.evaluation.title'),
+      description: t('howItWorks.method.steps.evaluation.description'),
       icon: GraduationCap,
     },
   ];
 
   const sciencePoints = [
     {
-      title: "Adaptive Progression",
-      description: "Activities adjust to the student's level, keeping them challenged but not frustrated, ensuring they work through the curriculum at their own pace.",
+      title: t('howItWorks.science.points.adaptive.title'),
+      description: t('howItWorks.science.points.adaptive.description'),
       icon: LineChart,
     },
     {
-      title: "Forgetting Curve",
-      description: "Students review previously learned concepts to avoid forgetting and build strong knowledge.",
+      title: t('howItWorks.science.points.forgetting.title'),
+      description: t('howItWorks.science.points.forgetting.description'),
       icon: Brain,
     },
     {
-      title: "Real-Life Contexts",
-      description: "Make learning more enjoyable and applicable by using scenarios students can relate to.",
+      title: t('howItWorks.science.points.contexts.title'),
+      description: t('howItWorks.science.points.contexts.description'),
       icon: Heart,
     },
     {
-      title: "Spaced Practice",
-      description: "Algorithms ensure students revisit mastered concepts, promoting long-term retention.",
+      title: t('howItWorks.science.points.practice.title'),
+      description: t('howItWorks.science.points.practice.description'),
       icon: Calendar,
     },
     {
-      title: "Motivating Gamification",
-      description: "Game narratives and unlocked achievements stimulate curiosity and consistency in students.",
+      title: t('howItWorks.science.points.gamification.title'),
+      description: t('howItWorks.science.points.gamification.description'),
       icon: Gamepad,
     },
   ];
@@ -113,15 +113,15 @@ export const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <Tabs defaultValue="method" className="w-full">
           <TabsList className="w-full flex justify-center mb-8">
-            <TabsTrigger value="method" className="text-lg px-6">How to use Blueberry Math</TabsTrigger>
-            <TabsTrigger value="science" className="text-lg px-6">The Science Behind</TabsTrigger>
-            <TabsTrigger value="evidence" className="text-lg px-6">Scientific Evidence</TabsTrigger>
+            <TabsTrigger value="method" className="text-lg px-6">{t('howItWorks.title')}</TabsTrigger>
+            <TabsTrigger value="science" className="text-lg px-6">{t('howItWorks.scienceTitle')}</TabsTrigger>
+            <TabsTrigger value="evidence" className="text-lg px-6">{t('howItWorks.evidenceTitle')}</TabsTrigger>
           </TabsList>
 
           <TabsContent value="method">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4 text-primary-dark">How to use Blueberry Math</h2>
-              <p className="text-xl text-gray-05 max-w-2xl mx-auto">A simple and effective Method</p>
+              <h2 className="text-4xl font-bold mb-4 text-primary-dark">{t('howItWorks.method.title')}</h2>
+              <p className="text-xl text-gray-05 max-w-2xl mx-auto">{t('howItWorks.method.subtitle')}</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -146,8 +146,8 @@ export const HowItWorks = () => {
 
           <TabsContent value="science">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4 text-primary-dark">The Science Behind</h2>
-              <p className="text-xl text-gray-05 max-w-2xl mx-auto">Understanding how Blueberry Math enhances learning</p>
+              <h2 className="text-4xl font-bold mb-4 text-primary-dark">{t('howItWorks.scienceTitle')}</h2>
+              <p className="text-xl text-gray-05 max-w-2xl mx-auto">{t('howItWorks.scienceSubtitle')}</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
