@@ -1,9 +1,8 @@
 import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { UserPlus, Users, PlayCircle, ExternalLink } from "lucide-react";
-import { useTranslation } from "react-i18next";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { ExternalLink } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Implementation = () => {
   const { t, i18n } = useTranslation();
@@ -47,8 +46,12 @@ const Implementation = () => {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary-dark mb-2">Sign Up</h3>
-                  <p className="text-neutral-dark">Create your account in just minutes and get started right away.</p>
+                  <h3 className="text-xl font-semibold text-primary-dark mb-2">
+                    {t('implementation.steps.signup.title')}
+                  </h3>
+                  <p className="text-neutral-dark">
+                    {t('implementation.steps.signup.description')}
+                  </p>
                 </div>
               </div>
 
@@ -57,8 +60,12 @@ const Implementation = () => {
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary-dark mb-2">Create Your Class and Grant Access</h3>
-                  <p className="text-neutral-dark">Organize your students into classes and provide them access to the platform.</p>
+                  <h3 className="text-xl font-semibold text-primary-dark mb-2">
+                    {t('implementation.steps.createClass.title')}
+                  </h3>
+                  <p className="text-neutral-dark">
+                    {t('implementation.steps.createClass.description')}
+                  </p>
                 </div>
               </div>
 
@@ -67,8 +74,12 @@ const Implementation = () => {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary-dark mb-2">Start Using It!</h3>
-                  <p className="text-neutral-dark">Once your class is set up, your students can begin practicing immediately with activities tailored to their pace and level.</p>
+                  <h3 className="text-xl font-semibold text-primary-dark mb-2">
+                    {t('implementation.steps.start.title')}
+                  </h3>
+                  <p className="text-neutral-dark">
+                    {t('implementation.steps.start.description')}
+                  </p>
                 </div>
               </div>
             </div>

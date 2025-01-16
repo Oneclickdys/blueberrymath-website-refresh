@@ -2,8 +2,11 @@ import { Header } from "@/components/Header";
 import { Helmet } from 'react-helmet-async';
 import { Container } from "@/components/ui/container";
 import { Badge } from "@/components/ui/badge";
+import { useTranslation } from "react-i18next";
 
 const Events = () => {
+  const { t } = useTranslation();
+  
   const currentEvents = [
     {
       id: 1,
@@ -11,7 +14,7 @@ const Events = () => {
       dates: "Until February 10th, 2024",
       description: "Sign up before February 10th and enjoy 2 weeks free. Confirm your course purchase 25-26 and use it this year at no cost.",
       image: "/lovable-uploads/4e96004e-f976-47f2-a36a-bf16063bcc18.png",
-      cta: "Start now!"
+      cta: t('events.viewDetails')
     }
   ];
 
@@ -22,7 +25,7 @@ const Events = () => {
       dates: "December 1-15, 2023",
       description: "A festive celebration of mathematics with special holiday-themed challenges and rewards.",
       image: "/placeholder.svg",
-      cta: "View Results"
+      cta: t('events.viewResults')
     },
     {
       id: 5,
@@ -30,7 +33,7 @@ const Events = () => {
       dates: "September 1-30, 2023",
       description: "Special promotional rates and exclusive content for the new school year.",
       image: "/placeholder.svg",
-      cta: "View Details"
+      cta: t('events.viewDetails')
     },
     {
       id: 6,
@@ -38,7 +41,7 @@ const Events = () => {
       dates: "July 1-31, 2023",
       description: "Virtual summer camp featuring daily math activities and interactive sessions.",
       image: "/placeholder.svg",
-      cta: "View Highlights"
+      cta: t('events.viewHighlights')
     }
   ];
 
@@ -52,33 +55,37 @@ const Events = () => {
       <main className="pt-16">
         <section className="py-20">
           <Container>
-            <h1 className="text-4xl font-bold text-primary-dark mb-12">Current Events</h1>
+            <h1 className="text-4xl font-bold text-primary-dark mb-12">{t('events.currentEvents')}</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {currentEvents.map((event) => (
-                <div key={event.id} className="rounded-lg overflow-hidden shadow-lg bg-white">
-                  <img 
-                    src={event.image}
-                    alt={event.title}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-6 space-y-4">
-                    <h2 className="text-2xl font-bold text-primary">{event.title}</h2>
-                    <p className="text-sm font-medium text-gray-600">{event.dates}</p>
-                    <p className="text-gray-700">{event.description}</p>
-                    <div className="pt-4">
-                      <a 
-                        href="#" 
-                        className="inline-block bg-primary text-white px-6 py-3 rounded-full hover:bg-primary/90 transition-colors"
-                      >
-                        {event.cta}
-                      </a>
+              {currentEvents.length > 0 ? (
+                currentEvents.map((event) => (
+                  <div key={event.id} className="rounded-lg overflow-hidden shadow-lg bg-white">
+                    <img 
+                      src={event.image}
+                      alt={event.title}
+                      className="w-full h-48 object-cover"
+                    />
+                    <div className="p-6 space-y-4">
+                      <h2 className="text-2xl font-bold text-primary">{event.title}</h2>
+                      <p className="text-sm font-medium text-gray-600">{event.dates}</p>
+                      <p className="text-gray-700">{event.description}</p>
+                      <div className="pt-4">
+                        <a 
+                          href="#" 
+                          className="inline-block bg-primary text-white px-6 py-3 rounded-full hover:bg-primary/90 transition-colors"
+                        >
+                          {event.cta}
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))
+              ) : (
+                <p className="text-gray-600">{t('events.noEvents')}</p>
+              )}
             </div>
 
-            <h2 className="text-4xl font-bold text-primary-dark mt-20 mb-12">Past Events</h2>
+            <h2 className="text-4xl font-bold text-primary-dark mt-20 mb-12">{t('events.pastEvents')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {pastEvents.map((event) => (
                 <div key={event.id} className="rounded-lg overflow-hidden shadow-lg bg-white">
@@ -92,7 +99,7 @@ const Events = () => {
                       className="absolute top-4 right-4 bg-gray-500"
                       variant="secondary"
                     >
-                      Finished
+                      {t('events.finished')}
                     </Badge>
                   </div>
                   <div className="p-6 space-y-4">

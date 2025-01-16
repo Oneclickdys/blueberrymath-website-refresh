@@ -122,6 +122,57 @@
     "holisticLearning": {
       "title": "Aprendizado Holístico",
       "description": "Nossa metodologia garante um aprendizado abrangente através de uma abordagem estruturada. Identificar - Os alunos aprendem a reconhecer e compreender conceitos matemáticos fundamentais em diversos contextos. Recordar - Os alunos praticam a recuperação e aplicação de conceitos previamente aprendidos para reforçar a compreensão. Aplicar - Os alunos demonstram domínio usando o conhecimento matemático para resolver problemas do mundo real de forma eficaz."
+    },
+    "categories": {
+      "numbersAndOperations": {
+        "title": "Números e Operações",
+        "activities": {
+          "counting": "Aprendendo a Contar Selecionando Objetos",
+          "adding": "Somando Quantidades",
+          "subtraction": "Entendendo a Subtração Tachando Elementos",
+          "numberLine": "Indicando Números na Retta Numérica",
+          "fractions": "Relacionando Frações com suas Representações Visuais",
+          "coloringFractions": "Colorindo Frações Gráficamente"
+        }
+      },
+      "geometry": {
+        "title": "Geometria",
+        "activities": {
+          "spatialLocalization": "Colocando Objetos para Aprender Localização Espacial",
+          "spatialConcepts": "Milhares de Combinações para Explorar Conceitos como Esquerda, Direita, Cima e Baixo",
+          "lineTypes": "Identificando Tipos de Linhas, Ângulos e Polígonos",
+          "labelingElements": "Etiquetando Elementos em uma Imagem",
+          "coordinateAxes": "Entendendo os Eixos de Coordenadas",
+          "calculations": "Calculando Perímetros, Áreas e Volumes"
+        }
+      },
+      "magnitudes": {
+        "title": "Magnitudes e Medidas",
+        "activities": {
+          "analogClocks": "Aprendendo a Hora com Relógios Analógicos",
+          "digitalClocks": "E com Relógios Digitais",
+          "calendar": "Entendendo os Dias da Semana e os Meses do Ano",
+          "measurement": "Compreendendo as Unidades de Medida",
+          "money": "Entendendo o Valor de Moedas e Notas"
+        }
+      },
+      "probability": {
+        "title": "Probabilidade e Estatísticas",
+        "activities": {
+          "dataTables": "Completando Tabelas de Registro de Dados",
+          "pictograms": "Interpretando Informação em Pictogramas",
+          "barcodes": "Entendendo Códigos de Barras",
+          "frequencyCurves": "Analisando Curvas de Frequência",
+          "pieCharts": "Interpretando Gráficas de Pizza",
+          "createPictograms": "Criando Pictogramas",
+          "createBarGraphs": "Criando Gráficas de Barras",
+          "drawFrequencyCurves": "Desenhando Curvas de Frequência",
+          "probabilityConcepts": "Entendendo Conceitos de Probabilidade"
+        }
+      },
+      "algebra": {
+        "title": "Álgebra e Funções"
+      }
     }
   },
   "implementation": {
@@ -161,6 +212,15 @@
         "answer": "Nosso algoritmo se adapta ao ritmo e estilo de aprendizagem de cada aluno, fornecendo conteúdo e desafios personalizados."
       }
     }
+  },
+  "events": {
+    "currentEvents": "Eventos Atuais",
+    "pastEvents": "Eventos Passados",
+    "noEvents": "Não há eventos programados no momento",
+    "finished": "Finalizado",
+    "viewResults": "Ver Resultados",
+    "viewDetails": "Ver Detalhes",
+    "viewHighlights": "Ver Destaques"
   },
   "footer": {
     "support": "Suporte",

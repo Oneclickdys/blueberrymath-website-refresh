@@ -213,6 +213,15 @@
       }
     }
   },
+  "events": {
+    "currentEvents": "Eventos Actuales",
+    "pastEvents": "Eventos Pasados",
+    "noEvents": "No hay eventos programados en este momento",
+    "finished": "Finalizado",
+    "viewResults": "Ver Resultados",
+    "viewDetails": "Ver Detalles",
+    "viewHighlights": "Ver Destacados"
+  },
   "footer": {
     "support": "Soporte",
     "legalAdvice": "Aviso Legal",
