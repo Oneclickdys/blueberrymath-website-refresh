@@ -1,12 +1,11 @@
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { IntroCard } from './IntroCard';
 
 export const Introduction: React.FC = () => {
   return (
-    <section className="space-y-16 max-w-7xl mx-auto">
+    <section className="space-y-8 max-w-7xl mx-auto">
       <div>
-        <h1 className="text-4xl font-bold text-primary-dark mb-12">Our Activities</h1>
+        <h1 className="text-4xl font-bold text-primary-dark mb-8">Our Activities</h1>
         
         <IntroCard
           title="Simplifying Complexity"

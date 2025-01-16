@@ -20,21 +20,19 @@ export const IntroCard: React.FC<IntroCardProps> = ({
   const imageOrder = imagePosition === 'left' ? 'md:order-1' : 'md:order-2';
 
   return (
-    <Card className="mb-24">
-      <CardHeader>
-        <CardTitle className="text-3xl text-primary-dark">{title}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <div className="flex flex-col md:flex-row gap-12 items-center">
-          <div className={`flex-1 space-y-4 ${contentOrder}`}>
-            <p className="text-gray-600 text-lg leading-relaxed">{description}</p>
-          </div>
+    <Card className="mb-8">
+      <CardContent className="p-0">
+        <div className="flex flex-col md:flex-row items-center">
           <div className={`flex-1 ${imageOrder}`}>
             <img 
               src={imageSrc}
               alt={imageAlt}
-              className="w-full rounded-lg shadow-lg"
+              className="w-full h-full object-cover"
             />
+          </div>
+          <div className={`flex-1 p-8 space-y-4 ${contentOrder}`}>
+            <CardTitle className="text-3xl text-primary-dark">{title}</CardTitle>
+            <p className="text-gray-600 text-lg leading-relaxed">{description}</p>
           </div>
         </div>
       </CardContent>
