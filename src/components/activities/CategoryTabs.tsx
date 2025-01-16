@@ -30,7 +30,8 @@ export const CategoryTabs: React.FC<CategoryTabsProps> = ({ categories }) => {
         ))}
       </TabsList>
 
-      {Object.entries(categories).map(([keyContent key={key} value={key} className="mt-6">
+      {Object.entries(categories).map(([key, category]) => (
+        <TabsContent key={key} value={key} className="mt-6">
           <Card>
             <CardHeader>
               <CardTitle>{category.title}</CardTitle>
