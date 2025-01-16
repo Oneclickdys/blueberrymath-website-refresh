@@ -9,13 +9,13 @@ export const About = () => {
       <Container>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-primary">
-            {t('about.title')}
+            What is Blueberry Math?
           </h2>
           <div className="space-y-6 text-lg text-neutral-dark">
-            <p>Blueberry Math is a gamified mathematics platform that offers adaptive and personalized learning for students in grades 1-6.</p>
-            <p>Backed by best practices in neuroeducation, Blueberry Math combines gamification with technology to ensure each student absorbs and retains concepts effectively.</p>
-            <p>It provides students with the content they truly need to practice, always aligned with curriculum standards, while promoting solid and lasting study habits to build a robust mathematical foundation for continued success.</p>
-            <p>Whether in the classroom or at home, Blueberry Math seamlessly adapts to any learning environment, providing teachers with tools to monitor their students' progress and intervene at the right time with the right insights.</p>
+            <p>Blueberry Math is an innovative educational platform that transforms how students learn mathematics through an engaging space adventure theme.</p>
+            <p>Our platform combines cutting-edge technology with proven educational methods to create a unique learning experience that makes mathematics both fun and effective for students.</p>
+            <p>Through interactive challenges, personalized learning paths, and real-time feedback, students develop strong mathematical foundations while enjoying their educational journey.</p>
+            <p>We believe that every student has the potential to excel in mathematics, and our platform provides the tools and support needed to unlock that potential.</p>
           </div>
         </div>
       </Container>
