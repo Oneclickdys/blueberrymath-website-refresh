@@ -14,7 +14,12 @@
   },
   "about": {
     "title": "O que é Blueberry Math?",
-    "description": "Blueberry Math é uma plataforma educacional inovadora que transforma a maneira como os alunos aprendem matemática através de uma envolvente aventura espacial."
+    "description": [
+      "Blueberry Math é uma plataforma educacional inovadora que transforma a maneira como os estudantes aprendem matemática através de uma envolvente temática de aventura espacial.",
+      "Nossa plataforma combina tecnologia de ponta com métodos educacionais comprovados para criar uma experiência de aprendizado única que torna a matemática divertida e eficaz para os estudantes.",
+      "Através de desafios interativos, caminhos de aprendizado personalizados e feedback em tempo real, os estudantes desenvolvem bases matemáticas sólidas enquanto aproveitam sua jornada educacional.",
+      "Acreditamos que cada estudante tem o potencial de se destacar em matemática, e nossa plataforma fornece as ferramentas e o suporte necessários para desbloquear esse potencial."
+    ]
   },
   "features": {
     "title": "Como o Blueberry Math melhora a experiência de aprendizagem?",
