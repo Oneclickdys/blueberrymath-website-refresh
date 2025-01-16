@@ -14,37 +14,43 @@ export const Testimonials = () => {
   const testimonials = [
     {
       name: "Fernando Martí",
-      role: "Real Colegio Escuelas Pías, Gandía",
+      role: "Real Colegio Escuelas Pías",
+      city: "Gandía",
       content: "Since my students have been working with Blueberry they are much more motivated and excited about Math. It is a very interesting gamified experience to complement our classes.",
       rating: 5,
     },
     {
       name: "Lourdes",
-      role: "CEIP Luís Vives de Puçol, Valencia",
+      role: "CEIP Luís Vives de Puçol",
+      city: "Valencia",
       content: "My class loves learning math with the Blueberry mascots and it helps me learn more about my students' achievements. It's a great tool for personalization of learning.",
       rating: 5,
     },
     {
       name: "Marta",
-      role: "CEIP Padre Poveda, Madrid",
+      role: "CEIP Padre Poveda",
+      city: "Madrid",
       content: "From the first moment I presented the Blueberry Math proposal to them, the motivation of my students in relation to the area of mathematics increased. Through gamification they reinforced the content they were working on in the classroom, obtaining very good results.",
       rating: 5,
     },
     {
       name: "Esther",
-      role: "Madrid",
+      role: "",
+      city: "Madrid",
       content: "Thanks to Blueberry Math, I've been able to motivate the students who were lagging behind in maths.",
       rating: 5,
     },
     {
       name: "Encarna",
-      role: "Granada",
+      role: "",
+      city: "Granada",
       content: "My students love it, they ask me in class when we are going to play with Blueberry.",
       rating: 5,
     },
     {
       name: "Manuel",
-      role: "Madrid",
+      role: "",
+      city: "Madrid",
       content: "We have been using the platform a lot a my students love it!",
       rating: 5,
     },
@@ -74,9 +80,14 @@ export const Testimonials = () => {
                 <CarouselItem key={index} className="md:basis-1/3">
                   <Card className="p-8 h-full flex flex-col hover:shadow-lg transition-all duration-300 border-primary/10">
                     <p className="text-neutral-dark mb-6 flex-grow italic">"{testimonial.content}"</p>
-                    <div className="mt-auto">
+                    <div className="mt-auto space-y-1">
                       <p className="font-semibold text-primary-dark">{testimonial.name}</p>
-                      <p className="text-sm text-neutral">{testimonial.role}</p>
+                      {testimonial.role && (
+                        <p className="text-sm text-neutral">{testimonial.role}</p>
+                      )}
+                      {testimonial.city && (
+                        <p className="text-sm text-neutral">{testimonial.city}</p>
+                      )}
                     </div>
                   </Card>
                 </CarouselItem>
