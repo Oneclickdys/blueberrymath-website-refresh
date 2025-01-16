@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, LogIn, UserPlus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
+import { LoginDialog } from './LoginDialog';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,6 +14,7 @@ import {
 export const Header = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [loginDialogOpen, setLoginDialogOpen] = useState(false);
   const navigate = useNavigate();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -56,25 +58,46 @@ export const Header = () => {
               </button>
             ))}
             
-            {/* Language Selector */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="icon" className="ml-4">
-                  <Globe className="h-5 w-5" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => changeLanguage('en')}>
-                  {t('language.en')}
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => changeLanguage('es')}>
-                  {t('language.es')}
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => changeLanguage('pt')}>
-                  {t('language.pt')}
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <div className="flex items-center gap-2">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setLoginDialogOpen(true)}
+                className="flex items-center gap-2"
+              >
+                <LogIn className="h-4 w-4" />
+                Login
+              </Button>
+              <Button
+                variant="default"
+                size="sm"
+                onClick={() => setLoginDialogOpen(true)}
+                className="flex items-center gap-2"
+              >
+                <UserPlus className="h-4 w-4" />
+                Sign Up
+              </Button>
+              
+              {/* Language Selector */}
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="icon">
+                    <Globe className="h-5 w-5" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem onClick={() => changeLanguage('en')}>
+                    {t('language.en')}
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => changeLanguage('es')}>
+                    {t('language.es')}
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => changeLanguage('pt')}>
+                    {t('language.pt')}
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -106,6 +129,35 @@ export const Header = () => {
                   {item.name}
                 </button>
               ))}
+              
+              {/* Mobile Login/Signup */}
+              <div className="px-3 py-2 space-y-2">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => {
+                    setLoginDialogOpen(true);
+                    setIsMenuOpen(false);
+                  }}
+                  className="w-full flex items-center gap-2 justify-center"
+                >
+                  <LogIn className="h-4 w-4" />
+                  Login
+                </Button>
+                <Button
+                  variant="default"
+                  size="sm"
+                  onClick={() => {
+                    setLoginDialogOpen(true);
+                    setIsMenuOpen(false);
+                  }}
+                  className="w-full flex items-center gap-2 justify-center"
+                >
+                  <UserPlus className="h-4 w-4" />
+                  Sign Up
+                </Button>
+              </div>
+              
               {/* Mobile Language Selector */}
               <div className="px-3 py-2">
                 <div className="flex flex-col space-y-2">
@@ -142,6 +194,9 @@ export const Header = () => {
           </div>
         )}
       </nav>
+      
+      {/* Login Dialog */}
+      <LoginDialog open={loginDialogOpen} onOpenChange={setLoginDialogOpen} />
     </header>
   );
 };
