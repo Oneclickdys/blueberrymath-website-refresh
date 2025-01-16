@@ -94,5 +94,11 @@
       "teacher": "Soy Profesor",
       "student": "Soy Estudiante"
     }
+  },
+  "footer": {
+    "support": "Soporte",
+    "legalAdvice": "Aviso Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidad"
   }
 }

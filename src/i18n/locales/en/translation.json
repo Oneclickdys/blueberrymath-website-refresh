@@ -94,5 +94,11 @@
       "teacher": "I am a Teacher",
       "student": "I am a Student"
     }
+  },
+  "footer": {
+    "support": "Support",
+    "legalAdvice": "Legal Advice",
+    "cookiesPolicy": "Cookies Policy",
+    "privacyPolicy": "Privacy Policy"
   }
 }

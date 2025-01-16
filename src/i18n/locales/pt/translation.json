@@ -61,7 +61,7 @@
     },
     "monitoring": {
       "title": "Monitoramento e Avaliação Qualitativa",
-      "description": "Obtenha insights abrangentes sobre o progresso de toda a classe e cada aluno. Baixe relatórios qualitativos para compartilhar com os pais ou avaliar os alunos de forma mais eficaz."
+      "description": "Obtenha informações abrangentes sobre o progresso de toda a classe e cada aluno. Baixe relatórios qualitativos para compartilhar com os pais ou avaliar os alunos de forma mais eficaz."
     }
   },
   "cta": {
@@ -94,5 +94,11 @@
       "teacher": "Sou Professor",
       "student": "Sou Aluno"
     }
+  },
+  "footer": {
+    "support": "Suporte",
+    "legalAdvice": "Aviso Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidade"
   }
 }
