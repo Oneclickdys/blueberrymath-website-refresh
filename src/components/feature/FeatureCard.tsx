@@ -32,7 +32,7 @@ export const FeatureCard = ({
       >
         {/* Front of card */}
         <div className="absolute w-full h-full backface-hidden">
-          <Card className="w-full h-full p-6 flex flex-col items-center justify-center bg-white">
+          <Card className="w-full h-full p-6 flex flex-col items-center justify-center bg-white hover:shadow-lg transition-shadow">
             <Icon className="w-12 h-12 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-3 text-primary-dark text-center">
               {title}
