@@ -22,18 +22,18 @@ const Implementation = () => {
   const steps = [
     {
       icon: <UserPlus className="w-8 h-8 text-primary" />,
-      title: t('implementation.steps.signup'),
-      description: t('implementation.steps.signupDesc')
+      title: t('implementation.steps.signup.title'),
+      description: t('implementation.steps.signup.description')
     },
     {
       icon: <Users className="w-8 h-8 text-primary" />,
-      title: t('implementation.steps.createClass'),
-      description: t('implementation.steps.createClassDesc')
+      title: t('implementation.steps.createClass.title'),
+      description: t('implementation.steps.createClass.description')
     },
     {
       icon: <PlayCircle className="w-8 h-8 text-primary" />,
-      title: t('implementation.steps.start'),
-      description: t('implementation.steps.startDesc')
+      title: t('implementation.steps.start.title'),
+      description: t('implementation.steps.start.description')
     }
   ];
 

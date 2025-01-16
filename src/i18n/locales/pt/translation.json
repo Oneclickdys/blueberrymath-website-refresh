@@ -116,5 +116,43 @@
       "title": "Aprendizado Holístico",
       "description": "Nossa metodologia garante um aprendizado abrangente através de uma abordagem estruturada. Identificar - Os alunos aprendem a reconhecer e compreender conceitos matemáticos fundamentais em diversos contextos. Recordar - Os alunos praticam a recuperação e aplicação de conceitos previamente aprendidos para reforçar a compreensão. Aplicar - Os alunos demonstram domínio usando o conhecimento matemático para resolver problemas do mundo real de forma eficaz."
     }
+  },
+  "implementation": {
+    "title": "Implementação Escolar",
+    "subtitle": "Comece com o Blueberry Math em sua escola",
+    "steps": {
+      "signup": {
+        "title": "Cadastre-se",
+        "description": "Crie sua conta e comece com um teste gratuito"
+      },
+      "createClass": {
+        "title": "Crie Sua Turma",
+        "description": "Configure sua sala de aula virtual e convide seus alunos"
+      },
+      "start": {
+        "title": "Comece a Ensinar",
+        "description": "Comece a usar o Blueberry Math em sua sala de aula"
+      }
+    },
+    "guide": "Guia do Professor",
+    "guidesAndFaq": "Guias e Perguntas Frequentes",
+    "faqs": {
+      "devices": {
+        "question": "Quais dispositivos são suportados?",
+        "answer": "O Blueberry Math funciona em qualquer dispositivo com um navegador web moderno - computadores, tablets e smartphones."
+      },
+      "browsers": {
+        "question": "Quais navegadores são recomendados?",
+        "answer": "Recomendamos usar as versões mais recentes do Chrome, Firefox, Safari ou Edge."
+      },
+      "data": {
+        "question": "Como os dados dos alunos são protegidos?",
+        "answer": "Seguimos diretrizes rigorosas de proteção de dados e garantimos que todos os dados dos alunos estejam criptografados e seguros."
+      },
+      "algorithm": {
+        "question": "Como funciona o algoritmo de aprendizagem?",
+        "answer": "Nosso algoritmo se adapta ao ritmo e estilo de aprendizagem de cada aluno, fornecendo conteúdo e desafios personalizados."
+      }
+    }
   }
 }

@@ -116,5 +116,43 @@
       "title": "Holistic Learning",
       "description": "Our methodology ensures comprehensive learning through a structured approach. Identify - Students learn to recognize and understand key mathematical concepts in various contexts. Recall - Students practice retrieving and applying previously learned concepts to reinforce understanding. Apply - Students demonstrate mastery by using mathematical knowledge to solve real-world problems effectively."
     }
+  },
+  "implementation": {
+    "title": "School Implementation",
+    "subtitle": "Get started with Blueberry Math in your school",
+    "steps": {
+      "signup": {
+        "title": "Sign Up",
+        "description": "Create your account and get started with a free trial"
+      },
+      "createClass": {
+        "title": "Create Your Class",
+        "description": "Set up your virtual classroom and invite your students"
+      },
+      "start": {
+        "title": "Start Teaching",
+        "description": "Begin using Blueberry Math in your classroom"
+      }
+    },
+    "guide": "Teacher's Guide",
+    "guidesAndFaq": "Guides & FAQs",
+    "faqs": {
+      "devices": {
+        "question": "What devices are supported?",
+        "answer": "Blueberry Math works on any device with a modern web browser - computers, tablets, and smartphones."
+      },
+      "browsers": {
+        "question": "Which browsers are recommended?",
+        "answer": "We recommend using the latest versions of Chrome, Firefox, Safari, or Edge."
+      },
+      "data": {
+        "question": "How is student data protected?",
+        "answer": "We follow strict data protection guidelines and ensure all student data is encrypted and secure."
+      },
+      "algorithm": {
+        "question": "How does the learning algorithm work?",
+        "answer": "Our algorithm adapts to each student's learning pace and style, providing personalized content and challenges."
+      }
+    }
   }
 }

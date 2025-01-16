@@ -116,5 +116,43 @@
       "title": "Aprendizaje Holístico",
       "description": "Nuestra metodología asegura un aprendizaje integral a través de un enfoque estructurado. Identificar - Los estudiantes aprenden a reconocer y comprender conceptos matemáticos clave en diversos contextos. Recordar - Los estudiantes practican la recuperación y aplicación de conceptos previamente aprendidos para reforzar la comprensión. Aplicar - Los estudiantes demuestran dominio utilizando el conocimiento matemático para resolver problemas del mundo real de manera efectiva."
     }
+  },
+  "implementation": {
+    "title": "Implementación Escolar",
+    "subtitle": "Comienza con Blueberry Math en tu escuela",
+    "steps": {
+      "signup": {
+        "title": "Regístrate",
+        "description": "Crea tu cuenta y comienza con una prueba gratuita"
+      },
+      "createClass": {
+        "title": "Crea Tu Clase",
+        "description": "Configura tu aula virtual e invita a tus estudiantes"
+      },
+      "start": {
+        "title": "Comienza a Enseñar",
+        "description": "Empieza a usar Blueberry Math en tu aula"
+      }
+    },
+    "guide": "Guía del Profesor",
+    "guidesAndFaq": "Guías y Preguntas Frecuentes",
+    "faqs": {
+      "devices": {
+        "question": "¿Qué dispositivos son compatibles?",
+        "answer": "Blueberry Math funciona en cualquier dispositivo con un navegador web moderno - computadoras, tabletas y teléfonos inteligentes."
+      },
+      "browsers": {
+        "question": "¿Qué navegadores se recomiendan?",
+        "answer": "Recomendamos usar las últimas versiones de Chrome, Firefox, Safari o Edge."
+      },
+      "data": {
+        "question": "¿Cómo se protegen los datos de los estudiantes?",
+        "answer": "Seguimos estrictas pautas de protección de datos y aseguramos que todos los datos de los estudiantes estén encriptados y seguros."
+      },
+      "algorithm": {
+        "question": "¿Cómo funciona el algoritmo de aprendizaje?",
+        "answer": "Nuestro algoritmo se adapta al ritmo y estilo de aprendizaje de cada estudiante, proporcionando contenido y desafíos personalizados."
+      }
+    }
   }
 }
