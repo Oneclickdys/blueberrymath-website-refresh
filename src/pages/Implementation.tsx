@@ -129,7 +129,7 @@ const Implementation = () => {
 
               <div className="text-center p-6 bg-white rounded-lg shadow-lg">
                 <p className="text-lg text-neutral-dark mb-4">
-                  Your question is not answered here? Check the Guide for more info!
+                  {t('implementation.guidePrompt')}
                 </p>
                 <a 
                   href={getGuideLink()}

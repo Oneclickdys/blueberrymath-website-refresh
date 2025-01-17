@@ -73,14 +73,44 @@
   "testimonials": {
     "title": "Lo que Dicen Nuestros Usuarios",
     "subtitle": "Escucha a profesores, estudiantes y padres que usan Blueberry Math",
-    "roles": {
-      "teacher": "Profesor",
-      "student": "Estudiante",
-      "parent": "Padre/Madre"
-    },
-    "sarah": "Blueberry Math ha transformado la forma en que mi hijo aprende matemáticas. Las actividades atractivas y la retroalimentación instantánea hacen que el aprendizaje sea divertido y efectivo.",
-    "michael": "Solía tener dificultades con las matemáticas, ¡pero ahora espero con ansias resolver problemas. ¡El tema espacial lo hace emocionante!",
-    "lisa": "Como profesora, aprecio cómo Blueberry Math me ayuda a seguir el progreso de los estudiantes e identificar áreas donde necesitan más apoyo."
+    "list": [
+      {
+        "name": "Fernando Martí",
+        "role": "Real Colegio Escuelas Pías",
+        "city": "Gandía",
+        "content": "Desde que mis estudiantes trabajan con Blueberry están mucho más motivados y entusiasmados con las Matemáticas. Es una experiencia gamificada muy interesante para complementar nuestras clases."
+      },
+      {
+        "name": "Lourdes",
+        "role": "CEIP Luís Vives de Puçol",
+        "city": "Valencia",
+        "content": "A mi clase le encanta aprender matemáticas con las mascotas de Blueberry y me ayuda a conocer más sobre los logros de mis estudiantes. Es una gran herramienta para la personalización del aprendizaje."
+      },
+      {
+        "name": "Marta",
+        "role": "CEIP Padre Poveda",
+        "city": "Madrid",
+        "content": "Desde el primer momento que les presenté la propuesta de Blueberry Math, aumentó la motivación de mis alumnos en relación al área de matemáticas. A través de la gamificación reforzaron los contenidos que estaban trabajando en el aula, obteniendo muy buenos resultados."
+      },
+      {
+        "name": "Esther",
+        "role": "",
+        "city": "Madrid",
+        "content": "Gracias a Blueberry Math, he podido motivar a los estudiantes que se estaban quedando atrás en matemáticas."
+      },
+      {
+        "name": "Encarna",
+        "role": "",
+        "city": "Granada",
+        "content": "A mis alumnos les encanta, me preguntan en clase cuándo vamos a jugar con Blueberry."
+      },
+      {
+        "name": "Manuel",
+        "role": "",
+        "city": "Madrid",
+        "content": "¡Hemos estado usando mucho la plataforma y a mis alumnos les encanta!"
+      }
+    ]
   },
   "language": {
     "select": "Seleccionar idioma",
@@ -193,6 +223,7 @@
       }
     },
     "guide": "Guía del Profesor",
+    "guidePrompt": "¿Tu pregunta no está respondida aquí? ¡Consulta la Guía para más información!",
     "guidesAndFaq": "Guías y Preguntas Frecuentes",
     "faqs": {
       "devices": {
@@ -220,7 +251,45 @@
     "finished": "Finalizado",
     "viewResults": "Ver Resultados",
     "viewDetails": "Ver Detalles",
-    "viewHighlights": "Ver Destacados"
+    "viewHighlights": "Ver Destacados",
+    "meta": {
+      "title": "Eventos - Blueberry Math",
+      "description": "Mantente actualizado con los eventos y talleres de Blueberry Math."
+    },
+    "list": {
+      "current": [
+        {
+          "id": 1,
+          "title": "¡Tienes una nueva misión: salvar las matemáticas!",
+          "dates": "Hasta el 10 de febrero de 2024",
+          "description": "Regístrate antes del 10 de febrero y disfruta de 2 semanas gratis. Confirma tu compra del curso 25-26 y úsalo este año sin costo.",
+          "image": "/lovable-uploads/4e96004e-f976-47f2-a36a-bf16063bcc18.png"
+        }
+      ],
+      "past": [
+        {
+          "id": 4,
+          "title": "Festival de Matemáticas de Invierno",
+          "dates": "1-15 de diciembre de 2023",
+          "description": "Una celebración festiva de las matemáticas con desafíos y recompensas especiales con temática navideña.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "id": 5,
+          "title": "Especial de Regreso a Clases",
+          "dates": "1-30 de septiembre de 2023",
+          "description": "Tarifas promocionales especiales y contenido exclusivo para el nuevo año escolar.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "id": 6,
+          "title": "Campamento de Matemáticas de Verano",
+          "dates": "1-31 de julio de 2023",
+          "description": "Campamento de verano virtual con actividades matemáticas diarias y sesiones interactivas.",
+          "image": "/placeholder.svg"
+        }
+      ]
+    }
   },
   "footer": {
     "support": "Soporte",

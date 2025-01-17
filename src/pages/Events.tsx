@@ -7,49 +7,30 @@ import { useTranslation } from "react-i18next";
 const Events = () => {
   const { t } = useTranslation();
   
-  const currentEvents = [
-    {
-      id: 1,
-      title: "You have a new mission: save math!",
-      dates: "Until February 10th, 2024",
-      description: "Sign up before February 10th and enjoy 2 weeks free. Confirm your course purchase 25-26 and use it this year at no cost.",
-      image: "/lovable-uploads/4e96004e-f976-47f2-a36a-bf16063bcc18.png",
-      cta: t('events.viewDetails')
-    }
-  ];
+  const currentEvents = t('events.list.current', { returnObjects: true }) as Array<{
+    id: number;
+    title: string;
+    dates: string;
+    description: string;
+    image: string;
+  }>;
 
-  const pastEvents = [
-    {
-      id: 4,
-      title: "Winter Math Festival",
-      dates: "December 1-15, 2023",
-      description: "A festive celebration of mathematics with special holiday-themed challenges and rewards.",
-      image: "/placeholder.svg",
-      cta: t('events.viewResults')
-    },
-    {
-      id: 5,
-      title: "Back to School Special",
-      dates: "September 1-30, 2023",
-      description: "Special promotional rates and exclusive content for the new school year.",
-      image: "/placeholder.svg",
-      cta: t('events.viewDetails')
-    },
-    {
-      id: 6,
-      title: "Summer Math Camp",
-      dates: "July 1-31, 2023",
-      description: "Virtual summer camp featuring daily math activities and interactive sessions.",
-      image: "/placeholder.svg",
-      cta: t('events.viewHighlights')
-    }
-  ];
+  const pastEvents = t('events.list.past', { returnObjects: true }) as Array<{
+    id: number;
+    title: string;
+    dates: string;
+    description: string;
+    image: string;
+  }>;
 
   return (
     <>
       <Helmet>
-        <title>Events - Blueberry Math</title>
-        <meta name="description" content="Stay updated with Blueberry Math events and workshops." />
+        <title>{t('events.meta.title')}</title>
+        <meta 
+          name="description" 
+          content={t('events.meta.description')}
+        />
       </Helmet>
       <Header />
       <main className="pt-16">
@@ -74,7 +55,7 @@ const Events = () => {
                           href="#" 
                           className="inline-block bg-primary text-white px-6 py-3 rounded-full hover:bg-primary/90 transition-colors"
                         >
-                          {event.cta}
+                          {t('events.viewDetails')}
                         </a>
                       </div>
                     </div>
@@ -111,7 +92,7 @@ const Events = () => {
                         href="#" 
                         className="inline-block bg-gray-500 text-white px-6 py-3 rounded-full hover:bg-gray-600 transition-colors"
                       >
-                        {event.cta}
+                        {t('events.viewResults')}
                       </a>
                     </div>
                   </div>

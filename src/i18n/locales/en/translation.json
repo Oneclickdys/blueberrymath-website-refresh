@@ -80,14 +80,44 @@
   "testimonials": {
     "title": "What Our Users Say",
     "subtitle": "Hear from teachers, students, and parents who use Blueberry Math",
-    "roles": {
-      "teacher": "Teacher",
-      "student": "Student",
-      "parent": "Parent"
-    },
-    "sarah": "Blueberry Math has transformed how my child learns mathematics. The engaging activities and instant feedback make learning fun and effective.",
-    "michael": "I used to struggle with math, but now I look forward to solving problems. The space theme makes it exciting!",
-    "lisa": "As a teacher, I appreciate how Blueberry Math helps me track student progress and identify areas where they need more support."
+    "list": [
+      {
+        "name": "Fernando Martí",
+        "role": "Real Colegio Escuelas Pías",
+        "city": "Gandía",
+        "content": "Since my students have been working with Blueberry they are much more motivated and excited about Math. It is a very interesting gamified experience to complement our classes."
+      },
+      {
+        "name": "Lourdes",
+        "role": "CEIP Luís Vives de Puçol",
+        "city": "Valencia",
+        "content": "My class loves learning math with the Blueberry mascots and it helps me learn more about my students' achievements. It's a great tool for personalization of learning."
+      },
+      {
+        "name": "Marta",
+        "role": "CEIP Padre Poveda",
+        "city": "Madrid",
+        "content": "From the first moment I presented the Blueberry Math proposal to them, the motivation of my students in relation to the area of mathematics increased. Through gamification they reinforced the content they were working on in the classroom, obtaining very good results."
+      },
+      {
+        "name": "Esther",
+        "role": "",
+        "city": "Madrid",
+        "content": "Thanks to Blueberry Math, I've been able to motivate the students who were lagging behind in maths."
+      },
+      {
+        "name": "Encarna",
+        "role": "",
+        "city": "Granada",
+        "content": "My students love it, they ask me in class when we are going to play with Blueberry."
+      },
+      {
+        "name": "Manuel",
+        "role": "",
+        "city": "Madrid",
+        "content": "We have been using the platform a lot a my students love it!"
+      }
+    ]
   },
   "language": {
     "select": "Select language",
@@ -200,6 +230,7 @@
       }
     },
     "guide": "Teacher's Guide",
+    "guidePrompt": "Your question is not answered here? Check the Guide for more info!",
     "guidesAndFaq": "Guides and FAQs",
     "faqs": {
       "devices": {
@@ -349,6 +380,53 @@
           ]
         }
       }
+    }
+  },
+  "events": {
+    "currentEvents": "Current Events",
+    "pastEvents": "Past Events",
+    "noEvents": "No events scheduled at this time",
+    "finished": "Finished",
+    "viewResults": "View Results",
+    "viewDetails": "View Details",
+    "viewHighlights": "View Highlights",
+    "meta": {
+      "title": "Events - Blueberry Math",
+      "description": "Stay updated with Blueberry Math events and workshops."
+    },
+    "list": {
+      "current": [
+        {
+          "id": 1,
+          "title": "You have a new mission: save math!",
+          "dates": "Until February 10th, 2024",
+          "description": "Sign up before February 10th and enjoy 2 weeks free. Confirm your course purchase 25-26 and use it this year at no cost.",
+          "image": "/lovable-uploads/4e96004e-f976-47f2-a36a-bf16063bcc18.png"
+        }
+      ],
+      "past": [
+        {
+          "id": 4,
+          "title": "Winter Math Festival",
+          "dates": "December 1-15, 2023",
+          "description": "A festive celebration of mathematics with special holiday-themed challenges and rewards.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "id": 5,
+          "title": "Back to School Special",
+          "dates": "September 1-30, 2023",
+          "description": "Special promotional rates and exclusive content for the new school year.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "id": 6,
+          "title": "Summer Math Camp",
+          "dates": "July 1-31, 2023",
+          "description": "Virtual summer camp featuring daily math activities and interactive sessions.",
+          "image": "/placeholder.svg"
+        }
+      ]
     }
   }
 }
