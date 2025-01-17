@@ -11,12 +11,18 @@ import {
 export const Testimonials = () => {
   const { t } = useTranslation();
 
-  const testimonials = t('testimonials.list', { returnObjects: true }) as Array<{
+  // Get testimonials and ensure it's an array with a fallback to empty array
+  const testimonials = (t('testimonials.list', { returnObjects: true }) || []) as Array<{
     name: string;
     role: string;
     city: string;
     content: string;
   }>;
+
+  // If no testimonials, don't render the section
+  if (!Array.isArray(testimonials) || testimonials.length === 0) {
+    return null;
+  }
 
   return (
     <section className="py-20 bg-white">
