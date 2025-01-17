@@ -288,6 +288,76 @@
           "description": "Las narrativas del juego y los logros desbloqueados estimulan la curiosidad y la consistencia en los estudiantes."
         }
       }
+    },
+    "scientificEvidence": {
+      "categories": {
+        "adaptiveProgression": {
+          "title": "Progresión Adaptativa",
+          "papers": [
+            "Un Modelo Entrenable de Repetición Espaciada para el Aprendizaje de Idiomas",
+            "Deep Knowledge Tracing (DKT)",
+            "Cómo la IA de Duolingo Aprende lo que Necesitas Aprender",
+            "Usando un Algoritmo basado en Glicko para Medir el Aprendizaje Durante el Curso",
+            "Sistema ELO"
+          ]
+        },
+        "forgettingCurve": {
+          "title": "Curva del Olvido",
+          "papers": [
+            "La práctica del recuerdo y la taxonomía de Bloom",
+            "El efecto del espaciamiento",
+            "Recuerdo Activo / Evocar / Práctica Evocada"
+          ]
+        },
+        "realLifeContexts": {
+          "title": "Contextos de la Vida Real",
+          "papers": [
+            "8 estrategias que funcionan en matemáticas",
+            "Arquitectura Cognitiva y Diseño Instruccional",
+            "Implicaciones de la teoría de la carga cognitiva para el diseño instruccional"
+          ]
+        },
+        "spacedPractice": {
+          "title": "Práctica Espaciada",
+          "papers": [
+            "El efecto del espaciamiento",
+            "Práctica Intercalada",
+            "Un Modelo Entrenable de Repetición Espaciada para el Aprendizaje de Idiomas"
+          ]
+        },
+        "gamification": {
+          "title": "Gamificación",
+          "papers": [
+            "Marco de Trabajo Octalysis",
+            "Gamifica Cursos Online con Herramientas Integradas en tu Sistema de Gestión de Aprendizaje",
+            "De elementos de diseño de juegos a la jugabilidad: definiendo 'gamificación'",
+            "Refuerzo, Recompensa y Motivación Intrínseca: Un Meta-Análisis"
+          ]
+        }
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "¿Quién está detrás de Blueberry Math?",
+    "meta": {
+      "title": "Sobre Nosotros - Blueberry Math",
+      "description": "Conoce la misión y el equipo de Blueberry Math."
+    },
+    "content": {
+      "poweredBy": "Blueberry Math es un producto impulsado por",
+      "oneclickDescription": "Oneclick es un equipo de tecnólogos digitales, expertos en productos y entusiastas de la educación unidos por un objetivo común: hacer del mundo un lugar mejor a través de la educación, ayudando a millones de estudiantes a convertirse en adultos realizados.",
+      "innovation": "La innovación ha sido el fundamento de nuestra filosofía desde nuestros inicios. Investigamos y experimentamos continuamente con nuevas formas de transformar el contenido en experiencias de aprendizaje exitosas, integrando evidencia neurocientífica con tecnologías computacionales avanzadas.",
+      "expertise": "Con reconocida experiencia en el sector editorial K-12, diseñamos y construimos soluciones versátiles para satisfacer las necesidades de estudiantes, profesores y escuelas. Durante los últimos 15+ años, hemos apoyado a las editoriales educativas en sus transformaciones digitales, pero creemos que la educación aún tiene mucho espacio para la innovación, y estamos comprometidos a hacer más.",
+      "passion": "Nos apasiona la tecnología y la educación, y sabemos que la tecnología puede revolucionar el proceso de aprendizaje.",
+      "learning": "Hemos aprendido mucho de las editoriales y continuamos aprendiendo diariamente al interactuar con profesores, estudiantes y escuelas para comprender sus necesidades, frustraciones y aspiraciones para mejores experiencias de aprendizaje.",
+      "birth": "Así nació Blueberry Math: una combinación de nuestras pasiones por la educación y la tecnología, dirigida a potenciar la experiencia de enseñanza y aprendizaje en una de las materias más críticas. Y esperamos estar ayudándote a ti, profesor, a guiar a los estudiantes para que se conviertan en las personas que aspiran ser."
+    }
+  },
+  "auth": {
+    "userType": {
+      "title": "Selecciona el Tipo de Usuario",
+      "teacher": "Soy Profesor",
+      "student": "Soy Estudiante"
     }
   }
 }

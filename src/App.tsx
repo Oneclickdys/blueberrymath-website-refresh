@@ -16,6 +16,8 @@ import './i18n/config';
 
 const queryClient = new QueryClient();
 
+console.log("Built with love by Su ❤️")
+
 const App = () => (
   <React.StrictMode>
     <HelmetProvider>

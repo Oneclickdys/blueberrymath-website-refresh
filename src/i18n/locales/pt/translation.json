@@ -288,6 +288,76 @@
           "description": "As narrativas do jogo e as conquistas desbloqueadas estimulam a curiosidade e a consistência nos alunos."
         }
       }
+    },
+    "scientificEvidence": {
+      "categories": {
+        "adaptiveProgression": {
+          "title": "Progressão Adaptativa",
+          "papers": [
+            "Um Modelo Treinável de Repetição Espaçada para Aprendizagem de Idiomas",
+            "Deep Knowledge Tracing (DKT)",
+            "Como a IA do Duolingo Aprende o que Você Precisa Aprender",
+            "Usando um Algoritmo baseado em Glicko para Medir o Aprendizado Durante o Curso",
+            "Sistema ELO"
+          ]
+        },
+        "forgettingCurve": {
+          "title": "Curva do Esquecimento",
+          "papers": [
+            "A prática da recordação e a taxonomia de Bloom",
+            "O efeito do espaçamento",
+            "Recordação Ativa / Evocar / Prática Evocada"
+          ]
+        },
+        "realLifeContexts": {
+          "title": "Contextos da Vida Real",
+          "papers": [
+            "8 estratégias que funcionam em matemática",
+            "Arquitetura Cognitiva e Design Instrucional",
+            "Implicações da teoria da carga cognitiva para o design instrucional"
+          ]
+        },
+        "spacedPractice": {
+          "title": "Prática Espaçada",
+          "papers": [
+            "O efeito do espaçamento",
+            "Prática Intercalada",
+            "Um Modelo Treinável de Repetição Espaçada para Aprendizagem de Idiomas"
+          ]
+        },
+        "gamification": {
+          "title": "Gamificação",
+          "papers": [
+            "Framework Octalysis",
+            "Gamifique Cursos Online com Ferramentas Integradas ao seu Sistema de Gestão de Aprendizagem",
+            "De elementos de design de jogos à jogabilidade: definindo 'gamificação'",
+            "Reforço, Recompensa e Motivação Intrínseca: Uma Meta-Análise"
+          ]
+        }
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "Quem está por trás da Blueberry Math?",
+    "meta": {
+      "title": "Sobre Nós - Blueberry Math",
+      "description": "Conheça a missão e a equipe da Blueberry Math."
+    },
+    "content": {
+      "poweredBy": "Blueberry Math é um produto desenvolvido pela",
+      "oneclickDescription": "Oneclick é uma equipe de tecnólogos digitais, especialistas em produtos e entusiastas da educação unidos por um objetivo comum: tornar o mundo um lugar melhor através da educação, ajudando milhões de estudantes a se tornarem adultos realizados.",
+      "innovation": "A inovação tem sido o fundamento de nossa filosofia desde o início. Pesquisamos e experimentamos continuamente novas formas de transformar conteúdo em experiências de aprendizagem bem-sucedidas, integrando evidências neurocientíficas com tecnologias computacionais avançadas.",
+      "expertise": "Com reconhecida experiência no setor editorial K-12, projetamos e construímos soluções versáteis para atender às necessidades de alunos, professores e escolas. Nos últimos 15+ anos, apoiamos editoras educacionais em suas transformações digitais, mas acreditamos que a educação ainda tem muito espaço para inovação, e estamos comprometidos em fazer mais.",
+      "passion": "Somos apaixonados por tecnologia e educação, e sabemos que a tecnologia pode revolucionar o processo de aprendizagem.",
+      "learning": "Aprendemos muito com as editoras e continuamos aprendendo diariamente ao interagir com professores, alunos e escolas para entender suas necessidades, frustrações e aspirações por melhores experiências de aprendizagem.",
+      "birth": "Foi assim que nasceu a Blueberry Math—uma combinação de nossas paixões por educação e tecnologia, com o objetivo de potencializar a experiência de ensino e aprendizagem em uma das disciplinas mais críticas. E esperamos estar ajudando você, professor, a guiar os alunos para que se tornem as pessoas que aspiram ser."
+    }
+  },
+  "auth": {
+    "userType": {
+      "title": "Selecione o Tipo de Usuário",
+      "teacher": "Sou Professor",
+      "student": "Sou Estudante"
     }
   }
 }

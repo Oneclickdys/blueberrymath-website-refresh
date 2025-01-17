@@ -226,6 +226,22 @@
     "cookiesPolicy": "Cookies Policy",
     "privacyPolicy": "Privacy Policy"
   },
+  "aboutPage": {
+    "title": "Who is behind Blueberry Math?",
+    "meta": {
+      "title": "About Us - Blueberry Math",
+      "description": "Learn about Blueberry Math's mission and team."
+    },
+    "content": {
+      "poweredBy": "Blueberry Math is a product powered by",
+      "oneclickDescription": "Oneclick is a team of digital technologists, product experts, and education enthusiasts united by a common goal: to make the world a better place through education by helping millions of students become fulfilled adults.",
+      "innovation": "Innovation has been the foundation of our ethos since our inception. We continuously research and experiment with new ways to transform great content into successful learning experiences, integrating neuroscientific evidence with advanced computational technologies.",
+      "expertise": "With recognized expertise in the K–12 publishing sector, we design and build versatile solutions to meet the needs of students, teachers, and schools. Over the past 15+ years, we've supported educational publishers in their digital transformations, but we believe education still has much room for innovation, and we're committed to doing more.",
+      "passion": "We're passionate about technology and education, and we know technology can revolutionize the learning process.",
+      "learning": "We've learned so much from publishers, and we continue learning daily by engaging with teachers, students, and schools to understand their needs, frustrations, and aspirations for better learning experiences.",
+      "birth": "That's how Blueberry Math was born—a combination of our passions for education and technology, aimed at empowering the teaching and learning experience in one of the most critical subjects. And hopefully, helping you, the teachers, to guide students in becoming the individuals they aspire to be."
+    }
+  },
   "howItWorks": {
     "title": "How to use Blueberry Math",
     "subtitle": "A simple and effective Method",
@@ -284,6 +300,53 @@
         "gamification": {
           "title": "Motivating Gamification",
           "description": "Game narratives and unlocked achievements stimulate curiosity and consistency in students."
+        }
+      }
+    },
+    "scientificEvidence": {
+      "categories": {
+        "adaptiveProgression": {
+          "title": "Adaptive Progression",
+          "papers": [
+            "A Trainable Spaced Repetition Model for Language Learning",
+            "Deep Knowledge Tracing (DKT)",
+            "How Duolingo's AI Learns What You Need to Learn",
+            "Using a Glicko-based Algorithm to Measure In-Course Learning",
+            "Sistema ELO"
+          ]
+        },
+        "forgettingCurve": {
+          "title": "Forgetting Curve",
+          "papers": [
+            "The practice of recall and Bloom's taxonomy",
+            "The spacing effect",
+            "Active Recall / Evocar / Practica Evocada"
+          ]
+        },
+        "realLifeContexts": {
+          "title": "Real-life Contexts",
+          "papers": [
+            "8 strategies that work in mathematics",
+            "Cognitive Architecture and Instructional Design",
+            "Implications of cognitive load theory for instructional design"
+          ]
+        },
+        "spacedPractice": {
+          "title": "Spaced Practice",
+          "papers": [
+            "The spacing effect",
+            "Interleaved Practice",
+            "A Trainable Spaced Repetition Model for Language Learning"
+          ]
+        },
+        "gamification": {
+          "title": "Gamification",
+          "papers": [
+            "Octalysis Framework",
+            "Gamify Online Courses With Tools Built Into Your Learning Management System",
+            "From game design elements to gamefulness: defining 'gamification'",
+            "Reinforcement, Reward, and Intrinsic Motivation: A Meta-Analysis"
+          ]
         }
       }
     }
