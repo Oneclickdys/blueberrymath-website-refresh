@@ -6,7 +6,13 @@ import { useTranslation } from 'react-i18next';
 interface CTASectionProps {}
 
 export const CTASection: React.FC<CTASectionProps> = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  // Get the trial URL based on current language
+  const getTrialUrl = () => {
+    const lang = i18n.language;
+    return `https://www.blueberrymath.ai/${lang}/school-free-trial`;
+  };
 
   return (
     <section className="py-20 bg-gradient-to-br from-primary to-primary-dark text-white">
@@ -19,7 +25,7 @@ export const CTASection: React.FC<CTASectionProps> = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up" style={{ animationDelay: "400ms" }}>
           <a 
-            href={t('buttons.trial.url')}
+            href={getTrialUrl()}
             target="_blank"
             rel="noopener noreferrer"
           >
