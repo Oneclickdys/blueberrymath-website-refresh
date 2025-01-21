@@ -52,7 +52,7 @@ export const IntroCard: React.FC<IntroCardProps> = ({
         <div className="flex flex-col md:flex-row items-center">
           <div className={`flex-1 ${imageOrder}`}>
             <img 
-              src="/lovable-uploads/57d2aa16-250c-4ffd-81de-b24b42808746.png"
+              src={imageSrc}
               alt={imageAlt}
               className="w-full h-full object-cover"
             />
