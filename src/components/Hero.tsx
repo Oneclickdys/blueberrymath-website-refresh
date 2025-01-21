@@ -6,7 +6,13 @@ import { useTranslation } from 'react-i18next';
 interface HeroProps {}
 
 export const Hero: React.FC<HeroProps> = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  // Get the trial URL based on current language
+  const getTrialUrl = () => {
+    const lang = i18n.language;
+    return `https://www.blueberrymath.ai/${lang}/school-free-trial`;
+  };
 
   return (
     <div className="relative min-h-[90vh] flex items-center bg-gradient-to-br from-primary to-primary-dark text-white">
@@ -20,7 +26,7 @@ export const Hero: React.FC<HeroProps> = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href={t('buttons.trial.url')}
+              href={getTrialUrl()}
               target="_blank"
               rel="noopener noreferrer"
             >
