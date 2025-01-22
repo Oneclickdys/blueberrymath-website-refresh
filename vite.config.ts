@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      'react-tooltip/dist/react-tooltip.umd.js': 'react-tooltip',
     },
   },
 }));
