@@ -94,7 +94,7 @@ const Events = () => {
                     <p className="text-gray-700 whitespace-pre-line">{event.description}</p>
                     <div className="pt-4">
                       <a 
-                        href="#" 
+                        href="https://school.blueberrymath.ai/concurso" 
                         className="inline-block bg-gray-500 text-white px-6 py-3 rounded-full hover:bg-gray-600 transition-colors"
                       >
                         {t('events.viewResults')}
