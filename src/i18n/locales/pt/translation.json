@@ -268,25 +268,11 @@
       ],
       "past": [
         {
-          "id": 4,
-          "title": "Festival de Matemática de Inverno",
-          "dates": "1-15 de dezembro de 2023",
-          "description": "Uma celebração festiva da matemática com desafios e recompensas especiais com tema natalino.",
-          "image": "/placeholder.svg"
-        },
-        {
-          "id": 5,
-          "title": "Especial de Volta às Aulas",
-          "dates": "1-30 de setembro de 2023",
-          "description": "Tarifas promocionais especiais e conteúdo exclusivo para o novo ano letivo.",
-          "image": "/placeholder.svg"
-        },
-        {
-          "id": 6,
-          "title": "Acampamento de Matemática de Verão",
-          "dates": "1-31 de julho de 2023",
-          "description": "Acampamento de verão virtual com atividades matemáticas diárias e sessões interativas.",
-          "image": "/placeholder.svg"
+          "id": 1,
+          "title": "Maratona de Matemática",
+          "dates": "4 a 8 de outubro",
+          "description": "A Maratona Matemática Blueberry chegou!🎉\n🥇A turma que resolver corretamente mais atividades ganhará licenças para todos os alunos deste curso.\n\n⌛️ Prazo de inscrição: 25 de outubro.",
+          "image": "/lovable-uploads/56efa3e2-c928-4a24-acd2-46293419c4d3.png"
         }
       ]
     }
