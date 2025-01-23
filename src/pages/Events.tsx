@@ -82,34 +82,40 @@ const Events = () => {
             </div>
 
             {/* Details Panel */}
-            <div className={`fixed top-0 right-0 h-full w-[600px] bg-white shadow-xl transform transition-transform duration-300 ease-in-out ${isDetailsOpen ? 'translate-x-0' : 'translate-x-full'} overflow-y-auto`}>
-              <div className="p-8">
-                <button 
-                  onClick={toggleDetails}
-                  className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-                <div className="space-y-6">
-                  <h2 className="text-3xl font-bold text-primary">Detalles del Evento</h2>
-                  <div className="prose prose-lg">
-                    <p>Imagina que las matemáticas en tu colegio son más efectivas, divertidas y fáciles de enseñar. Con BlueberryMath, transformamos el aprendizaje en una experiencia interactiva y gamificada. 🎮✨</p>
-                    
-                    <h3 className="text-xl font-semibold mt-6 mb-4">¿Qué ofrecemos?</h3>
-                    <ul className="space-y-4">
-                      <li>✅ Una plataforma fácil de usar, con informes descargables para monitorear el progreso de cada estudiante.</li>
-                      <li>✅ Contenidos personalizados que se adaptan a su nivel y al temario de tu centro.</li>
-                      <li>✅ Neuroeducación aplicada: 🧠¡la curva del olvido ya no será un problema!</li>
-                    </ul>
+            <div className={`relative`}>
+              <div 
+                className={`absolute left-full top-0 w-[600px] bg-white shadow-xl transform transition-transform duration-300 ease-in-out ${
+                  isDetailsOpen ? '-translate-x-[600px]' : 'translate-x-0'
+                } rounded-r-lg overflow-hidden z-50 min-h-[500px]`}
+              >
+                <div className="p-8">
+                  <button 
+                    onClick={toggleDetails}
+                    className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                  <div className="space-y-6">
+                    <h2 className="text-3xl font-bold text-primary">Detalles del Evento</h2>
+                    <div className="prose prose-lg">
+                      <p>Imagina que las matemáticas en tu colegio son más efectivas, divertidas y fáciles de enseñar. Con BlueberryMath, transformamos el aprendizaje en una experiencia interactiva y gamificada. 🎮✨</p>
+                      
+                      <h3 className="text-xl font-semibold mt-6 mb-4">¿Qué ofrecemos?</h3>
+                      <ul className="space-y-4">
+                        <li>✅ Una plataforma fácil de usar, con informes descargables para monitorear el progreso de cada estudiante.</li>
+                        <li>✅ Contenidos personalizados que se adaptan a su nivel y al temario de tu centro.</li>
+                        <li>✅ Neuroeducación aplicada: 🧠¡la curva del olvido ya no será un problema!</li>
+                      </ul>
 
-                    <h3 className="text-xl font-semibold mt-6 mb-4">💡 ¿Cómo puedes probarlo?</h3>
-                    <p>🎯 Inscríbete antes del 10 de febrero y disfruta de 2 semanas gratis.</p>
-                    
-                    <p className="mt-6">➡️ Solicita ahora tu prueba gratuita aquí</p>
-                    
-                    <p className="mt-6">💪 ¡Estamos listos para ayudarte!</p>
+                      <h3 className="text-xl font-semibold mt-6 mb-4">💡 ¿Cómo puedes probarlo?</h3>
+                      <p>🎯 Inscríbete antes del 10 de febrero y disfruta de 2 semanas gratis.</p>
+                      
+                      <p className="mt-6">➡️ Solicita ahora tu prueba gratuita aquí</p>
+                      
+                      <p className="mt-6">💪 ¡Estamos listos para ayudarte!</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -118,7 +124,7 @@ const Events = () => {
             {/* Overlay */}
             {isDetailsOpen && (
               <div 
-                className="fixed inset-0 bg-black bg-opacity-50 transition-opacity"
+                className="fixed inset-0 bg-black bg-opacity-50 transition-opacity z-40"
                 onClick={toggleDetails}
               />
             )}
