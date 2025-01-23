@@ -1,6 +1,8 @@
 import React from 'react';
+import ReactCardFlip from "react-card-flip";
 import { LucideIcon } from "lucide-react";
 import { CardFront } from "./CardFront";
+import { CardBack } from "./CardBack";
 
 interface FeatureCardProps {
   title: string;
@@ -16,15 +18,28 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   title,
   description,
   icon,
+  backImage,
+  backText,
+  isFlipped,
+  onClick,
 }) => {
   return (
     <div className="h-[300px] w-full">
-      <CardFront
-        title={title}
-        description={description}
-        icon={icon}
-        onClick={() => {}}
-      />
+      <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+        <CardFront
+          title={title}
+          description={description}
+          icon={icon}
+          onClick={onClick}
+        />
+
+        <CardBack
+          title={title}
+          backText={backText}
+          backImage={backImage}
+          onClick={onClick}
+        />
+      </ReactCardFlip>
     </div>
   );
 };

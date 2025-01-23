@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { ChevronDown } from "lucide-react";
-import customExercises from '../../data/customExercises';
-import Question from '../Question';
 
 interface Activity {
   name: string;
@@ -14,7 +13,6 @@ interface ActivityListProps {
 }
 
 export const ActivityList: React.FC<ActivityListProps> = ({ activities }) => {
-  
   return (
     <ul className="space-y-4">
       {activities.map((activity, index) => (
@@ -25,8 +23,8 @@ export const ActivityList: React.FC<ActivityListProps> = ({ activities }) => {
               <ChevronDown className="h-4 w-4" />
             </CollapsibleTrigger>
             <CollapsibleContent className="pt-2">
-              <div className="bg-neutral p-4 rounded-lg text-gray-500">
-                <Question data={customExercises['numbers-and-operations'][index > 3 ? 3 : index]} />
+              <div className="bg-neutral p-4 rounded-lg text-center text-gray-500">
+                [Activity preview placeholder]
               </div>
             </CollapsibleContent>
           </Collapsible>
