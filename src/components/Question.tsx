@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React, { useCallback, useEffect } from 'react';
 import {
   Lemonade,
@@ -17,7 +18,6 @@ declare global {
   }
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
 function Question({ data = {}, fileApi }: Readonly<QuestionProps>) {
   const {
     exercise: { Controls, Question, Feedback, questionApi, SampleAnswer },
@@ -111,5 +111,4 @@ function Question({ data = {}, fileApi }: Readonly<QuestionProps>) {
   );
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
 export default observer(Question);
