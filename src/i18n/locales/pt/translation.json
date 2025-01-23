@@ -275,6 +275,24 @@
           "image": "/lovable-uploads/56efa3e2-c928-4a24-acd2-46293419c4d3.png"
         }
       ]
+    },
+    "details": {
+      "title": "Detalhes do Evento",
+      "description": "Imagine tornar a matemática mais eficaz, divertida e fácil de ensinar em sua escola. Com o BlueberryMath, transformamos o aprendizado em uma experiência interativa e gamificada. 🎮✨",
+      "offer": {
+        "title": "O que oferecemos",
+        "items": [
+          "✅ Uma plataforma fácil de usar com relatórios baixáveis para monitorar o progresso de cada aluno.",
+          "✅ Conteúdo personalizado que se adapta ao nível deles e ao currículo da sua escola.",
+          "✅ Neuroeducação aplicada: 🧠 a curva do esquecimento não será mais um problema!"
+        ]
+      },
+      "howToTry": {
+        "title": "💡 Como você pode experimentar?",
+        "description": "🎯 Inscreva-se antes de 10 de fevereiro e aproveite 2 semanas grátis.",
+        "cta": "➡️ Solicite sua avaliação gratuita aqui",
+        "support": "💪 Estamos prontos para ajudar você!"
+      }
     }
   },
   "footer": {

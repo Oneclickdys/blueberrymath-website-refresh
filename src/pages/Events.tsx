@@ -88,23 +88,23 @@ const Events = () => {
                           </svg>
                         </button>
                         <div className="space-y-6">
-                          <h2 className="text-2xl font-bold text-primary">Detalles del Evento</h2>
+                          <h2 className="text-2xl font-bold text-primary">{t('events.details.title')}</h2>
                           <div className="prose prose-lg">
-                            <p>Imagina que las matemáticas en tu colegio son más efectivas, divertidas y fáciles de enseñar. Con BlueberryMath, transformamos el aprendizaje en una experiencia interactiva y gamificada. 🎮✨</p>
+                            <p>{t('events.details.description')}</p>
                             
-                            <h3 className="text-xl font-semibold mt-6 mb-4">¿Qué ofrecemos?</h3>
+                            <h3 className="text-xl font-semibold mt-6 mb-4">{t('events.details.offer.title')}</h3>
                             <ul className="space-y-4">
-                              <li>✅ Una plataforma fácil de usar, con informes descargables para monitorear el progreso de cada estudiante.</li>
-                              <li>✅ Contenidos personalizados que se adaptan a su nivel y al temario de tu centro.</li>
-                              <li>✅ Neuroeducación aplicada: 🧠¡la curva del olvido ya no será un problema!</li>
+                              {t('events.details.offer.items', { returnObjects: true }).map((item: string, index: number) => (
+                                <li key={index}>{item}</li>
+                              ))}
                             </ul>
 
-                            <h3 className="text-xl font-semibold mt-6 mb-4">💡 ¿Cómo puedes probarlo?</h3>
-                            <p>🎯 Inscríbete antes del 10 de febrero y disfruta de 2 semanas gratis.</p>
+                            <h3 className="text-xl font-semibold mt-6 mb-4">{t('events.details.howToTry.title')}</h3>
+                            <p>{t('events.details.howToTry.description')}</p>
                             
-                            <p className="mt-6">➡️ Solicita ahora tu prueba gratuita aquí</p>
+                            <p className="mt-6">{t('events.details.howToTry.cta')}</p>
                             
-                            <p className="mt-6">💪 ¡Estamos listos para ayudarte!</p>
+                            <p className="mt-6">{t('events.details.howToTry.support')}</p>
                           </div>
                         </div>
                       </div>
