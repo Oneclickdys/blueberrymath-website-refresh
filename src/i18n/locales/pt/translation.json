@@ -180,7 +180,7 @@
         "title": "Magnitudes e Medidas",
         "activities": {
           "analogClocks": "Aprendendo a Hora com Relógios Analógicos",
-          "digitalClocks": "E com Relógios Digitais",
+          "digitalClocks": "E com Relojes Digitais",
           "calendar": "Entendendo os Dias da Semana e os Meses do Ano",
           "measurement": "Compreendendo as Unidades de Medida",
           "money": "Entendendo o Valor de Moedas e Notas"
@@ -363,7 +363,7 @@
         "adaptiveProgression": {
           "title": "Progressão Adaptativa",
           "papers": [
-            "Um Modelo Treinável de Repetição Espaçada para Aprendizagem de Idiomas",
+            "Um Modelo Treinável de Repetição Espaciada para Aprendizagem de Idiomas",
             "Deep Knowledge Tracing (DKT)",
             "Como a IA do Duolingo Aprende o que Você Precisa Aprender",
             "Usando um Algoritmo baseado em Glicko para Medir o Aprendizado Durante o Curso",
@@ -391,7 +391,7 @@
           "papers": [
             "O efeito do espaçamento",
             "Prática Intercalada",
-            "Um Modelo Treinável de Repetição Espaçada para Aprendizagem de Idiomas"
+            "Um Modelo Treinável de Repetição Espaciada para Aprendizagem de Idiomas"
           ]
         },
         "gamification": {
