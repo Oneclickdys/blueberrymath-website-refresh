@@ -268,11 +268,25 @@
       ],
       "past": [
         {
-          "id": 1,
-          "title": "Maratón de matemáticas",
-          "dates": "4th - 8th october",
-          "description": "Llega el Maratón Matemático de Blueberry!🎉\n🥇La clase que resuelva correctamente más actividades ganará licencias para todos los estudiantes este curso.\n\n⌛️ Fecha límite de inscripción: 25 de octubre.",
-          "image": "/lovable-uploads/56efa3e2-c928-4a24-acd2-46293419c4d3.png"
+          "id": 4,
+          "title": "Festival de Matemáticas de Invierno",
+          "dates": "1-15 de diciembre de 2023",
+          "description": "Una celebración festiva de las matemáticas con desafíos y recompensas especiales con tema navideño.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "id": 5,
+          "title": "Especial de Vuelta al Cole",
+          "dates": "1-30 de septiembre de 2023",
+          "description": "Tarifas promocionales especiales y contenido exclusivo para el nuevo año escolar.",
+          "image": "/placeholder.svg"
+        },
+        {
+          "id": 6,
+          "title": "Campamento de Matemáticas de Verano",
+          "dates": "1-31 de julio de 2023",
+          "description": "Campamento de verano virtual con actividades matemáticas diarias y sesiones interactivas.",
+          "image": "/placeholder.svg"
         }
       ]
     }
