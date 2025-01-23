@@ -74,11 +74,11 @@ const Events = () => {
 
                     {/* Details Panel */}
                     <div 
-                      className={`absolute top-0 left-full w-[400px] bg-white shadow-xl h-full transform transition-all duration-300 ease-in-out ${
+                      className={`absolute top-0 left-full w-[600px] bg-white shadow-xl h-full transform transition-all duration-300 ease-in-out ${
                         selectedEventId === event.id ? 'translate-x-4 opacity-100' : '-translate-x-4 opacity-0 pointer-events-none'
-                      } rounded-lg overflow-hidden`}
+                      } rounded-lg`}
                     >
-                      <div className="p-6 h-full overflow-y-auto">
+                      <div className="p-8 h-full">
                         <button 
                           onClick={() => toggleDetails(event.id)}
                           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
