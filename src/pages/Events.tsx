@@ -23,6 +23,11 @@ const Events = () => {
     image: string;
   }>;
 
+  // Helper function to get the correct image path
+  const getImagePath = (imageName: string) => {
+    return imageName.startsWith('http') ? imageName : `/placeholder.svg`;
+  };
+
   return (
     <>
       <Helmet>
@@ -42,7 +47,7 @@ const Events = () => {
                 currentEvents.map((event) => (
                   <div key={event.id} className="rounded-lg overflow-hidden shadow-lg bg-white">
                     <img 
-                      src={event.image}
+                      src={getImagePath(event.image)}
                       alt={event.title}
                       className="w-full h-48 object-cover"
                     />
@@ -72,7 +77,7 @@ const Events = () => {
                 <div key={event.id} className="rounded-lg overflow-hidden shadow-lg bg-white">
                   <div className="relative">
                     <img 
-                      src={event.image}
+                      src={getImagePath(event.image)}
                       alt={event.title}
                       className="w-full h-48 object-cover opacity-75"
                     />
