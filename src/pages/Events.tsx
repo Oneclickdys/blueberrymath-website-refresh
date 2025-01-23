@@ -25,7 +25,7 @@ const Events = () => {
 
   // Helper function to get the correct image path
   const getImagePath = (imageName: string) => {
-    return imageName.startsWith('http') ? imageName : `/placeholder.svg`;
+    return imageName.startsWith('http') ? imageName : imageName;
   };
 
   return (
@@ -54,7 +54,7 @@ const Events = () => {
                     <div className="p-6 space-y-4">
                       <h2 className="text-2xl font-bold text-primary">{event.title}</h2>
                       <p className="text-sm font-medium text-gray-600">{event.dates}</p>
-                      <p className="text-gray-700">{event.description}</p>
+                      <p className="text-gray-700 whitespace-pre-line">{event.description}</p>
                       <div className="pt-4">
                         <a 
                           href="#" 
@@ -91,7 +91,7 @@ const Events = () => {
                   <div className="p-6 space-y-4">
                     <h2 className="text-2xl font-bold text-primary">{event.title}</h2>
                     <p className="text-sm font-medium text-gray-600">{event.dates}</p>
-                    <p className="text-gray-700">{event.description}</p>
+                    <p className="text-gray-700 whitespace-pre-line">{event.description}</p>
                     <div className="pt-4">
                       <a 
                         href="#" 
