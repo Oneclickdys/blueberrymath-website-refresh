@@ -25,7 +25,6 @@ const Events = () => {
     image: string;
   }>;
 
-  // Helper function to get the correct image path
   const getImagePath = (imageName: string) => {
     return imageName.startsWith('http') ? imageName : imageName;
   };
@@ -51,8 +50,8 @@ const Events = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {currentEvents.length > 0 ? (
                 currentEvents.map((event) => (
-                  <div key={event.id} className="relative">
-                    <div className="rounded-lg overflow-hidden shadow-lg bg-white">
+                  <div key={event.id} className="relative group">
+                    <div className="rounded-lg overflow-hidden shadow-lg bg-white h-full">
                       <img 
                         src={getImagePath(event.image)}
                         alt={event.title}
@@ -75,11 +74,11 @@ const Events = () => {
 
                     {/* Details Panel */}
                     <div 
-                      className={`absolute left-full top-0 w-[400px] bg-white shadow-xl transform transition-transform duration-300 ease-in-out ${
-                        selectedEventId === event.id ? 'translate-x-4' : '-translate-x-full opacity-0 pointer-events-none'
-                      } rounded-lg overflow-hidden z-50`}
+                      className={`absolute top-0 left-full w-[400px] bg-white shadow-xl h-full transform transition-all duration-300 ease-in-out ${
+                        selectedEventId === event.id ? 'translate-x-4 opacity-100' : '-translate-x-4 opacity-0 pointer-events-none'
+                      } rounded-lg overflow-hidden`}
                     >
-                      <div className="p-6">
+                      <div className="p-6 h-full overflow-y-auto">
                         <button 
                           onClick={() => toggleDetails(event.id)}
                           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
@@ -116,14 +115,6 @@ const Events = () => {
                 <p className="text-gray-600">{t('events.noEvents')}</p>
               )}
             </div>
-
-            {/* Overlay */}
-            {selectedEventId !== null && (
-              <div 
-                className="fixed inset-0 bg-black bg-opacity-50 transition-opacity z-40"
-                onClick={() => setSelectedEventId(null)}
-              />
-            )}
 
             <h2 className="text-4xl font-bold text-primary-dark mt-20 mb-12">{t('events.pastEvents')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
