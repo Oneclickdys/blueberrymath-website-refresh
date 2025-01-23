@@ -115,7 +115,7 @@
         "name": "Manuel",
         "role": "",
         "city": "Madrid",
-        "content": "We have been using the platform a lot and my students love it!"
+        "content": "We have been using the platform a lot a my students love it!"
       }
     ]
   },
@@ -256,6 +256,131 @@
     "legalAdvice": "Legal Advice",
     "cookiesPolicy": "Cookies Policy",
     "privacyPolicy": "Privacy Policy"
+  },
+  "aboutPage": {
+    "title": "Who is behind Blueberry Math?",
+    "meta": {
+      "title": "About Us - Blueberry Math",
+      "description": "Learn about Blueberry Math's mission and team."
+    },
+    "content": {
+      "poweredBy": "Blueberry Math is a product powered by",
+      "oneclickDescription": "Oneclick is a team of digital technologists, product experts, and education enthusiasts united by a common goal: to make the world a better place through education by helping millions of students become fulfilled adults.",
+      "innovation": "Innovation has been the foundation of our ethos since our inception. We continuously research and experiment with new ways to transform great content into successful learning experiences, integrating neuroscientific evidence with advanced computational technologies.",
+      "expertise": "With recognized expertise in the K–12 publishing sector, we design and build versatile solutions to meet the needs of students, teachers, and schools. Over the past 15+ years, we've supported educational publishers in their digital transformations, but we believe education still has much room for innovation, and we're committed to doing more.",
+      "passion": "We're passionate about technology and education, and we know technology can revolutionize the learning process.",
+      "learning": "We've learned so much from publishers, and we continue learning daily by engaging with teachers, students, and schools to understand their needs, frustrations, and aspirations for better learning experiences.",
+      "birth": "That's how Blueberry Math was born—a combination of our passions for education and technology, aimed at empowering the teaching and learning experience in one of the most critical subjects. And hopefully, helping you, the teachers, to guide students in becoming the individuals they aspire to be."
+    }
+  },
+  "howItWorks": {
+    "title": "How to use Blueberry Math",
+    "subtitle": "A simple and effective Method",
+    "scienceTitle": "The Science Behind",
+    "scienceSubtitle": "Understanding how Blueberry Math enhances learning",
+    "evidenceTitle": "Scientific Evidence",
+    "evidenceSubtitle": "Research that supports our methodology",
+    "method": {
+      "title": "How to use Blueberry Math",
+      "subtitle": "A simple and effective Method",
+      "steps": {
+        "dailyRoutine": {
+          "title": "Integrate Blueberry into Daily Routines",
+          "description": "Blueberry Math is a versatile tool that can be used at home or in school. In the classroom, dedicate a few minutes at the beginning or end of the class to reinforce what you've taught, or use it as a reward activity after completing other tasks."
+        },
+        "consistency": {
+          "title": "Consistency is Key",
+          "description": "Establish a daily routine, whether at home, in the classroom, or both, for students to practice math for 15 minutes a day, consolidating their key skills."
+        },
+        "motivation": {
+          "title": "Motivate Through Game Narrative",
+          "description": "Teachers guide students through topics that will be covered in the following week. Encourage them to complete missions as part of their learning and engage with the storyline."
+        },
+        "dashboard": {
+          "title": "Use the Teacher Dashboard as Your Ally",
+          "description": "Review your students' progress at least once a week, identify those needing additional support, and plan personalized interventions based on the platform's data. Use progress and dedication reports to group students for peer-learning opportunities."
+        },
+        "families": {
+          "title": "Involve Families in Learning",
+          "description": "Share progress reports with parents at the end of each term to keep them informed and involved in their child's mathematical development."
+        },
+        "evaluation": {
+          "title": "Fun Knowledge Evaluation",
+          "description": "Use in-class weekly practice sessions to review topics and conduct diagnostic assessments in a dynamic and collaborative way, tailored to your class's levels."
+        }
+      }
+    },
+    "science": {
+      "points": {
+        "adaptive": {
+          "title": "Adaptive Progression",
+          "description": "Activities adjust to the student's level, keeping them challenged but not frustrated, ensuring they work through the curriculum at their own pace."
+        },
+        "forgetting": {
+          "title": "Forgetting Curve",
+          "description": "Students review previously learned concepts to avoid forgetting and build strong knowledge."
+        },
+        "contexts": {
+          "title": "Real-Life Contexts",
+          "description": "Make learning more enjoyable and applicable by using scenarios students can relate to."
+        },
+        "practice": {
+          "title": "Spaced Practice",
+          "description": "Algorithms ensure students revisit mastered concepts, promoting long-term retention."
+        },
+        "gamification": {
+          "title": "Motivating Gamification",
+          "description": "Game narratives and unlocked achievements stimulate curiosity and consistency in students."
+        }
+      }
+    },
+    "scientificEvidence": {
+      "categories": {
+        "adaptiveProgression": {
+          "title": "Adaptive Progression",
+          "papers": [
+            "A Trainable Spaced Repetition Model for Language Learning",
+            "Deep Knowledge Tracing (DKT)",
+            "How Duolingo's AI Learns What You Need to Learn",
+            "Using a Glicko-based Algorithm to Measure In-Course Learning",
+            "Sistema ELO"
+          ]
+        },
+        "forgettingCurve": {
+          "title": "Forgetting Curve",
+          "papers": [
+            "The practice of recall and Bloom's taxonomy",
+            "The spacing effect",
+            "Active Recall / Evocar / Practica Evocada"
+          ]
+        },
+        "realLifeContexts": {
+          "title": "Real-life Contexts",
+          "papers": [
+            "8 strategies that work in mathematics",
+            "Cognitive Architecture and Instructional Design",
+            "Implications of cognitive load theory for instructional design"
+          ]
+        },
+        "spacedPractice": {
+          "title": "Spaced Practice",
+          "papers": [
+            "The spacing effect",
+            "Interleaved Practice",
+            "A Trainable Spaced Repetition Model for Language Learning"
+          ]
+        },
+        "gamification": {
+          "title": "Gamification",
+          "papers": [
+            "Octalysis Framework",
+            "Gamify Online Courses With Tools Built Into Your Learning Management System",
+            "From game design elements to gamefulness: defining 'gamification'",
+            "Reinforcement, Reward, and Intrinsic Motivation: A Meta-Analysis"
+          ]
+        }
+      }
+    }
   },
   "events": {
     "currentEvents": "Current Events",
