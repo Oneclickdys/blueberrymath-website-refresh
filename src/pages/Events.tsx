@@ -94,7 +94,7 @@ const Events = () => {
                             
                             <h3 className="text-xl font-semibold mt-6 mb-4">{t('events.details.offer.title')}</h3>
                             <ul className="space-y-4">
-                              {t('events.details.offer.items', { returnObjects: true }).map((item: string, index: number) => (
+                              {(t('events.details.offer.items', { returnObjects: true }) as string[]).map((item: string, index: number) => (
                                 <li key={index}>{item}</li>
                               ))}
                             </ul>
