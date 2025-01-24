@@ -22,7 +22,7 @@ export const NavigationItems = ({ onItemClick }: { onItemClick?: () => void }) =
             navigate(item.href);
             onItemClick?.();
           }}
-          className="text-gray-700 hover:text-primary font-secondary font-bold transition-colors duration-200"
+          className="text-gray-700 hover:text-primary font-secondary transition-colors duration-200"
         >
           {item.name}
         </button>
