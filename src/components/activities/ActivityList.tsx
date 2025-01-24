@@ -25,6 +25,7 @@ export const ActivityList: React.FC<ActivityListProps> = ({ activities }) => {
             </CollapsibleTrigger>
             <CollapsibleContent className="pt-2">
               <div className="bg-neutral p-4 rounded-lg text-gray-500">
+                {/* @ts-ignore */}
                 <Question 
                   data={customExercises['numbers-and-operations'][index > 3 ? 3 : index]} 
                   fileApi="https://api.example.com/files"
