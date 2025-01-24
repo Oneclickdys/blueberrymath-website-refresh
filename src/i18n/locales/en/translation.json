@@ -73,7 +73,9 @@
   },
   "cta": {
     "title": "Ready to transform math learning?",
-    "subtitle": "Join thousands of teachers and students already using Blueberry Math"
+    "subtitle": "Join thousands of teachers and students already using Blueberry Math",
+    "trial": "Start Your Free Trial",
+    "demo": "Watch a video"
   },
   "testimonials": {
     "title": "What Our Users Say",
@@ -117,6 +119,12 @@
       }
     ]
   },
+  "language": {
+    "select": "Select language",
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  },
   "buttons": {
     "trial": {
       "text": "Start Your Free Trial",
@@ -127,16 +135,61 @@
       "url": "https://www.youtube.com/watch?v=demo"
     }
   },
+  "events": {
+    "currentEvents": "Current Events",
+    "pastEvents": "Past Events",
+    "noEvents": "No events scheduled at this time",
+    "finished": "Finished",
+    "viewResults": "View Results",
+    "viewDetails": "View Details",
+    "viewHighlights": "View Highlights",
+    "meta": {
+      "title": "Events - Blueberry Math",
+      "description": "Stay updated with Blueberry Math events and workshops."
+    },
+    "list": {
+      "current": [
+        {
+          "id": 1,
+          "title": "You have a new mission: save math!",
+          "dates": "Until February 10th, 2024",
+          "description": "Sign up before February 10th and enjoy 2 weeks free. Confirm your course purchase 25-26 and use it this year at no cost.",
+          "image": "/lovable-uploads/4e96004e-f976-47f2-a36a-bf16063bcc18.png"
+        }
+      ],
+      "past": [
+        {
+          "id": 1,
+          "title": "Math Marathon",
+          "dates": "4th - 8th October",
+          "description": "The Blueberry Math Marathon is here!🎉\n🥇The class that correctly solves the most activities will win licenses for all students this course.\n\n⌛️ Registration deadline: October 25th.",
+          "image": "/lovable-uploads/56efa3e2-c928-4a24-acd2-46293419c4d3.png"
+        }
+      ]
+    },
+    "details": {
+      "title": "Event Details",
+      "description": "Imagine making math more effective, fun, and easier to teach at your school. With BlueberryMath, we transform learning into an interactive and gamified experience. 🎮✨",
+      "offer": {
+        "title": "What we offer",
+        "items": [
+          "✅ An easy-to-use platform with downloadable reports to monitor each student's progress.",
+          "✅ Customized content that adapts to their level and your school's curriculum.",
+          "✅ Applied neuroeducation: 🧠 the forgetting curve will no longer be a problem!"
+        ]
+      },
+      "howToTry": {
+        "title": "💡 How can you try it?",
+        "description": "🎯 Sign up before February 10th and enjoy 2 weeks free.",
+        "cta": "➡️ Request your free trial here",
+        "support": "💪 We're ready to help you!"
+      }
+    }
+  },
   "footer": {
     "support": "Support",
     "legalAdvice": "Legal Advice",
     "cookiesPolicy": "Cookies Policy",
     "privacyPolicy": "Privacy Policy"
-  },
-  "language": {
-    "select": "Select language",
-    "en": "English",
-    "es": "Spanish",
-    "pt": "Portuguese"
   }
 }
