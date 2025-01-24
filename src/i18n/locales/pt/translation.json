@@ -245,7 +245,7 @@
     }
   },
   "events": {
-    "currentEvents": "Eventos Atuais",
+    "currentEvents": "Eventos Actuais",
     "pastEvents": "Eventos Passados",
     "noEvents": "Não há eventos programados no momento",
     "finished": "Finalizado",
@@ -385,7 +385,7 @@
         "realLifeContexts": {
           "title": "Contextos da Vida Real",
           "papers": [
-            "8 estratégias que funcionam em matemática",
+            "8 estratégias que funcionam em matemáticas",
             "Arquitetura Cognitiva e Design Instrucional",
             "Implicações da teoria da carga cognitiva para o design instrucional"
           ]
