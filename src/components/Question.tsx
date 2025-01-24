@@ -8,7 +8,7 @@ import {
 } from '@oneclick/react-lemonade-editor';
 
 interface QuestionProps {
-  data?: any;
+  data: any;
   fileApi?: string;
 }
 
@@ -88,9 +88,6 @@ function Question({ data = {}, fileApi }: Readonly<QuestionProps>) {
         onValidate={handleValidate}
         onSend={handleSend}
         onBeforeSend={handleOnBeforeSend}
-        // renderScore={(points) => `Puntos: ${points * 10} estrellas`}
-        /* onChangeStatus={handleChangeStatus}
-        onUploadComplete={handleComplete} */
       >
         <Question
           changed={handleChange}
