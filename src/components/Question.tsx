@@ -1,11 +1,11 @@
 /* eslint-disable react-refresh/only-export-components */
 import React, { useCallback, useEffect } from 'react';
-import {
+/* import {
   Lemonade,
   observer,
   useLemonadeQuestion,
   setConfig,
-} from '@oneclick/react-lemonade-editor';
+} from '@oneclick/react-lemonade-editor'; */
 
 interface QuestionProps {
   data: any;
@@ -19,10 +19,10 @@ declare global {
 }
 
 function Question({ data = {}, fileApi }: Readonly<QuestionProps>) {
-  const {
+  /* const {
     exercise: { Controls, Question, Feedback, questionApi, SampleAnswer },
     updateExercise,
-  } = useLemonadeQuestion({ data, assetsQuestionApi: fileApi });
+  } = useLemonadeQuestion({ data, assetsQuestionApi: fileApi }); 
 
   useEffect(() => {
     setConfig({
@@ -105,7 +105,9 @@ function Question({ data = {}, fileApi }: Readonly<QuestionProps>) {
         <Feedback />
       </Controls>
     </Lemonade>
-  );
+  );*/
+  return <div>[Lemonade Question Component pending...]</div>;
 }
 
-export default observer(Question);
+// export default observer(Question);
+export default Question;
