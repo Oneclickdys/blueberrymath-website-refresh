@@ -17,9 +17,9 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col">
-          {/* Top section with logo and buttons */}
-          <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-20">
+          {/* Left section: Logo and Navigation */}
+          <div className="flex items-center space-x-4">
             {/* Logo */}
             <button onClick={() => navigate('/')} className="flex-shrink-0">
               <img
@@ -29,28 +29,28 @@ export const Header = () => {
               />
             </button>
 
-            {/* Right section: Auth and Language */}
-            <div className="hidden md:flex md:items-center gap-4">
-              <AuthButtons onLoginClick={() => setLoginDialogOpen(true)} />
-              <LanguageSelector />
-            </div>
-
-            {/* Mobile menu button */}
-            <div className="flex md:hidden">
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={toggleMenu}
-                aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-              >
-                {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-              </Button>
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex md:items-center">
+              <NavigationItems />
             </div>
           </div>
 
-          {/* Bottom section with navigation */}
-          <div className="hidden md:flex md:justify-center pb-2">
-            <NavigationItems />
+          {/* Right section: Auth and Language */}
+          <div className="hidden md:flex md:items-center gap-4">
+            <AuthButtons onLoginClick={() => setLoginDialogOpen(true)} />
+            <LanguageSelector />
+          </div>
+
+          {/* Mobile menu button */}
+          <div className="flex md:hidden">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={toggleMenu}
+              aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </Button>
           </div>
         </div>
 
