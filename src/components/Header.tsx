@@ -18,24 +18,27 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <button onClick={() => navigate('/')} className="flex items-center">
+          {/* Left section: Logo and Navigation */}
+          <div className="flex items-center space-x-4">
+            {/* Logo */}
+            <button onClick={() => navigate('/')} className="flex-shrink-0">
               <img
                 src="/lovable-uploads/22f9bb3c-4e7d-463e-a152-9b4f84097f5c.png"
                 alt="Blueberry Math"
                 className="h-16 w-auto object-contain"
               />
             </button>
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex md:items-center">
+              <NavigationItems />
+            </div>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex md:items-center md:space-x-4">
-            <NavigationItems />
-            <div className="flex items-center gap-2">
-              <AuthButtons onLoginClick={() => setLoginDialogOpen(true)} />
-              <LanguageSelector />
-            </div>
+          {/* Right section: Auth and Language */}
+          <div className="hidden md:flex md:items-center gap-4">
+            <AuthButtons onLoginClick={() => setLoginDialogOpen(true)} />
+            <LanguageSelector />
           </div>
 
           {/* Mobile menu button */}
