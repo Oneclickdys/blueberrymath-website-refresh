@@ -23,7 +23,7 @@ export const LanguageSelector = ({ onLanguageChange }: LanguageSelectorProps) =>
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" aria-label={t('language.select')} className="text-primary hover:text-white hover:bg-primary-hover">
+        <Button variant="ghost" size="icon" aria-label={t('language.select')} className="text-primary hover:text-white hover:bg-primary-hover rounded-full">
           <Globe className="h-5 w-5" />
         </Button>
       </DropdownMenuTrigger>
