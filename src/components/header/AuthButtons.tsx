@@ -23,6 +23,7 @@ export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
         size="sm"
         onClick={onLoginClick}
         className="flex items-center gap-2 rounded-full text-primary hover:text-white hover:bg-primary-hover text-body-m font-bold"
+        style={{ color: '#5A34E1' }}
       >
         <LogIn className="h-4 w-4" />
         {t('header.login')}
