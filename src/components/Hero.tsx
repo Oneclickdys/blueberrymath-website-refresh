@@ -28,7 +28,7 @@ export const Hero: React.FC<HeroProps> = () => {
             <a href={getTrialUrl()} target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
-                className="bg-secondary hover:bg-secondary/90 text-white font-semibold px-8 py-6 text-lg rounded-full transition-all hover:scale-105 flex items-center gap-2"
+                className="bg-primary hover:bg-secondary text-white font-semibold px-8 py-6 text-lg rounded-full transition-all hover:scale-105 flex items-center gap-2"
               >
                 {t("buttons.trial.text")} <ArrowRight className="w-5 h-5" />
               </Button>
