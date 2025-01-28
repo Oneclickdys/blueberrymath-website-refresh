@@ -22,7 +22,7 @@ export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
         variant="ghost"
         size="sm"
         onClick={onLoginClick}
-        className="flex items-center gap-2"
+        className="flex items-center gap-2 rounded-full"
       >
         <LogIn className="h-4 w-4" />
         {t('header.login')}
@@ -31,7 +31,7 @@ export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
         variant="default"
         size="sm"
         onClick={handleSignUp}
-        className="flex items-center gap-2"
+        className="flex items-center gap-2 rounded-full"
       >
         <UserPlus className="h-4 w-4" />
         {t('header.signup')}
