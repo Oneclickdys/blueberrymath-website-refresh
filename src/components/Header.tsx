@@ -24,13 +24,13 @@ export const Header = () => {
               <img
                 src="/lovable-uploads/22f9bb3c-4e7d-463e-a152-9b4f84097f5c.png"
                 alt="Blueberry Math"
-                className="h-16 w-auto object-contain" // Increased from h-12 to h-16
+                className="h-16 w-auto object-contain"
               />
             </button>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex md:items-center md:space-x-8">
+          <div className="hidden md:flex md:items-center md:space-x-4">
             <NavigationItems />
             <div className="flex items-center gap-2">
               <AuthButtons onLoginClick={() => setLoginDialogOpen(true)} />
