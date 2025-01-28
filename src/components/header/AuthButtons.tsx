@@ -22,7 +22,7 @@ export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
         variant="ghost"
         size="sm"
         onClick={onLoginClick}
-        className="flex items-center gap-2 rounded-full text-primary hover:text-white hover:bg-secondary text-body-m font-bold"
+        className="flex items-center gap-2 rounded-full text-[#5A34E1] hover:text-white hover:bg-[#3703A4] text-body-m font-bold"
       >
         <LogIn className="h-4 w-4" />
         {t('header.login')}
