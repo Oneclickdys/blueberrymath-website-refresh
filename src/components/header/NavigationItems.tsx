@@ -25,7 +25,10 @@ export const NavigationItems = ({ onItemClick }: { onItemClick?: () => void }) =
           }}
           className={`
             relative
-            text-gray-700 hover:text-primary 
+            ${location.pathname === item.href 
+              ? 'text-primary' 
+              : 'text-gray-700 hover:text-primary'
+            }
             font-secondary font-bold 
             transition-colors duration-200
             group
@@ -39,7 +42,7 @@ export const NavigationItems = ({ onItemClick }: { onItemClick?: () => void }) =
               transition-all duration-200
               ${location.pathname === item.href 
                 ? 'bg-primary' 
-                : 'bg-transparent group-hover:bg-primary'
+                : 'bg-gray-700 group-hover:bg-primary'
               }
             `}
           />
