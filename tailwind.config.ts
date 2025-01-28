@@ -32,11 +32,11 @@ export default {
           DEFAULT: "#5A34E1", // Pantone 2098C
           light: "#ACACF7",
           dark: "#370344", // Pantone 2735C
-          hover: "#3703A4", // New hover color
+          hover: "#3703A4", // Hover color
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#3C3CBF", // Corporate Blue
+          DEFAULT: "#3703A4", // Updated secondary color
           foreground: "#FFFFFF",
         },
         accent: {
