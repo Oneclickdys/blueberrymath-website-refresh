@@ -18,9 +18,27 @@ export default {
       },
     },
     extend: {
+      fontSize: {
+        // Headers
+        'h1': '64px',
+        'h2': '48px',
+        'h3': '32px',
+        'h4': '20px',
+        // Body
+        'body-xl': '18px',
+        'body-l': '16px',
+        'body-m': '14px',
+        'body-s': '12px',
+        'body-xs': '10px',
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
         secondary: ['Quicksand', 'sans-serif'],
+      },
+      fontWeight: {
+        medium: '500',
+        semibold: '600',
+        bold: '700',
       },
       colors: {
         border: "hsl(var(--border))",
