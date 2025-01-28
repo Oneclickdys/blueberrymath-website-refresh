@@ -42,7 +42,7 @@ export const NavigationItems = ({ onItemClick }: { onItemClick?: () => void }) =
               transition-all duration-200
               ${location.pathname === item.href 
                 ? 'bg-primary' 
-                : 'bg-gray-700 group-hover:bg-primary'
+                : 'bg-transparent group-hover:bg-primary'
               }
             `}
           />
