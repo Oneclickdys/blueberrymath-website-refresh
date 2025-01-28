@@ -14,7 +14,7 @@ export const NavigationItems = ({ onItemClick }: { onItemClick?: () => void }) =
   ];
 
   return (
-    <>
+    <div className="flex items-center space-x-6">
       {navigation.map((item) => (
         <button
           key={item.name}
@@ -27,6 +27,6 @@ export const NavigationItems = ({ onItemClick }: { onItemClick?: () => void }) =
           {item.name}
         </button>
       ))}
-    </>
+    </div>
   );
 };
