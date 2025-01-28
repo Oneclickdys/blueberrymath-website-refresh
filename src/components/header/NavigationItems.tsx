@@ -29,7 +29,7 @@ export const NavigationItems = ({ onItemClick }: { onItemClick?: () => void }) =
               ? 'text-primary' 
               : 'text-gray-700 hover:text-primary'
             }
-            font-secondary font-bold 
+            font-secondary font-semibold text-body-m
             transition-colors duration-200
             group
             pb-1
