@@ -32,6 +32,7 @@ export default {
           DEFAULT: "#5A34E1", // Pantone 2098C
           light: "#ACACF7",
           dark: "#370344", // Pantone 2735C
+          hover: "#3703A4", // New hover color
           foreground: "#FFFFFF",
         },
         secondary: {
@@ -46,7 +47,7 @@ export default {
         neutral: {
           DEFAULT: "#FBFCFD",
           light: "#ACACF7",
-          dark: "#7E69AB", // Updated from #BFBCFD to #7E69AB for better contrast
+          dark: "#7E69AB",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
