@@ -31,7 +31,7 @@ export const AuthButtons = ({ onLoginClick, className }: AuthButtonsProps) => {
         variant="default"
         size="sm"
         onClick={handleSignUp}
-        className="flex items-center gap-2 rounded-full"
+        className="flex items-center gap-2 rounded-full bg-primary hover:bg-secondary"
       >
         <UserPlus className="h-4 w-4" />
         {t('header.signup')}
