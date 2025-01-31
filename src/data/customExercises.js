@@ -455,16 +455,421 @@ export default {
     ],
     'introduction-multiplication': [
       {
-        es: {},
-        en: {},
-        pt: {},
+        es: {
+          title: '',
+          type: 'mcq',
+          data: {
+            type: 'mcq',
+            options: [
+              {
+                label: '4 × 6',
+                value: 0,
+                feedback: '',
+              },
+              {
+                label: '4 × 7',
+                value: 1,
+                feedback: '',
+              },
+              {
+                label: '4 × 2',
+                value: 2,
+                feedback: '',
+              },
+            ],
+            stimulus:
+              '<p>Selecciona la multiplicación con el mismo resultado que esta suma:</p><p style="text-align: center">4 + 4 + 4 + 4 + 4 + 4</p>',
+            shuffle_options: true,
+            validation: {
+              scoring_type: 'exactMatch',
+              immediateFeedback: false,
+              alt_responses: [],
+              valid_response: {
+                score: 1,
+                value: ['0'],
+              },
+            },
+            ui_style: {
+              type: 'Multiple choice – standard',
+              columns: 3,
+              labelType: '',
+              customClass: '',
+              inlineFeedback: false,
+            },
+            isEvaluable: true,
+            attempts: {
+              attempts: 0,
+            },
+            feedback: {
+              successMessage: '',
+              errorMessages: [
+                '<p>Una multiplicación equivale a la suma de sumandos iguales.</p>',
+              ],
+              responseMessages: [],
+              withFeedbackPanel: true,
+              config: {
+                visibility: true,
+                sequence: 'stack',
+                hasSpecificFeedback: true,
+              },
+            },
+            showCheckIcon: false,
+            hints: [
+              '<p>Una multiplicación equivale a la suma de sumandos iguales.</p>',
+            ],
+          },
+          metadata: {
+            name: 'Multiple choice – standard',
+          },
+          reference: '1dc92163-8a10-46bb-8b3e-9627d9428481',
+          lemonadeVersion: '3.33.2',
+        },
+        en: {
+          title: '',
+          type: 'mcq',
+          data: {
+            type: 'mcq',
+            options: [
+              {
+                label: '5 × 3',
+                value: 0,
+                feedback: '',
+              },
+              {
+                label: '5 × 9',
+                value: 1,
+                feedback: '',
+              },
+              {
+                label: '5 × 7',
+                value: 2,
+                feedback: '',
+              },
+            ],
+            stimulus:
+              '<p>Select the multiplication with the same result as this addition:</p><p style="text-align: center">5 + 5 + 5</p>',
+            shuffle_options: true,
+            validation: {
+              scoring_type: 'exactMatch',
+              immediateFeedback: false,
+              alt_responses: [],
+              valid_response: {
+                score: 1,
+                value: ['0'],
+              },
+            },
+            ui_style: {
+              type: 'Multiple choice – standard',
+              columns: 3,
+              labelType: '',
+              customClass: '',
+              inlineFeedback: false,
+            },
+            isEvaluable: true,
+            attempts: {
+              attempts: 0,
+            },
+            feedback: {
+              successMessage: '',
+              errorMessages: [
+                '<p>A multiplication is equivalent to the addition of equal addends.</p>',
+              ],
+              responseMessages: [],
+              withFeedbackPanel: true,
+              config: {
+                visibility: true,
+                sequence: 'stack',
+                hasSpecificFeedback: true,
+              },
+            },
+            showCheckIcon: false,
+            hints: [
+              '<p>A multiplication is equivalent to the addition of equal addends.</p>',
+            ],
+          },
+          metadata: {
+            name: 'Multiple choice – standard',
+          },
+          reference: '7cf2a13e-9635-4022-b09a-df52020f1693',
+          lemonadeVersion: '3.33.2',
+        },
+        pt: {
+          title: '',
+          type: 'mcq',
+          data: {
+            type: 'mcq',
+            options: [
+              {
+                label: '8 × 6',
+                value: 0,
+                feedback: '',
+              },
+              {
+                label: '8 × 10',
+                value: 1,
+                feedback: '',
+              },
+              {
+                label: '8 × 9',
+                value: 2,
+                feedback: '',
+              },
+            ],
+            stimulus:
+              '<p>Selecione a multiplicação que tem o mesmo resultado desta adição:</p><p style="text-align: center">8 + 8 + 8 + 8 + 8 + 8</p>',
+            shuffle_options: true,
+            validation: {
+              scoring_type: 'exactMatch',
+              immediateFeedback: false,
+              alt_responses: [],
+              valid_response: {
+                score: 1,
+                value: ['0'],
+              },
+            },
+            ui_style: {
+              type: 'Multiple choice – standard',
+              columns: 3,
+              labelType: '',
+              customClass: '',
+              inlineFeedback: false,
+            },
+            isEvaluable: true,
+            attempts: {
+              attempts: 0,
+            },
+            feedback: {
+              successMessage: '',
+              errorMessages: [
+                '<p>Uma multiplicação equivale a uma adição de parcelas iguais.</p>',
+              ],
+              responseMessages: [],
+              withFeedbackPanel: true,
+              config: {
+                visibility: true,
+                sequence: 'stack',
+                hasSpecificFeedback: true,
+              },
+            },
+            showCheckIcon: false,
+            hints: [
+              '<p>Uma multiplicação equivale a uma adição de parcelas iguais.</p>',
+            ],
+          },
+          metadata: {
+            name: 'Multiple choice – standard',
+          },
+          reference: '8f1f17ea-5bba-44af-ac44-b13208024e82',
+          lemonadeVersion: '3.33.2',
+        },
       },
     ],
     'place-numbers-on-number-line': [
       {
-        es: {},
-        en: {},
-        pt: {},
+        es: {
+          title: '',
+          type: 'numberline',
+          metadata: {
+            name: 'Number line',
+          },
+          data: {
+            type: 'numberline',
+            stimulus: '<p>Sitúa estos números en la recta numérica.</p>',
+            points: [-3, 11, -5],
+            validation: {
+              scoring_type: 'exactMatch',
+              immediateFeedback: false,
+              alt_responses: [],
+              valid_response: {
+                score: 1,
+                value: [
+                  {
+                    position: -3,
+                  },
+                  {
+                    position: 11,
+                  },
+                  {
+                    position: -5,
+                  },
+                ],
+              },
+              penalty: 0,
+            },
+            line: {
+              max: 19,
+              min: -11,
+              divisions: 31,
+            },
+            ticks: {
+              distance: 1,
+              show: true,
+            },
+            labels: {
+              frequency: 5,
+              show_max: true,
+              show_min: true,
+            },
+            shuffle_options: false,
+            ui_style: {
+              customClass: '',
+            },
+            feedback: {
+              successMessage: '',
+              errorMessages: [
+                '<p>Los números negativos se ubican a la izquierda del 0.</p><p>Los números positivos, a su derecha.</p>',
+              ],
+              responseMessages: [],
+              config: {
+                visibility: true,
+                sequence: 'stack',
+                hasSpecificFeedback: true,
+              },
+            },
+            hints: [
+              '<p>Los números negativos se ubican a la izquierda del 0.</p><p>Los números positivos, a su derecha.</p>',
+            ],
+            isEvaluable: true,
+          },
+          reference: '6a11b9c7-ebd0-43e5-8bed-209c9d20ca47',
+          lemonadeVersion: '3.33.2',
+        },
+        en: {
+          title: '',
+          type: 'numberline',
+          metadata: {
+            name: 'Number line',
+          },
+          data: {
+            type: 'numberline',
+            stimulus: '<p>Place these numbers on the number line.</p>',
+            points: [1, 2, -1],
+            validation: {
+              scoring_type: 'exactMatch',
+              immediateFeedback: false,
+              alt_responses: [],
+              valid_response: {
+                score: 1,
+                value: [
+                  {
+                    position: 1,
+                  },
+                  {
+                    position: 2,
+                  },
+                  {
+                    position: -1,
+                  },
+                ],
+              },
+              penalty: 0,
+            },
+            line: {
+              max: 19,
+              min: -11,
+              divisions: 31,
+            },
+            ticks: {
+              distance: 1,
+              show: true,
+            },
+            labels: {
+              frequency: 5,
+              show_max: true,
+              show_min: true,
+            },
+            shuffle_options: false,
+            ui_style: {
+              customClass: '',
+            },
+            feedback: {
+              successMessage: '',
+              errorMessages: [
+                '<p>Negative numbers are located to the left of 0.</p><p>Positive numbers, to its right.</p>',
+              ],
+              responseMessages: [],
+              config: {
+                visibility: true,
+                sequence: 'stack',
+                hasSpecificFeedback: true,
+              },
+            },
+            hints: [
+              '<p>Negative numbers are located to the left of 0.</p><p>Positive numbers, to its right.</p>',
+            ],
+            isEvaluable: true,
+          },
+          reference: '3f4a2783-9aba-4c09-a67b-752a716ca0cc',
+          lemonadeVersion: '3.33.2',
+        },
+        pt: {
+          title: '',
+          type: 'numberline',
+          metadata: {
+            name: 'Number line',
+          },
+          data: {
+            type: 'numberline',
+            stimulus: '<p>Posicione estes números na reta numérica.</p>',
+            points: [-5, -4, 3],
+            validation: {
+              scoring_type: 'exactMatch',
+              immediateFeedback: false,
+              alt_responses: [],
+              valid_response: {
+                score: 1,
+                value: [
+                  {
+                    position: -5,
+                  },
+                  {
+                    position: -4,
+                  },
+                  {
+                    position: 3,
+                  },
+                ],
+              },
+              penalty: 0,
+            },
+            line: {
+              max: 19,
+              min: -11,
+              divisions: 31,
+            },
+            ticks: {
+              distance: 1,
+              show: true,
+            },
+            labels: {
+              frequency: 5,
+              show_max: true,
+              show_min: true,
+            },
+            shuffle_options: false,
+            ui_style: {
+              customClass: '',
+            },
+            feedback: {
+              successMessage: '',
+              errorMessages: [
+                '<p>Os números negativos são colocados à esquerda do 0.</p><p>Os números positivos, à sua direita.</p>',
+              ],
+              responseMessages: [],
+              config: {
+                visibility: true,
+                sequence: 'stack',
+                hasSpecificFeedback: true,
+              },
+            },
+            hints: [
+              '<p>Os números negativos são colocados à esquerda do 0.</p><p>Os números positivos, à sua direita.</p>',
+            ],
+            isEvaluable: true,
+          },
+          reference: '0f72b534-03a1-47aa-8093-166b0c402850',
+          lemonadeVersion: '3.33.2',
+        },
       },
     ],
     'associate-fractions-graphic-representation': [
@@ -512,6 +917,11 @@ export default {
       },
     ],
     'spatial-position': [
+      {
+        es: {},
+        en: {},
+        pt: {},
+      },
       {
         es: {},
         en: {},
@@ -648,7 +1058,7 @@ export default {
         pt: {},
       },
     ],
-    'histograms': [
+    histograms: [
       {
         es: {},
         en: {},
@@ -713,7 +1123,7 @@ export default {
         pt: {},
       },
     ],
-    'flowcharts': [
+    flowcharts: [
       {
         es: {},
         en: {},
